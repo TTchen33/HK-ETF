@@ -4,6 +4,8 @@
 
 > 资料仅供教育和信息展示，不构成投资建议。
 
+在线网站（GitHub Pages）：[https://ttchen33.github.io/HK-ETF/](https://ttchen33.github.io/HK-ETF/)
+
 ## 界面预览
 
 首页展示自动同步状态、ETF 数量、发行商、搜索筛选，以及净值、费用和资产规模等核心指标。
