@@ -1,0 +1,238 @@
+{
+  "collectedAt": "2026-08-24T02:53:05.272Z",
+  "issuer": "Global X Hong Kong",
+  "discoveryMethod": "public robots.txt and sitemap files",
+  "source": "https://www.globalxetfs.com.hk/robots.txt",
+  "sitemapRoots": [
+    "https://www.globalxetfs.com.hk/sitemap.xml",
+    "https://www.globalxetfs.com.hk/sitemap_index.xml"
+  ],
+  "candidateCount": 45,
+  "candidates": [
+    {
+      "issuerProductUrl": "https://www.globalxetfs.com.hk/funds/ai-and-innovative-technology-active-etf/",
+      "slug": "ai-and-innovative-technology-active-etf",
+      "status": "discovered_unverified"
+    },
+    {
+      "issuerProductUrl": "https://www.globalxetfs.com.hk/funds/asia-pacific-high-dividend-yield-etf/",
+      "slug": "asia-pacific-high-dividend-yield-etf",
+      "status": "discovered_unverified"
+    },
+    {
+      "issuerProductUrl": "https://www.globalxetfs.com.hk/funds/asia-semiconductor-etf/",
+      "slug": "asia-semiconductor-etf",
+      "status": "discovered_unverified"
+    },
+    {
+      "issuerProductUrl": "https://www.globalxetfs.com.hk/funds/asia-usd-investment-grade-bond-etf/",
+      "slug": "asia-usd-investment-grade-bond-etf",
+      "status": "discovered_unverified"
+    },
+    {
+      "issuerProductUrl": "https://www.globalxetfs.com.hk/funds/bloomberg-msci-asia-ex-japan-green-bond-etf/",
+      "slug": "bloomberg-msci-asia-ex-japan-green-bond-etf",
+      "status": "discovered_unverified"
+    },
+    {
+      "issuerProductUrl": "https://www.globalxetfs.com.hk/funds/china-biotech-etf/",
+      "slug": "china-biotech-etf",
+      "status": "discovered_unverified"
+    },
+    {
+      "issuerProductUrl": "https://www.globalxetfs.com.hk/funds/china-clean-energy-etf/",
+      "slug": "china-clean-energy-etf",
+      "status": "discovered_unverified"
+    },
+    {
+      "issuerProductUrl": "https://www.globalxetfs.com.hk/funds/china-cloud-computing-etf/",
+      "slug": "china-cloud-computing-etf",
+      "status": "discovered_unverified"
+    },
+    {
+      "issuerProductUrl": "https://www.globalxetfs.com.hk/funds/china-consumer-brand-etf/",
+      "slug": "china-consumer-brand-etf",
+      "status": "discovered_unverified"
+    },
+    {
+      "issuerProductUrl": "https://www.globalxetfs.com.hk/funds/china-core-tech-etf/",
+      "slug": "china-core-tech-etf",
+      "status": "discovered_unverified"
+    },
+    {
+      "issuerProductUrl": "https://www.globalxetfs.com.hk/funds/china-electric-vehicle-etf/",
+      "slug": "china-electric-vehicle-etf",
+      "status": "discovered_unverified"
+    },
+    {
+      "issuerProductUrl": "https://www.globalxetfs.com.hk/funds/china-global-leaders-etf/",
+      "slug": "china-global-leaders-etf",
+      "status": "discovered_unverified"
+    },
+    {
+      "issuerProductUrl": "https://www.globalxetfs.com.hk/funds/china-life-franklin-hk-us-equity-select-etf/",
+      "slug": "china-life-franklin-hk-us-equity-select-etf",
+      "status": "discovered_unverified"
+    },
+    {
+      "issuerProductUrl": "https://www.globalxetfs.com.hk/funds/china-little-giant-etf/",
+      "slug": "china-little-giant-etf",
+      "status": "discovered_unverified"
+    },
+    {
+      "issuerProductUrl": "https://www.globalxetfs.com.hk/funds/china-medtech-etf/",
+      "slug": "china-medtech-etf",
+      "status": "discovered_unverified"
+    },
+    {
+      "issuerProductUrl": "https://www.globalxetfs.com.hk/funds/covered-call-etf/",
+      "slug": "covered-call-etf",
+      "status": "discovered_unverified"
+    },
+    {
+      "issuerProductUrl": "https://www.globalxetfs.com.hk/funds/emerging-markets-asia-active-etf/",
+      "slug": "emerging-markets-asia-active-etf",
+      "status": "discovered_unverified"
+    },
+    {
+      "issuerProductUrl": "https://www.globalxetfs.com.hk/funds/ev-and-humanoid-robot-active-etf/",
+      "slug": "ev-and-humanoid-robot-active-etf",
+      "status": "discovered_unverified"
+    },
+    {
+      "issuerProductUrl": "https://www.globalxetfs.com.hk/funds/ftse-china-policy-bank-bond-etf/",
+      "slug": "ftse-china-policy-bank-bond-etf",
+      "status": "discovered_unverified"
+    },
+    {
+      "issuerProductUrl": "https://www.globalxetfs.com.hk/funds/ftse-greater-china-etf/",
+      "slug": "ftse-greater-china-etf",
+      "status": "discovered_unverified"
+    },
+    {
+      "issuerProductUrl": "https://www.globalxetfs.com.hk/funds/g2-tech-etf/",
+      "slug": "g2-tech-etf",
+      "status": "discovered_unverified"
+    },
+    {
+      "issuerProductUrl": "https://www.globalxetfs.com.hk/funds/global-x-ai-infrastructure-etf/",
+      "slug": "global-x-ai-infrastructure-etf",
+      "status": "discovered_unverified"
+    },
+    {
+      "issuerProductUrl": "https://www.globalxetfs.com.hk/funds/global-x-china-robotics-ai-etf/",
+      "slug": "global-x-china-robotics-ai-etf",
+      "status": "discovered_unverified"
+    },
+    {
+      "issuerProductUrl": "https://www.globalxetfs.com.hk/funds/global-x-china-semiconductor-etf/",
+      "slug": "global-x-china-semiconductor-etf",
+      "status": "discovered_unverified"
+    },
+    {
+      "issuerProductUrl": "https://www.globalxetfs.com.hk/funds/global-x-us-treasury-0-3-month-etf/",
+      "slug": "global-x-us-treasury-0-3-month-etf",
+      "status": "discovered_unverified"
+    },
+    {
+      "issuerProductUrl": "https://www.globalxetfs.com.hk/funds/global-x-us-treasury-3-5-year-etf/",
+      "slug": "global-x-us-treasury-3-5-year-etf",
+      "status": "discovered_unverified"
+    },
+    {
+      "issuerProductUrl": "https://www.globalxetfs.com.hk/funds/gold-covered-call-active-etf/",
+      "slug": "gold-covered-call-active-etf",
+      "status": "discovered_unverified"
+    },
+    {
+      "issuerProductUrl": "https://www.globalxetfs.com.hk/funds/hang-seng-esg-etf/",
+      "slug": "hang-seng-esg-etf",
+      "status": "discovered_unverified"
+    },
+    {
+      "issuerProductUrl": "https://www.globalxetfs.com.hk/funds/hang-seng-high-dividend-yield-enhanced-income-etf/",
+      "slug": "hang-seng-high-dividend-yield-enhanced-income-etf",
+      "status": "discovered_unverified"
+    },
+    {
+      "issuerProductUrl": "https://www.globalxetfs.com.hk/funds/hang-seng-high-dividend-yield-etf/",
+      "slug": "hang-seng-high-dividend-yield-etf",
+      "status": "discovered_unverified"
+    },
+    {
+      "issuerProductUrl": "https://www.globalxetfs.com.hk/funds/hang-seng-tech-covered-call-active-etf/",
+      "slug": "hang-seng-tech-covered-call-active-etf",
+      "status": "discovered_unverified"
+    },
+    {
+      "issuerProductUrl": "https://www.globalxetfs.com.hk/funds/hang-seng-tech-etf/",
+      "slug": "hang-seng-tech-etf",
+      "status": "discovered_unverified"
+    },
+    {
+      "issuerProductUrl": "https://www.globalxetfs.com.hk/funds/hscei-covered-call-etf/",
+      "slug": "hscei-covered-call-etf",
+      "status": "discovered_unverified"
+    },
+    {
+      "issuerProductUrl": "https://www.globalxetfs.com.hk/funds/india-sector-leader-active-etf/",
+      "slug": "india-sector-leader-active-etf",
+      "status": "discovered_unverified"
+    },
+    {
+      "issuerProductUrl": "https://www.globalxetfs.com.hk/funds/india-top-10-etf/",
+      "slug": "india-top-10-etf",
+      "status": "discovered_unverified"
+    },
+    {
+      "issuerProductUrl": "https://www.globalxetfs.com.hk/funds/innovative-bluechip-top-10-etf/",
+      "slug": "innovative-bluechip-top-10-etf",
+      "status": "discovered_unverified"
+    },
+    {
+      "issuerProductUrl": "https://www.globalxetfs.com.hk/funds/innovative-finance-etf/",
+      "slug": "innovative-finance-etf",
+      "status": "discovered_unverified"
+    },
+    {
+      "issuerProductUrl": "https://www.globalxetfs.com.hk/funds/japan-global-leaders-etf/",
+      "slug": "japan-global-leaders-etf",
+      "status": "discovered_unverified"
+    },
+    {
+      "issuerProductUrl": "https://www.globalxetfs.com.hk/funds/kpop-and-culture-etf/",
+      "slug": "kpop-and-culture-etf",
+      "status": "discovered_unverified"
+    },
+    {
+      "issuerProductUrl": "https://www.globalxetfs.com.hk/funds/msci-asia-pacific-ex-japan-etf/",
+      "slug": "msci-asia-pacific-ex-japan-etf",
+      "status": "discovered_unverified"
+    },
+    {
+      "issuerProductUrl": "https://www.globalxetfs.com.hk/funds/msci-china-etf/",
+      "slug": "msci-china-etf",
+      "status": "discovered_unverified"
+    },
+    {
+      "issuerProductUrl": "https://www.globalxetfs.com.hk/funds/nasdaq-100-covered-call-active-etf/",
+      "slug": "nasdaq-100-covered-call-active-etf",
+      "status": "discovered_unverified"
+    },
+    {
+      "issuerProductUrl": "https://www.globalxetfs.com.hk/funds/sp-500-covered-call-active-etf/",
+      "slug": "sp-500-covered-call-active-etf",
+      "status": "discovered_unverified"
+    },
+    {
+      "issuerProductUrl": "https://www.globalxetfs.com.hk/funds/sp-crude-oil-futures-etf/",
+      "slug": "sp-crude-oil-futures-etf",
+      "status": "discovered_unverified"
+    },
+    {
+      "issuerProductUrl": "https://www.globalxetfs.com.hk/funds/usd-money-market-etf/",
+      "slug": "usd-money-market-etf",
+      "status": "discovered_unverified"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "stockCode": "2837",
+    "slug": "hang-seng-tech-etf",
+    "expectedName": "Global X Hang Seng TECH ETF",
+    "assetClass": "equity",
+    "investmentRegion": "Hong Kong / China",
+    "managementStyle": "passive"
+  },
+  {
+    "stockCode": "3006",
+    "slug": "ai-and-innovative-technology-active-etf",
+    "expectedName": "Global X AI & Innovative Technology Active ETF",
+    "assetClass": "equity",
+    "investmentRegion": "Global",
+    "managementStyle": "active"
+  },
+  {
+    "stockCode": "3401",
+    "slug": "global-x-ai-infrastructure-etf",
+    "expectedName": "Global X AI Infrastructure ETF",
+    "assetClass": "equity",
+    "investmentRegion": "Global",
+    "managementStyle": "passive"
+  }
+]

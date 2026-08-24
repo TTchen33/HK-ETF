@@ -1,0 +1,48 @@
+name: Refresh ETF data
+
+on:
+  workflow_dispatch:
+  schedule:
+    # GitHub Actions 使用 UTC；14:00 UTC = 香港时间 22:00（标准时间）。
+    # 首版在工作日收市后执行一次，避免使用实时行情。
+    - cron: '0 14 * * 1-5'
+
+permissions:
+  contents: write
+
+jobs:
+  collect-public-etf-data:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out project
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Discover new public Global X product pages
+        run: node scripts/discover-globalx-etfs.mjs
+
+      - name: Collect discovered public ETF pages
+        run: node scripts/ingest-globalx.mjs --from-discovery
+
+      - name: Collect configured Value ETF public pages
+        run: node scripts/ingest-value-etf.mjs
+
+      - name: Build unified browser catalog
+        run: node scripts/build-catalog.mjs
+
+      - name: Save refreshed data when it changed
+        run: |
+          git config user.name "hk-etf-explorer-bot"
+          git config user.email "hk-etf-explorer-bot@users.noreply.github.com"
+          git add data/processed-globalx-latest.json data/processed-globalx-latest.js data/processed-value-etf-latest.json data/catalog-latest.json data/catalog-latest.js data/discovered-globalx-funds.json
+          if git diff --cached --quiet; then
+            echo "No normalized data changes to save."
+          else
+            git commit -m "chore: refresh public ETF data"
+            git push
+          fi

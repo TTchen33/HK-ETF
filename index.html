@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="香港上市 ETF 的公开资料探索工具">
+  <title>HK ETF Explorer｜香港上市 ETF 数据库</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="HK ETF Explorer 首页"><span class="brand-mark">E</span><span>HK ETF Explorer</span></a>
+    <span class="header-note">公开资料整理 · 非投资建议</span>
+  </header>
+
+  <main id="top" class="page-shell">
+    <section class="hero">
+      <div>
+        <p class="eyebrow">HONG KONG LISTED ETF DATA</p>
+        <h1>看懂一只 ETF，<br>从它投资什么开始。</h1>
+        <p class="hero-copy">浏览香港上市 ETF 的投资目标、管理方式、交易柜台、费率、净值与官方文件。所有数字均保留来源与更新时间。</p>
+      </div>
+      <aside class="source-status" aria-live="polite">
+        <span class="status-dot"></span>
+        <div><b>自动数据同步</b><small id="lastUpdated">正在读取资料…</small></div>
+      </aside>
+    </section>
+
+    <section class="stats" aria-label="资料库统计">
+      <article><span>已收录 ETF</span><b id="totalFunds">—</b><small>当前自动采集范围</small></article>
+      <article><span>已接入发行商</span><b id="totalIssuers">—</b><small>逐家验证、独立适配</small></article>
+      <article><span>可见数据字段</span><b>14+</b><small>结构、费率、净值与文件</small></article>
+    </section>
+
+    <section class="toolbar" aria-label="筛选 ETF">
+      <label class="search-box"><span aria-hidden="true">⌕</span><input id="searchInput" type="search" placeholder="搜索 ETF 名称、代码或追踪指数"></label>
+      <div class="filter-group" id="styleFilters" aria-label="管理方式"><button class="filter active" data-style="all">全部</button><button class="filter" data-style="passive">被动型</button><button class="filter" data-style="active">主动型</button></div>
+    </section>
+
+    <div class="result-meta"><span id="resultCount">—</span><span>每个基金的交易币种、净值币种和基础币种可能不同，比较前请查看详情。</span></div>
+    <section id="fundGrid" class="fund-grid" aria-live="polite"></section>
+  </main>
+
+  <dialog id="fundDialog" class="fund-dialog" aria-labelledby="dialogTitle">
+    <button class="dialog-close" id="dialogClose" aria-label="关闭详情">×</button>
+    <div id="dialogContent"></div>
+  </dialog>
+
+  <template id="emptyState"><div class="empty-state"><b>没有找到符合条件的 ETF</b><span>可尝试搜索股票代码、基金名称或追踪指数。</span></div></template>
+  <script src="data/catalog-latest.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

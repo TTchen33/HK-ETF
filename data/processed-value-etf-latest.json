@@ -1,0 +1,52 @@
+{
+  "collectedAt": "2026-08-24T03:17:56.834Z",
+  "source": "Value ETF public product pages",
+  "collectionMode": "configured pilot list",
+  "records": [
+    {
+      "etf": {
+        "issuer": "Value Partners Hong Kong Limited",
+        "officialNameEn": "Value Partners HK-US Dividend Low Volatility ETF",
+        "issuerProductUrl": "https://www.valueetf.com.hk/eng/value-partners-hk-us-dividend-low-volatility-etf-3488.html",
+        "assetClass": "equity",
+        "investmentRegion": "Hong Kong / United States",
+        "managementStyle": "passive",
+        "investmentObjective": "The investment objective of the Fund is to provide investment results that, before deduction of fees and expenses, closely correspond to the performance of the CCX HK-US Dividend Low Volatility Index (HKD Net Return).",
+        "underlyingBenchmark": "CCX HK-US Dividend Low Volatility Index (HKD Net Return)",
+        "baseCurrency": "HKD",
+        "distributionDescription": null,
+        "listingDate": "2026-03-31",
+        "asOfDate": "2026-08-21",
+        "collectedAt": "2026-08-24T03:17:56.834Z",
+        "productStructure": {
+          "manager": "Value Partners Hong Kong Limited"
+        }
+      },
+      "listingCounter": {
+        "exchange": "HKEX",
+        "stockCode": "03488",
+        "tradingCurrency": "HKD",
+        "isin": null,
+        "boardLotSize": 100,
+        "status": "active_unverified"
+      },
+      "snapshot": {
+        "asOfDate": "2026-08-21",
+        "navPerShare": 16.2419,
+        "navCurrency": "HKD",
+        "totalNav": 718063244.36,
+        "totalNavCurrency": "HKD",
+        "outstandingUnits": null,
+        "managementFeePct": 0.9,
+        "ongoingChargesPct": 1.15,
+        "sourceUrl": "https://www.valueetf.com.hk/eng/value-partners-hk-us-dividend-low-volatility-etf-3488.html",
+        "collectedAt": "2026-08-24T03:17:56.834Z"
+      },
+      "documents": [],
+      "validation": {
+        "warnings": [],
+        "parserVersion": "value-etf-v0.1"
+      }
+    }
+  ]
+}

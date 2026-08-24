@@ -1,0 +1,7 @@
+data/raw-*.json
+
+# Early experiments kept locally, outside the portfolio deliverable.
+etf-growth-analysis-dashboard.html
+config/csop-etfs.json
+scripts/ingest-csop.mjs
+data/processed-csop-latest.json
