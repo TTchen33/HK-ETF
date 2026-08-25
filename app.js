@@ -128,7 +128,7 @@
       const colorClass = up ? 'candle-up' : 'candle-down';
       const bodyTop = y(Math.max(item.open, item.close));
       const bodyHeight = Math.max(1.5, Math.abs(y(item.open) - y(item.close)));
-      return `<g class="${colorClass}"><line x1="${x(index)}" y1="${y(item.high)}" x2="${x(index)}" y2="${y(item.low)}"/><rect x="${x(index) - bodyWidth / 2}" y="${bodyTop}" width="${bodyWidth}" height="${bodyHeight}" rx="1"/><rect class="volume-bar" x="${x(index) - bodyWidth / 2}" y="${volumeY(item.volume)}" width="${bodyWidth}" height="${volumeBottom - volumeY(item.volume)}" rx="1"/></g>`;
+      return `<g class="${colorClass}" data-candle-index="${index}"><line x1="${x(index)}" y1="${y(item.high)}" x2="${x(index)}" y2="${y(item.low)}"/><rect x="${x(index) - bodyWidth / 2}" y="${bodyTop}" width="${bodyWidth}" height="${bodyHeight}" rx="1"/><rect class="volume-bar" x="${x(index) - bodyWidth / 2}" y="${volumeY(item.volume)}" width="${bodyWidth}" height="${volumeBottom - volumeY(item.volume)}" rx="1"/></g>`;
     }).join('');
     const maPath = (field, className) => {
       const points = candles.map((item, index) => finite(item[field]) ? [x(index), y(Number(item[field]))] : null).filter(Boolean);
@@ -136,7 +136,74 @@
     };
     const tickIndexes = [...new Set([0, Math.floor((candles.length - 1) / 2), candles.length - 1])];
     const xLabels = tickIndexes.map((index) => `<text x="${x(index)}" y="411" text-anchor="middle" class="chart-label">${escapeHtml(candles[index].date.slice(5))}</text>`).join('');
-    container.innerHTML = `<svg viewBox="0 0 ${width} ${height}" preserveAspectRatio="none" aria-hidden="true">${gridLines}<line x1="${left}" y1="${volumeBottom}" x2="${width - right}" y2="${volumeBottom}" class="chart-axis"/>${candleShapes}${maPath('ma5', 'ma-line ma5-line')}${maPath('ma20', 'ma-line ma20-line')}${xLabels}</svg>`;
+    container.innerHTML = `<svg viewBox="0 0 ${width} ${height}" preserveAspectRatio="none" aria-hidden="true">${gridLines}<line x1="${left}" y1="${volumeBottom}" x2="${width - right}" y2="${volumeBottom}" class="chart-axis"/>${candleShapes}${maPath('ma5', 'ma-line ma5-line')}${maPath('ma20', 'ma-line ma20-line')}${xLabels}<g class="chart-crosshair" id="chartCrosshair"><rect class="focus-band" id="chartFocusBand" y="${priceTop}" height="${volumeBottom - priceTop}"/><line class="crosshair-line" id="chartCrosshairX" y1="${priceTop}" y2="${volumeBottom}"/><line class="crosshair-line" id="chartCrosshairY" x1="${left}" x2="${width - right}"/><circle class="crosshair-dot" id="chartCrosshairDot" r="4"/><g class="axis-marker close-marker" id="chartCloseMarker"><rect x="0" y="-10" width="${right - 5}" height="20" rx="5"/><text x="${(right - 5) / 2}" y="4" text-anchor="middle" id="chartCloseLabel">—</text></g><g class="axis-marker date-marker" id="chartDateMarker"><rect x="-29" y="5" width="58" height="19" rx="5"/><text x="0" y="18" text-anchor="middle" id="chartDateLabel">—</text></g></g></svg><div class="ohlc-tooltip" id="ohlcTooltip" aria-hidden="true"></div>`;
+
+    const svg = container.querySelector('svg');
+    const crosshair = container.querySelector('#chartCrosshair');
+    const crosshairX = container.querySelector('#chartCrosshairX');
+    const crosshairY = container.querySelector('#chartCrosshairY');
+    const crosshairDot = container.querySelector('#chartCrosshairDot');
+    const focusBand = container.querySelector('#chartFocusBand');
+    const closeMarker = container.querySelector('#chartCloseMarker');
+    const closeLabel = container.querySelector('#chartCloseLabel');
+    const dateMarker = container.querySelector('#chartDateMarker');
+    const dateLabel = container.querySelector('#chartDateLabel');
+    const tooltip = container.querySelector('#ohlcTooltip');
+    let activeIndex = candles.length - 1;
+
+    const showCandle = (requestedIndex, inputMode = 'pointer') => {
+      const index = Math.max(0, Math.min(candles.length - 1, requestedIndex));
+      const item = candles[index];
+      const previous = candles[index - 1];
+      const candleX = x(index);
+      const closeY = y(Number(item.close));
+      const delta = previous ? Number(item.close) - Number(previous.close) : null;
+      const deltaPct = previous && Number(previous.close) ? delta / Number(previous.close) * 100 : null;
+      activeIndex = index;
+      crosshair.classList.add('active');
+      crosshairX.setAttribute('x1', candleX);
+      crosshairX.setAttribute('x2', candleX);
+      crosshairY.setAttribute('y1', closeY);
+      crosshairY.setAttribute('y2', closeY);
+      crosshairDot.setAttribute('cx', candleX);
+      crosshairDot.setAttribute('cy', closeY);
+      focusBand.setAttribute('x', candleX - step / 2);
+      focusBand.setAttribute('width', step);
+      closeMarker.setAttribute('transform', `translate(${width - right},${closeY})`);
+      closeLabel.textContent = Number(item.close).toFixed(Number(item.close) >= 100 ? 1 : 2);
+      dateMarker.setAttribute('transform', `translate(${candleX},${volumeBottom})`);
+      dateLabel.textContent = item.date.slice(5);
+      container.querySelectorAll('[data-candle-index]').forEach((candle) => candle.classList.toggle('is-selected', Number(candle.dataset.candleIndex) === index));
+      tooltip.className = `ohlc-tooltip active ${index > candles.length / 2 ? 'align-left' : 'align-right'}`;
+      tooltip.setAttribute('aria-hidden', 'false');
+      tooltip.innerHTML = `<div class="tooltip-head"><b>${escapeHtml(item.date)}</b><span class="${changeClass(deltaPct)}">${signed(deltaPct, '%')}</span></div><div class="ohlc-grid"><span>开 <b>${Number(item.open).toFixed(2)}</b></span><span>高 <b>${Number(item.high).toFixed(2)}</b></span><span>低 <b>${Number(item.low).toFixed(2)}</b></span><span>收 <b>${Number(item.close).toFixed(2)}</b></span></div><div class="tooltip-detail"><span>涨跌 <b class="${changeClass(delta)}">${signed(delta)}</b></span><span>成交量 <b>${formatCompact(item.volume)}</b></span><span>MA5 <b>${finite(item.ma5) ? Number(item.ma5).toFixed(2) : '—'}</b></span><span>MA20 <b>${finite(item.ma20) ? Number(item.ma20).toFixed(2) : '—'}</b></span></div>`;
+      container.setAttribute('aria-label', `${item.date}，开盘 ${item.open}，最高 ${item.high}，最低 ${item.low}，收盘 ${item.close}，成交量 ${item.volume}`);
+      if (inputMode === 'keyboard') tooltip.classList.add('keyboard-active');
+    };
+    const hideCandle = () => {
+      crosshair.classList.remove('active');
+      tooltip.className = 'ohlc-tooltip';
+      tooltip.setAttribute('aria-hidden', 'true');
+      container.querySelectorAll('[data-candle-index]').forEach((candle) => candle.classList.remove('is-selected'));
+    };
+    const indexFromPointer = (event) => {
+      const bounds = svg.getBoundingClientRect();
+      const viewX = (event.clientX - bounds.left) / bounds.width * width;
+      return Math.floor((viewX - left) / step);
+    };
+    container.tabIndex = 0;
+    container.onpointermove = (event) => showCandle(indexFromPointer(event));
+    container.onpointerdown = (event) => showCandle(indexFromPointer(event));
+    container.onpointerleave = () => hideCandle();
+    container.onfocus = () => showCandle(activeIndex, 'keyboard');
+    container.onblur = () => hideCandle();
+    container.onkeydown = (event) => {
+      if (!['ArrowLeft', 'ArrowRight', 'Home', 'End', 'Escape'].includes(event.key)) return;
+      event.preventDefault();
+      if (event.key === 'Escape') return hideCandle();
+      const target = event.key === 'Home' ? 0 : event.key === 'End' ? candles.length - 1 : activeIndex + (event.key === 'ArrowLeft' ? -1 : 1);
+      showCandle(target, 'keyboard');
+    };
   }
 
   function renderMarketTable() {
