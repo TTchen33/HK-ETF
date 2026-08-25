@@ -33,7 +33,7 @@ jobs:
       - name: Prepare static site
         run: |
           mkdir -p _site/data
-          cp index.html styles.css app.js _site/
+          cp index.html styles.css app.js analytics.js compare.js _site/
           cp data/catalog-latest.js data/market-yfinance-latest.js _site/data/
           touch _site/.nojekyll
 

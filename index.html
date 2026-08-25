@@ -68,6 +68,26 @@
       <p class="market-disclaimer">行情由 Yahoo Finance 经 yfinance 获取，可能延迟、缺失或调整，仅供教育研究与项目展示，不适用于交易决策。</p>
     </section>
 
+    <section class="intelligence-lab" id="compare" aria-labelledby="compareTitle">
+      <div class="lab-heading">
+        <div><p class="eyebrow">ETF INTELLIGENCE LAB</p><h2 id="compareTitle">ETF 对比实验室</h2><p>在相同观察窗口内比较收益、风险、流动性与产品成本；所有结论均由公开规则计算。</p></div>
+        <div class="compare-range" aria-label="比较区间"><button class="compare-range-button" data-compare-range="20">20日</button><button class="compare-range-button active" data-compare-range="60">60日</button></div>
+      </div>
+      <div class="compare-selectors" id="compareSelectors">
+        <label><span>ETF A</span><select data-compare-slot="0" aria-label="选择第一只比较 ETF"></select></label>
+        <label><span>ETF B</span><select data-compare-slot="1" aria-label="选择第二只比较 ETF"></select></label>
+        <label><span>ETF C</span><select data-compare-slot="2" aria-label="选择第三只比较 ETF"></select></label>
+      </div>
+      <div class="compare-main">
+        <article class="compare-chart-card"><div class="compare-chart-head"><h3>标准化价格曲线</h3><div id="compareLegend" class="compare-legend"></div></div><p class="compare-chart-note">共同起始日 = 100；基于未复权收盘价，不包含分红再投资。</p><div id="compareChart" class="compare-chart" role="img" aria-label="ETF 标准化价格对比图"></div></article>
+        <aside class="insight-card"><p class="eyebrow">EXPLAINABLE INSIGHTS</p><h3>规则型洞察</h3><div id="compareInsights" class="compare-insights"></div><p>仅描述历史数据特征，不构成基金排名或投资建议。</p></aside>
+      </div>
+      <div class="comparison-table-wrap"><table class="comparison-table"><thead><tr><th>ETF</th><th>区间价格收益</th><th>年化波动率</th><th>最大回撤</th><th>上涨日占比</th><th>20日均成交额</th><th>费用</th><th>基金规模</th></tr></thead><tbody id="comparisonTableBody"></tbody></table></div>
+
+      <div class="trust-heading"><div><p class="eyebrow">DATA RELIABILITY CENTER</p><h3>数据可信度中心</h3><p>评分规则透明：行情时效 30 + 历史覆盖 25 + OHLC 一致性 25 + 来源链路 10 + 产品资料 10。</p></div><span>评分衡量数据可用性，不衡量 ETF 投资质量。</span></div>
+      <div id="trustGrid" class="trust-grid"></div>
+    </section>
+
     <section class="toolbar" aria-label="筛选 ETF">
       <label class="search-box"><span aria-hidden="true">⌕</span><input id="searchInput" type="search" placeholder="搜索 ETF 名称、代码或追踪指数"></label>
       <div class="filter-group" id="styleFilters" aria-label="管理方式"><button class="filter active" data-style="all">全部</button><button class="filter" data-style="passive">被动型</button><button class="filter" data-style="active">主动型</button></div>
@@ -85,6 +105,8 @@
   <template id="emptyState"><div class="empty-state"><b>没有找到符合条件的 ETF</b><span>可尝试搜索股票代码、基金名称或追踪指数。</span></div></template>
   <script src="data/catalog-latest.js"></script>
   <script src="data/market-yfinance-latest.js"></script>
+  <script src="analytics.js"></script>
   <script src="app.js"></script>
+  <script src="compare.js"></script>
 </body>
 </html>
