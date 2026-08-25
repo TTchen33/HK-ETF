@@ -5,7 +5,7 @@ on:
     branches: [main]
   workflow_dispatch:
   workflow_run:
-    workflows: ["Refresh ETF data"]
+    workflows: ["Refresh ETF data", "Refresh market data"]
     types: [completed]
 
 permissions:
@@ -34,7 +34,7 @@ jobs:
         run: |
           mkdir -p _site/data
           cp index.html styles.css app.js _site/
-          cp data/catalog-latest.js _site/data/
+          cp data/catalog-latest.js data/market-yfinance-latest.js _site/data/
           touch _site/.nojekyll
 
       - name: Configure GitHub Pages

@@ -1,23 +1,38 @@
 (() => {
   const source = window.HK_ETF_DATA;
+  const marketSource = window.HK_ETF_MARKET;
   const records = source?.records || [];
+  const marketRecords = marketSource?.records || [];
+  const marketByCode = new Map(marketRecords.map((record) => [record.stockCode, record]));
+  const catalogByCode = new Map(records.map((record) => [record.listingCounter.stockCode, record]));
   const grid = document.getElementById('fundGrid');
   const search = document.getElementById('searchInput');
   const dialog = document.getElementById('fundDialog');
   const dialogContent = document.getElementById('dialogContent');
+  const marketSelect = document.getElementById('marketSelect');
   let selectedStyle = 'all';
+  let selectedMarketCode = marketRecords.find((record) => record.status === 'ok')?.stockCode || marketRecords[0]?.stockCode;
+  let chartRange = 60;
 
   const label = {
     passive: '被动型 ETF', active: '主动型 ETF', unknown: '管理方式待确认',
     equity: '股票', fixed_income: '债券', commodity: '商品', money_market: '货币市场', other: '其他'
   };
   const escapeHtml = (value = '') => String(value).replace(/[&<>"']/g, (char) => ({ '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;' }[char]));
+  const finite = (value) => value !== null && value !== undefined && value !== '' && Number.isFinite(Number(value));
   const formatDate = (value) => value ? new Intl.DateTimeFormat('zh-HK', { dateStyle: 'medium' }).format(new Date(`${value}T00:00:00`)) : '未披露';
+  const formatDateTime = (value) => value ? new Intl.DateTimeFormat('zh-HK', { dateStyle: 'short', timeStyle: 'short', timeZone: 'Asia/Hong_Kong' }).format(new Date(value)) : '—';
   const formatAmount = (value, currency) => {
     if (value === null || value === undefined || !currency) return '未披露';
     const symbol = currency === 'HKD' ? 'HK$' : currency === 'USD' ? 'US$' : currency === 'RMB' ? 'RMB¥' : `${currency} `;
     const compact = value >= 1e9 ? `${(value / 1e9).toFixed(2)}B` : value >= 1e6 ? `${(value / 1e6).toFixed(2)}M` : value.toLocaleString('en-US', { maximumFractionDigits: 2 });
     return `${symbol}${compact}`;
+  };
+  const formatCompact = (value, prefix = '') => {
+    if (!finite(value)) return '—';
+    const absolute = Math.abs(Number(value));
+    const compact = absolute >= 1e9 ? `${(absolute / 1e9).toFixed(2)}B` : absolute >= 1e6 ? `${(absolute / 1e6).toFixed(2)}M` : absolute >= 1e3 ? `${(absolute / 1e3).toFixed(1)}K` : absolute.toLocaleString('en-US', { maximumFractionDigits: 0 });
+    return `${Number(value) < 0 ? '−' : ''}${prefix}${compact}`;
   };
   const formatFee = (snapshot) => {
     const fee = snapshot.managementFeePct ?? snapshot.ongoingChargesPct;
@@ -27,10 +42,15 @@
     if (!source?.collectedAt) return '资料文件尚未生成';
     return `最近同步：${new Intl.DateTimeFormat('zh-HK', { dateStyle: 'medium', timeStyle: 'short', timeZone: 'Asia/Hong_Kong' }).format(new Date(source.collectedAt))}`;
   };
+  const changeClass = (value) => !finite(value) || Number(value) === 0 ? 'flat' : Number(value) > 0 ? 'up' : 'down';
+  const signed = (value, suffix = '') => !finite(value) ? '—' : `${Number(value) > 0 ? '+' : ''}${Number(value).toFixed(2)}${suffix}`;
+
   function card(record, index) {
     const { etf, listingCounter: counter, snapshot } = record;
+    const market = marketByCode.get(counter.stockCode);
+    const marketBadge = market?.status === 'ok' ? `<span class="card-market ${changeClass(market.changePct)}">${signed(market.changePct, '%')}</span>` : '';
     return `<article class="fund-card">
-      <div class="card-top"><span class="code">${escapeHtml(counter.stockCode)}</span><span class="style">${escapeHtml(label[etf.managementStyle] || label.unknown)}</span></div>
+      <div class="card-top"><span class="code">${escapeHtml(counter.stockCode)}</span><div>${marketBadge}<span class="style">${escapeHtml(label[etf.managementStyle] || label.unknown)}</span></div></div>
       <h2>${escapeHtml(etf.officialNameEn)}</h2>
       <p class="issuer">${escapeHtml(etf.issuer)} · ${escapeHtml(etf.investmentRegion || '地区待确认')}</p>
       <p class="objective">${escapeHtml(etf.investmentObjective || '投资目标待从官方资料确认。')}</p>
@@ -38,7 +58,8 @@
       <button class="detail-button" data-record="${index}">查看产品结构与官方来源 →</button>
     </article>`;
   }
-  function render() {
+
+  function renderFunds() {
     const term = search.value.trim().toLowerCase();
     const filtered = records.filter((record) => {
       const etf = record.etf;
@@ -51,6 +72,7 @@
     grid.innerHTML = filtered.length ? filtered.map((record) => card(record, records.indexOf(record))).join('') : document.getElementById('emptyState').innerHTML;
     grid.querySelectorAll('[data-record]').forEach((button) => button.addEventListener('click', () => openDetail(records[Number(button.dataset.record)])));
   }
+
   function row(name, value) { return `<div><span>${escapeHtml(name)}</span><b>${escapeHtml(value || '未披露')}</b></div>`; }
   function openDetail(record) {
     const { etf, listingCounter: counter, snapshot, documents } = record;
@@ -72,12 +94,123 @@
       <p class="disclaimer">资料仅供教育与资讯展示。净值、交易价格、交易币种及基础币种可能不同；过去表现不代表未来结果，不构成投资建议。</p>`;
     dialog.showModal();
   }
+
+  function svgPath(points) {
+    return points.map((point, index) => `${index ? 'L' : 'M'}${point[0].toFixed(2)},${point[1].toFixed(2)}`).join(' ');
+  }
+
+  function renderCandleChart(record) {
+    const container = document.getElementById('candleChart');
+    const candles = (record?.candles || []).filter((item) => finite(item.open) && finite(item.high) && finite(item.low) && finite(item.close)).slice(-chartRange);
+    if (!candles.length) {
+      container.innerHTML = '<div class="chart-empty">该 ETF 暂时没有可用的 K 线数据。</div>';
+      return;
+    }
+    const width = 960, height = 420, left = 18, right = 70, priceTop = 18, priceBottom = 300, volumeTop = 326, volumeBottom = 390;
+    const plotWidth = width - left - right;
+    const minLow = Math.min(...candles.map((item) => Number(item.low)));
+    const maxHigh = Math.max(...candles.map((item) => Number(item.high)));
+    const padding = Math.max((maxHigh - minLow) * .08, maxHigh * .005);
+    const minPrice = minLow - padding, maxPrice = maxHigh + padding;
+    const maxVolume = Math.max(...candles.map((item) => Number(item.volume) || 0), 1);
+    const step = plotWidth / candles.length;
+    const bodyWidth = Math.max(2, Math.min(10, step * .58));
+    const x = (index) => left + step * (index + .5);
+    const y = (price) => priceTop + (maxPrice - price) / (maxPrice - minPrice) * (priceBottom - priceTop);
+    const volumeY = (volume) => volumeBottom - (Number(volume) || 0) / maxVolume * (volumeBottom - volumeTop);
+    const gridLines = Array.from({ length: 5 }, (_, index) => {
+      const price = maxPrice - (maxPrice - minPrice) * index / 4;
+      const lineY = y(price);
+      return `<line x1="${left}" y1="${lineY}" x2="${width - right}" y2="${lineY}" class="chart-grid"/><text x="${width - right + 9}" y="${lineY + 4}" class="chart-label">${price.toFixed(price >= 100 ? 1 : 2)}</text>`;
+    }).join('');
+    const candleShapes = candles.map((item, index) => {
+      const up = Number(item.close) >= Number(item.open);
+      const colorClass = up ? 'candle-up' : 'candle-down';
+      const bodyTop = y(Math.max(item.open, item.close));
+      const bodyHeight = Math.max(1.5, Math.abs(y(item.open) - y(item.close)));
+      return `<g class="${colorClass}"><line x1="${x(index)}" y1="${y(item.high)}" x2="${x(index)}" y2="${y(item.low)}"/><rect x="${x(index) - bodyWidth / 2}" y="${bodyTop}" width="${bodyWidth}" height="${bodyHeight}" rx="1"/><rect class="volume-bar" x="${x(index) - bodyWidth / 2}" y="${volumeY(item.volume)}" width="${bodyWidth}" height="${volumeBottom - volumeY(item.volume)}" rx="1"/></g>`;
+    }).join('');
+    const maPath = (field, className) => {
+      const points = candles.map((item, index) => finite(item[field]) ? [x(index), y(Number(item[field]))] : null).filter(Boolean);
+      return points.length > 1 ? `<path d="${svgPath(points)}" class="${className}"/>` : '';
+    };
+    const tickIndexes = [...new Set([0, Math.floor((candles.length - 1) / 2), candles.length - 1])];
+    const xLabels = tickIndexes.map((index) => `<text x="${x(index)}" y="411" text-anchor="middle" class="chart-label">${escapeHtml(candles[index].date.slice(5))}</text>`).join('');
+    container.innerHTML = `<svg viewBox="0 0 ${width} ${height}" preserveAspectRatio="none" aria-hidden="true">${gridLines}<line x1="${left}" y1="${volumeBottom}" x2="${width - right}" y2="${volumeBottom}" class="chart-axis"/>${candleShapes}${maPath('ma5', 'ma-line ma5-line')}${maPath('ma20', 'ma-line ma20-line')}${xLabels}</svg>`;
+  }
+
+  function renderMarketTable() {
+    const body = document.getElementById('marketTableBody');
+    body.innerHTML = marketRecords.map((record) => {
+      const catalog = catalogByCode.get(record.stockCode);
+      const name = catalog?.etf?.officialNameEn || record.name || record.yahooSymbol;
+      if (record.status !== 'ok') return `<tr data-market-code="${escapeHtml(record.stockCode)}"><td><b>${escapeHtml(record.stockCode)}</b><small>${escapeHtml(name)}</small></td><td colspan="5" class="market-error">行情暂不可用</td></tr>`;
+      return `<tr data-market-code="${escapeHtml(record.stockCode)}" class="${record.stockCode === selectedMarketCode ? 'selected' : ''}"><td><b>${escapeHtml(record.stockCode)}</b><small>${escapeHtml(name)}</small></td><td>HK$${Number(record.lastPrice).toFixed(2)}</td><td class="${changeClass(record.changePct)}">${signed(record.changePct, '%')}</td><td>${formatCompact(record.volume)}</td><td>${formatCompact(record.turnoverEstimate, 'HK$')}</td><td>${formatDateTime(record.asOf)}</td></tr>`;
+    }).join('');
+    body.querySelectorAll('[data-market-code]').forEach((tableRow) => tableRow.addEventListener('click', () => selectMarket(tableRow.dataset.marketCode)));
+  }
+
+  function renderSelectedMarket() {
+    const record = marketByCode.get(selectedMarketCode);
+    const available = record?.status === 'ok';
+    marketSelect.value = selectedMarketCode || '';
+    const setText = (id, value) => { document.getElementById(id).textContent = value; };
+    setText('marketLast', available && finite(record.lastPrice) ? `HK$${Number(record.lastPrice).toFixed(2)}` : '—');
+    const changeNode = document.getElementById('marketChange');
+    changeNode.textContent = available ? signed(record.changePct, '%') : '—';
+    changeNode.className = available ? changeClass(record.changePct) : '';
+    setText('marketChangeValue', available ? `${signed(record.change)} HKD` : '—');
+    setText('marketRange', available && finite(record.high) && finite(record.low) ? `${Number(record.high).toFixed(2)} / ${Number(record.low).toFixed(2)}` : '—');
+    setText('marketVolume', available ? formatCompact(record.volume) : '—');
+    setText('marketTurnover', available ? formatCompact(record.turnoverEstimate, 'HK$') : '—');
+    setText('marketAsOf', available ? formatDateTime(record.asOf) : '行情暂不可用');
+
+    const flow = available ? record.flowProxy : null;
+    const net = flow?.netTurnover;
+    setText('flowNet', finite(net) ? `${Number(net) >= 0 ? '+' : '−'}HK$${formatCompact(Math.abs(Number(net)))}` : '—');
+    const flowNumber = document.getElementById('flowNet');
+    flowNumber.className = `flow-number ${changeClass(net)}`;
+    setText('flowDirection', finite(net) ? (Number(net) > 0 ? '买入动能占优' : Number(net) < 0 ? '卖出动能占优' : '买卖动能平衡') : '暂时无法估算');
+    setText('flowBuy', formatCompact(flow?.buyTurnover, 'HK$'));
+    setText('flowSell', formatCompact(flow?.sellTurnover, 'HK$'));
+    document.getElementById('flowBuyBar').style.width = `${finite(flow?.buyRatio) ? Math.max(0, Math.min(100, Number(flow.buyRatio))) : 50}%`;
+    renderCandleChart(record);
+    renderMarketTable();
+  }
+
+  function selectMarket(code) {
+    if (!marketByCode.has(code)) return;
+    selectedMarketCode = code;
+    renderSelectedMarket();
+  }
+
+  function initializeMarket() {
+    const marketUpdated = document.getElementById('marketUpdated');
+    if (!marketRecords.length) {
+      marketSelect.innerHTML = '<option>行情数据尚未生成</option>';
+      marketUpdated.textContent = '等待首次自动采集';
+      renderCandleChart(null);
+      renderMarketTable();
+      return;
+    }
+    marketSelect.innerHTML = marketRecords.map((record) => `<option value="${escapeHtml(record.stockCode)}">${escapeHtml(record.stockCode)} · ${escapeHtml(catalogByCode.get(record.stockCode)?.etf?.officialNameEn || record.name)}</option>`).join('');
+    marketUpdated.textContent = `行情抓取：${formatDateTime(marketSource.fetchedAt)} · 可用 ${marketSource.recordsAvailable}/${marketSource.recordsRequested}`;
+    marketSelect.addEventListener('change', () => selectMarket(marketSelect.value));
+    document.querySelectorAll('[data-range]').forEach((button) => button.addEventListener('click', () => {
+      chartRange = Number(button.dataset.range);
+      document.querySelectorAll('[data-range]').forEach((item) => item.classList.toggle('active', item === button));
+      renderCandleChart(marketByCode.get(selectedMarketCode));
+    }));
+    renderSelectedMarket();
+  }
+
   document.getElementById('totalFunds').textContent = records.length;
   document.getElementById('totalIssuers').textContent = new Set(records.map((record) => record.etf.issuer)).size;
   document.getElementById('lastUpdated').textContent = freshText();
-  search.addEventListener('input', render);
-  document.querySelectorAll('[data-style]').forEach((button) => button.addEventListener('click', () => { selectedStyle = button.dataset.style; document.querySelectorAll('[data-style]').forEach((item) => item.classList.toggle('active', item === button)); render(); }));
+  search.addEventListener('input', renderFunds);
+  document.querySelectorAll('[data-style]').forEach((button) => button.addEventListener('click', () => { selectedStyle = button.dataset.style; document.querySelectorAll('[data-style]').forEach((item) => item.classList.toggle('active', item === button)); renderFunds(); }));
   document.getElementById('dialogClose').addEventListener('click', () => dialog.close());
   dialog.addEventListener('click', (event) => { if (event.target === dialog) dialog.close(); });
-  render();
+  initializeMarket();
+  renderFunds();
 })();

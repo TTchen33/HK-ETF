@@ -23,6 +23,15 @@ jobs:
         with:
           node-version: 22
 
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - name: Install market data collector
+        run: pip install -r requirements.txt
+
       - name: Discover new public Global X product pages
         run: node scripts/discover-globalx-etfs.mjs
 
@@ -35,11 +44,14 @@ jobs:
       - name: Build unified browser catalog
         run: node scripts/build-catalog.mjs
 
+      - name: Refresh market data for the current catalog
+        run: python scripts/ingest-yfinance.py
+
       - name: Save refreshed data when it changed
         run: |
           git config user.name "hk-etf-explorer-bot"
           git config user.email "hk-etf-explorer-bot@users.noreply.github.com"
-          git add data/processed-globalx-latest.json data/processed-globalx-latest.js data/processed-value-etf-latest.json data/catalog-latest.json data/catalog-latest.js data/discovered-globalx-funds.json
+          git add data/processed-globalx-latest.json data/processed-globalx-latest.js data/processed-value-etf-latest.json data/catalog-latest.json data/catalog-latest.js data/discovered-globalx-funds.json data/market-yfinance-latest.json data/market-yfinance-latest.js
           if git diff --cached --quiet; then
             echo "No normalized data changes to save."
           else

@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="香港上市 ETF 的公开资料探索工具">
-  <title>HK ETF Explorer｜香港上市 ETF 数据库</title>
+  <meta name="description" content="香港上市 ETF 的产品资料、延迟行情与 K 线探索工具">
+  <title>HK ETF Explorer｜香港 ETF 行情与产品数据库</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -18,7 +18,7 @@
       <div>
         <p class="eyebrow">HONG KONG LISTED ETF DATA</p>
         <h1>看懂一只 ETF，<br>从它投资什么开始。</h1>
-        <p class="hero-copy">浏览香港上市 ETF 的投资目标、管理方式、交易柜台、费率、净值与官方文件。所有数字均保留来源与更新时间。</p>
+        <p class="hero-copy">浏览香港上市 ETF 的投资目标、产品结构、费率与官方资料，并通过延迟行情、K 线、均线和成交动能观察市场表现。</p>
       </div>
       <aside class="source-status" aria-live="polite">
         <span class="status-dot"></span>
@@ -29,7 +29,43 @@
     <section class="stats" aria-label="资料库统计">
       <article><span>已收录 ETF</span><b id="totalFunds">—</b><small>当前自动采集范围</small></article>
       <article><span>已接入发行商</span><b id="totalIssuers">—</b><small>逐家验证、独立适配</small></article>
-      <article><span>可见数据字段</span><b>14+</b><small>结构、费率、净值与文件</small></article>
+      <article><span>市场与产品字段</span><b>20+</b><small>行情、结构、费率、净值与文件</small></article>
+    </section>
+
+    <section class="market-dashboard" id="market" aria-labelledby="marketTitle">
+      <div class="market-heading">
+        <div><p class="eyebrow">DELAYED MARKET DASHBOARD</p><h2 id="marketTitle">ETF 行情看板</h2><p>日线蜡烛图（K 线）叠加 MA5 / MA20，并展示成交量与估算资金动能。</p></div>
+        <div class="market-controls"><label for="marketSelect">选择 ETF</label><select id="marketSelect" aria-label="选择 ETF"></select><small id="marketUpdated">正在读取行情…</small></div>
+      </div>
+
+      <div class="market-kpis" aria-live="polite">
+        <article><span>最新价格</span><b id="marketLast">—</b><small id="marketAsOf">延迟行情</small></article>
+        <article><span>涨跌幅</span><b id="marketChange">—</b><small id="marketChangeValue">—</small></article>
+        <article><span>日内高 / 低</span><b id="marketRange">—</b><small>HKD</small></article>
+        <article><span>成交量</span><b id="marketVolume">—</b><small>最新交易日</small></article>
+        <article><span>估算成交额</span><b id="marketTurnover">—</b><small>价格 × 成交量</small></article>
+      </div>
+
+      <div class="market-main">
+        <article class="chart-card">
+          <div class="chart-toolbar"><div class="chart-legend"><span><i class="legend-up"></i>上涨</span><span><i class="legend-down"></i>下跌</span><span><i class="legend-ma5"></i>MA5</span><span><i class="legend-ma20"></i>MA20</span></div><div class="range-buttons"><button class="range-button" data-range="20">20日</button><button class="range-button active" data-range="60">60日</button></div></div>
+          <div id="candleChart" class="candle-chart" role="img" aria-label="ETF 日线 K 线与成交量图"></div>
+        </article>
+        <aside class="flow-card">
+          <p class="eyebrow">FLOW MOMENTUM</p><h3>估算资金动能</h3><p class="flow-number" id="flowNet">—</p><small id="flowDirection">等待行情数据</small>
+          <div class="flow-meter" aria-hidden="true"><span id="flowBuyBar"></span></div>
+          <div class="flow-split"><span>估算主动买入 <b id="flowBuy">—</b></span><span>估算主动卖出 <b id="flowSell">—</b></span></div>
+          <p class="flow-note">依据 5 分钟 K 线方向对成交额分类，只反映交易动能；并非基金申购、赎回或官方资金流。</p>
+        </aside>
+      </div>
+
+      <div class="market-table-wrap">
+        <table class="market-table">
+          <thead><tr><th>ETF</th><th>最新价</th><th>涨跌幅</th><th>成交量</th><th>估算成交额</th><th>行情时间</th></tr></thead>
+          <tbody id="marketTableBody"></tbody>
+        </table>
+      </div>
+      <p class="market-disclaimer">行情由 Yahoo Finance 经 yfinance 获取，可能延迟、缺失或调整，仅供教育研究与项目展示，不适用于交易决策。</p>
     </section>
 
     <section class="toolbar" aria-label="筛选 ETF">
@@ -48,6 +84,7 @@
 
   <template id="emptyState"><div class="empty-state"><b>没有找到符合条件的 ETF</b><span>可尝试搜索股票代码、基金名称或追踪指数。</span></div></template>
   <script src="data/catalog-latest.js"></script>
+  <script src="data/market-yfinance-latest.js"></script>
   <script src="app.js"></script>
 </body>
 </html>

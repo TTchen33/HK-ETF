@@ -1,4 +1,6 @@
 data/raw-*.json
+.venv/
+__pycache__/
 
 # Early experiments kept locally, outside the portfolio deliverable.
 etf-growth-analysis-dashboard.html
