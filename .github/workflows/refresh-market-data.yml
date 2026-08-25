@@ -1,6 +1,13 @@
 name: Refresh market data
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/refresh-market-data.yml'
+      - 'config/yfinance-symbols.json'
+      - 'requirements.txt'
+      - 'scripts/ingest-yfinance.py'
   workflow_dispatch:
   schedule:
     # 香港交易日约每 30 分钟更新一次；GitHub Actions 的定时任务使用 UTC。
