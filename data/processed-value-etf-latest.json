@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-08-24T16:05:19.168Z",
+  "collectedAt": "2026-08-25T16:11:43.049Z",
   "source": "Value ETF public product pages",
   "collectionMode": "configured pilot list",
   "records": [
@@ -16,8 +16,8 @@
         "baseCurrency": "HKD",
         "distributionDescription": null,
         "listingDate": "2026-03-31",
-        "asOfDate": "2026-08-21",
-        "collectedAt": "2026-08-24T16:05:19.168Z",
+        "asOfDate": "2026-08-24",
+        "collectedAt": "2026-08-25T16:11:43.049Z",
         "productStructure": {
           "manager": "Value Partners Hong Kong Limited"
         }
@@ -31,16 +31,16 @@
         "status": "active_unverified"
       },
       "snapshot": {
-        "asOfDate": "2026-08-21",
-        "navPerShare": 16.2419,
+        "asOfDate": "2026-08-24",
+        "navPerShare": 16.2646,
         "navCurrency": "HKD",
-        "totalNav": 718063244.36,
+        "totalNav": 771113122.77,
         "totalNavCurrency": "HKD",
         "outstandingUnits": null,
         "managementFeePct": 0.9,
         "ongoingChargesPct": 1.15,
         "sourceUrl": "https://www.valueetf.com.hk/eng/value-partners-hk-us-dividend-low-volatility-etf-3488.html",
-        "collectedAt": "2026-08-24T16:05:19.168Z"
+        "collectedAt": "2026-08-25T16:11:43.049Z"
       },
       "documents": [],
       "validation": {

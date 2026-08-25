@@ -1,31 +1,52 @@
 window.HK_ETF_CHANGES = {
   "schemaVersion": "catalog-change-radar-v1",
-  "generatedAt": "2026-08-25T10:48:30.425Z",
-  "previousCollectedAt": "2026-08-24T03:17:56.834Z",
-  "currentCollectedAt": "2026-08-24T16:05:19.168Z",
-  "previousRecordCount": 11,
+  "generatedAt": "2026-08-25T16:11:44.279Z",
+  "previousCollectedAt": "2026-08-24T16:05:19.168Z",
+  "currentCollectedAt": "2026-08-25T16:11:43.049Z",
+  "previousRecordCount": 46,
   "currentRecordCount": 46,
   "latestSummary": {
-    "total": 35,
-    "new": 35,
+    "total": 1,
+    "new": 0,
     "removed": 0,
     "fee": 0,
     "benchmark": 0,
     "status": 0,
-    "scale": 0,
+    "scale": 1,
     "metadata": 0
   },
   "historySummary": {
-    "total": 35,
+    "total": 36,
     "new": 35,
     "removed": 0,
     "fee": 0,
     "benchmark": 0,
     "status": 0,
-    "scale": 0,
+    "scale": 1,
     "metadata": 0
   },
   "events": [
+    {
+      "id": "d9b643a503df1d64",
+      "type": "aum_jump",
+      "category": "scale",
+      "severity": "watch",
+      "detectedAt": "2026-08-25T16:11:43.049Z",
+      "stockCode": "3555",
+      "name": "Global X Hang Seng High Dividend Yield Enhanced Income ETF",
+      "issuer": "Global X Hong Kong",
+      "summary": "基金规模较上一版本增加 21.9%",
+      "before": {
+        "value": 73821265.69,
+        "currency": "HKD"
+      },
+      "after": {
+        "value": 90004990.94,
+        "currency": "HKD",
+        "changePct": 21.92
+      },
+      "sourceUrl": "https://www.globalxetfs.com.hk/funds/hang-seng-high-dividend-yield-enhanced-income-etf/"
+    },
     {
       "id": "8aaa53a1095ecc55",
       "type": "product_added",
