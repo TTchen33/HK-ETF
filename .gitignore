@@ -1,4 +1,5 @@
 data/raw-*.json
+data/catalog-previous.json
 .venv/
 __pycache__/
 

@@ -1,0 +1,626 @@
+{
+  "schemaVersion": "catalog-change-radar-v1",
+  "generatedAt": "2026-08-25T10:48:30.425Z",
+  "previousCollectedAt": "2026-08-24T03:17:56.834Z",
+  "currentCollectedAt": "2026-08-24T16:05:19.168Z",
+  "previousRecordCount": 11,
+  "currentRecordCount": 46,
+  "latestSummary": {
+    "total": 35,
+    "new": 35,
+    "removed": 0,
+    "fee": 0,
+    "benchmark": 0,
+    "status": 0,
+    "scale": 0,
+    "metadata": 0
+  },
+  "historySummary": {
+    "total": 35,
+    "new": 35,
+    "removed": 0,
+    "fee": 0,
+    "benchmark": 0,
+    "status": 0,
+    "scale": 0,
+    "metadata": 0
+  },
+  "events": [
+    {
+      "id": "8aaa53a1095ecc55",
+      "type": "product_added",
+      "category": "new",
+      "severity": "info",
+      "detectedAt": "2026-08-24T16:05:19.168Z",
+      "stockCode": "2807",
+      "name": "Global X China Robotics and AI ETF",
+      "issuer": "Global X Hong Kong",
+      "summary": "发现新 ETF：Global X China Robotics and AI ETF",
+      "before": null,
+      "after": {
+        "stockCode": "2807",
+        "listingDate": "2020-08-07"
+      },
+      "sourceUrl": "https://www.globalxetfs.com.hk/funds/global-x-china-robotics-ai-etf/"
+    },
+    {
+      "id": "7439f3f96a9f8a6e",
+      "type": "product_added",
+      "category": "new",
+      "severity": "info",
+      "detectedAt": "2026-08-24T16:05:19.168Z",
+      "stockCode": "2815",
+      "name": "Global X China Little Giant ETF",
+      "issuer": "Global X Hong Kong",
+      "summary": "发现新 ETF：Global X China Little Giant ETF",
+      "before": null,
+      "after": {
+        "stockCode": "2815",
+        "listingDate": "2023-11-20"
+      },
+      "sourceUrl": "https://www.globalxetfs.com.hk/funds/china-little-giant-etf/"
+    },
+    {
+      "id": "4680deb436993d82",
+      "type": "product_added",
+      "category": "new",
+      "severity": "info",
+      "detectedAt": "2026-08-24T16:05:19.168Z",
+      "stockCode": "2837",
+      "name": "Global X Hang Seng TECH ETF",
+      "issuer": "Global X Hong Kong",
+      "summary": "发现新 ETF：Global X Hang Seng TECH ETF",
+      "before": null,
+      "after": {
+        "stockCode": "2837",
+        "listingDate": "2023-03-30"
+      },
+      "sourceUrl": "https://www.globalxetfs.com.hk/funds/hang-seng-tech-etf/"
+    },
+    {
+      "id": "66f93fb0cd93dc2d",
+      "type": "product_added",
+      "category": "new",
+      "severity": "info",
+      "detectedAt": "2026-08-24T16:05:19.168Z",
+      "stockCode": "2841",
+      "name": "Global X China MedTech ETF",
+      "issuer": "Global X Hong Kong",
+      "summary": "发现新 ETF：Global X China MedTech ETF",
+      "before": null,
+      "after": {
+        "stockCode": "2841",
+        "listingDate": "2023-08-04"
+      },
+      "sourceUrl": "https://www.globalxetfs.com.hk/funds/china-medtech-etf/"
+    },
+    {
+      "id": "ebce8a734beed710",
+      "type": "product_added",
+      "category": "new",
+      "severity": "info",
+      "detectedAt": "2026-08-24T16:05:19.168Z",
+      "stockCode": "2845",
+      "name": "Global X China Electric Vehicle and Battery ETF",
+      "issuer": "Global X Hong Kong",
+      "summary": "发现新 ETF：Global X China Electric Vehicle and Battery ETF",
+      "before": null,
+      "after": {
+        "stockCode": "2845",
+        "listingDate": "2020-01-17"
+      },
+      "sourceUrl": "https://www.globalxetfs.com.hk/funds/china-electric-vehicle-etf/"
+    },
+    {
+      "id": "7fa4ef9e404459b5",
+      "type": "product_added",
+      "category": "new",
+      "severity": "info",
+      "detectedAt": "2026-08-24T16:05:19.168Z",
+      "stockCode": "3029",
+      "name": "Global X Hang Seng ESG ETF",
+      "issuer": "Global X Hong Kong",
+      "summary": "发现新 ETF：Global X Hang Seng ESG ETF",
+      "before": null,
+      "after": {
+        "stockCode": "3029",
+        "listingDate": "2022-03-21"
+      },
+      "sourceUrl": "https://www.globalxetfs.com.hk/funds/hang-seng-esg-etf/"
+    },
+    {
+      "id": "f7ce3e72aea154e8",
+      "type": "product_added",
+      "category": "new",
+      "severity": "info",
+      "detectedAt": "2026-08-24T16:05:19.168Z",
+      "stockCode": "3040",
+      "name": "Global X MSCI China ETF",
+      "issuer": "Global X Hong Kong",
+      "summary": "发现新 ETF：Global X MSCI China ETF",
+      "before": null,
+      "after": {
+        "stockCode": "3040",
+        "listingDate": "2013-06-17"
+      },
+      "sourceUrl": "https://www.globalxetfs.com.hk/funds/msci-china-etf/"
+    },
+    {
+      "id": "5766509d01ca7979",
+      "type": "product_added",
+      "category": "new",
+      "severity": "info",
+      "detectedAt": "2026-08-24T16:05:19.168Z",
+      "stockCode": "3041",
+      "name": "Global X FTSE China Policy Bank Bond ETF",
+      "issuer": "Global X Hong Kong",
+      "summary": "发现新 ETF：Global X FTSE China Policy Bank Bond ETF",
+      "before": null,
+      "after": {
+        "stockCode": "3041",
+        "listingDate": "2022-10-19"
+      },
+      "sourceUrl": "https://www.globalxetfs.com.hk/funds/ftse-china-policy-bank-bond-etf/"
+    },
+    {
+      "id": "7a185200a9ec4c33",
+      "type": "product_added",
+      "category": "new",
+      "severity": "info",
+      "detectedAt": "2026-08-24T16:05:19.168Z",
+      "stockCode": "3050",
+      "name": "Global X China Global Leaders ETF",
+      "issuer": "Global X Hong Kong",
+      "summary": "发现新 ETF：Global X China Global Leaders ETF",
+      "before": null,
+      "after": {
+        "stockCode": "3050",
+        "listingDate": "2021-03-11"
+      },
+      "sourceUrl": "https://www.globalxetfs.com.hk/funds/china-global-leaders-etf/"
+    },
+    {
+      "id": "047428346b4194eb",
+      "type": "product_added",
+      "category": "new",
+      "severity": "info",
+      "detectedAt": "2026-08-24T16:05:19.168Z",
+      "stockCode": "3064",
+      "name": "Global X MSCI Asia Pacific ex Japan ETF",
+      "issuer": "Global X Hong Kong",
+      "summary": "发现新 ETF：Global X MSCI Asia Pacific ex Japan ETF",
+      "before": null,
+      "after": {
+        "stockCode": "3064",
+        "listingDate": "2025-06-09"
+      },
+      "sourceUrl": "https://www.globalxetfs.com.hk/funds/msci-asia-pacific-ex-japan-etf/"
+    },
+    {
+      "id": "d4f83beceb874950",
+      "type": "product_added",
+      "category": "new",
+      "severity": "info",
+      "detectedAt": "2026-08-24T16:05:19.168Z",
+      "stockCode": "3084",
+      "name": "Global X India Sector Leader Active ETF",
+      "issuer": "Global X Hong Kong",
+      "summary": "发现新 ETF：Global X India Sector Leader Active ETF",
+      "before": null,
+      "after": {
+        "stockCode": "3084",
+        "listingDate": "2024-11-26"
+      },
+      "sourceUrl": "https://www.globalxetfs.com.hk/funds/india-sector-leader-active-etf/"
+    },
+    {
+      "id": "f047d8871314ec6a",
+      "type": "product_added",
+      "category": "new",
+      "severity": "info",
+      "detectedAt": "2026-08-24T16:05:19.168Z",
+      "stockCode": "3097",
+      "name": "Global X S&P Crude Oil Futures Enhanced ER ETF",
+      "issuer": "Global X Hong Kong",
+      "summary": "发现新 ETF：Global X S&P Crude Oil Futures Enhanced ER ETF",
+      "before": null,
+      "after": {
+        "stockCode": "3097",
+        "listingDate": "2016-06-16"
+      },
+      "sourceUrl": "https://www.globalxetfs.com.hk/funds/sp-crude-oil-futures-etf/"
+    },
+    {
+      "id": "1b5be2c48c6c3bf4",
+      "type": "product_added",
+      "category": "new",
+      "severity": "info",
+      "detectedAt": "2026-08-24T16:05:19.168Z",
+      "stockCode": "3104",
+      "name": "Global X Emerging Markets Asia Active ETF",
+      "issuer": "Global X Hong Kong",
+      "summary": "发现新 ETF：Global X Emerging Markets Asia Active ETF",
+      "before": null,
+      "after": {
+        "stockCode": "3104",
+        "listingDate": "2024-11-26"
+      },
+      "sourceUrl": "https://www.globalxetfs.com.hk/funds/emerging-markets-asia-active-etf/"
+    },
+    {
+      "id": "73b9e0393ad77be6",
+      "type": "product_added",
+      "category": "new",
+      "severity": "info",
+      "detectedAt": "2026-08-24T16:05:19.168Z",
+      "stockCode": "3110",
+      "name": "Global X Hang Seng High Dividend Yield ETF",
+      "issuer": "Global X Hong Kong",
+      "summary": "发现新 ETF：Global X Hang Seng High Dividend Yield ETF",
+      "before": null,
+      "after": {
+        "stockCode": "3110",
+        "listingDate": "2013-06-17"
+      },
+      "sourceUrl": "https://www.globalxetfs.com.hk/funds/hang-seng-high-dividend-yield-etf/"
+    },
+    {
+      "id": "1094785d39d630b1",
+      "type": "product_added",
+      "category": "new",
+      "severity": "info",
+      "detectedAt": "2026-08-24T16:05:19.168Z",
+      "stockCode": "3137",
+      "name": "Global X USD Money Market ETF",
+      "issuer": "Global X Hong Kong",
+      "summary": "发现新 ETF：Global X USD Money Market ETF",
+      "before": null,
+      "after": {
+        "stockCode": "3137",
+        "listingDate": "2023-06-29"
+      },
+      "sourceUrl": "https://www.globalxetfs.com.hk/funds/usd-money-market-etf/"
+    },
+    {
+      "id": "721920f787840ace",
+      "type": "product_added",
+      "category": "new",
+      "severity": "info",
+      "detectedAt": "2026-08-24T16:05:19.168Z",
+      "stockCode": "3139",
+      "name": "Global X Electric Vehicle and Battery Active ETF",
+      "issuer": "Global X Hong Kong",
+      "summary": "发现新 ETF：Global X Electric Vehicle and Battery Active ETF",
+      "before": null,
+      "after": {
+        "stockCode": "3139",
+        "listingDate": "2022-03-21"
+      },
+      "sourceUrl": "https://www.globalxetfs.com.hk/funds/ev-and-humanoid-robot-active-etf/"
+    },
+    {
+      "id": "659d4c536c2d97b4",
+      "type": "product_added",
+      "category": "new",
+      "severity": "info",
+      "detectedAt": "2026-08-24T16:05:19.168Z",
+      "stockCode": "3150",
+      "name": "Global X Japan Global Leaders ETF",
+      "issuer": "Global X Hong Kong",
+      "summary": "发现新 ETF：Global X Japan Global Leaders ETF",
+      "before": null,
+      "after": {
+        "stockCode": "3150",
+        "listingDate": "2023-11-24"
+      },
+      "sourceUrl": "https://www.globalxetfs.com.hk/funds/japan-global-leaders-etf/"
+    },
+    {
+      "id": "ae3ce4c6aae31eb1",
+      "type": "product_added",
+      "category": "new",
+      "severity": "info",
+      "detectedAt": "2026-08-24T16:05:19.168Z",
+      "stockCode": "3158",
+      "name": "Global X K-pop and Culture ETF",
+      "issuer": "Global X Hong Kong",
+      "summary": "发现新 ETF：Global X K-pop and Culture ETF",
+      "before": null,
+      "after": {
+        "stockCode": "3158",
+        "listingDate": "2024-03-19"
+      },
+      "sourceUrl": "https://www.globalxetfs.com.hk/funds/kpop-and-culture-etf/"
+    },
+    {
+      "id": "312ae0f4f5ca38bc",
+      "type": "product_added",
+      "category": "new",
+      "severity": "info",
+      "detectedAt": "2026-08-24T16:05:19.168Z",
+      "stockCode": "3184",
+      "name": "Global X India Select Top 10 ETF",
+      "issuer": "Global X Hong Kong",
+      "summary": "发现新 ETF：Global X India Select Top 10 ETF",
+      "before": null,
+      "after": {
+        "stockCode": "3184",
+        "listingDate": "2024-03-19"
+      },
+      "sourceUrl": "https://www.globalxetfs.com.hk/funds/india-top-10-etf/"
+    },
+    {
+      "id": "30093172e84b138c",
+      "type": "product_added",
+      "category": "new",
+      "severity": "info",
+      "detectedAt": "2026-08-24T16:05:19.168Z",
+      "stockCode": "3185",
+      "name": "Global X Innovative Finance ETF",
+      "issuer": "Global X Hong Kong",
+      "summary": "发现新 ETF：Global X Innovative Finance ETF",
+      "before": null,
+      "after": {
+        "stockCode": "3185",
+        "listingDate": "2021-12-10"
+      },
+      "sourceUrl": "https://www.globalxetfs.com.hk/funds/innovative-finance-etf/"
+    },
+    {
+      "id": "f6daaa19a5359c20",
+      "type": "product_added",
+      "category": "new",
+      "severity": "info",
+      "detectedAt": "2026-08-24T16:05:19.168Z",
+      "stockCode": "3191",
+      "name": "Global X China Semiconductor ETF",
+      "issuer": "Global X Hong Kong",
+      "summary": "发现新 ETF：Global X China Semiconductor ETF",
+      "before": null,
+      "after": {
+        "stockCode": "3191",
+        "listingDate": "2020-08-07"
+      },
+      "sourceUrl": "https://www.globalxetfs.com.hk/funds/global-x-china-semiconductor-etf/"
+    },
+    {
+      "id": "29284e6980f125f7",
+      "type": "product_added",
+      "category": "new",
+      "severity": "info",
+      "detectedAt": "2026-08-24T16:05:19.168Z",
+      "stockCode": "3401",
+      "name": "Global X AI Infrastructure ETF",
+      "issuer": "Global X Hong Kong",
+      "summary": "发现新 ETF：Global X AI Infrastructure ETF",
+      "before": null,
+      "after": {
+        "stockCode": "3401",
+        "listingDate": "2025-02-10"
+      },
+      "sourceUrl": "https://www.globalxetfs.com.hk/funds/global-x-ai-infrastructure-etf/"
+    },
+    {
+      "id": "c2e0b1f5f2d2c006",
+      "type": "product_added",
+      "category": "new",
+      "severity": "info",
+      "detectedAt": "2026-08-24T16:05:19.168Z",
+      "stockCode": "3402",
+      "name": "Global X G2 Tech ETF",
+      "issuer": "Global X Hong Kong",
+      "summary": "发现新 ETF：Global X G2 Tech ETF",
+      "before": null,
+      "after": {
+        "stockCode": "3402",
+        "listingDate": "2025-01-10"
+      },
+      "sourceUrl": "https://www.globalxetfs.com.hk/funds/g2-tech-etf/"
+    },
+    {
+      "id": "6580ab21f6404b5d",
+      "type": "product_added",
+      "category": "new",
+      "severity": "info",
+      "detectedAt": "2026-08-24T16:05:19.168Z",
+      "stockCode": "3415",
+      "name": "Global X S&P 500 Covered Call Active ETF",
+      "issuer": "Global X Hong Kong",
+      "summary": "发现新 ETF：Global X S&P 500 Covered Call Active ETF",
+      "before": null,
+      "after": {
+        "stockCode": "3415",
+        "listingDate": "2025-08-29"
+      },
+      "sourceUrl": "https://www.globalxetfs.com.hk/funds/sp-500-covered-call-active-etf/"
+    },
+    {
+      "id": "af12ab7859cfd648",
+      "type": "product_added",
+      "category": "new",
+      "severity": "info",
+      "detectedAt": "2026-08-24T16:05:19.168Z",
+      "stockCode": "3416",
+      "name": "Global X HSCEI Covered Call Active ETF",
+      "issuer": "Global X Hong Kong",
+      "summary": "发现新 ETF：Global X HSCEI Covered Call Active ETF",
+      "before": null,
+      "after": {
+        "stockCode": "3416",
+        "listingDate": "2024-02-29"
+      },
+      "sourceUrl": "https://www.globalxetfs.com.hk/funds/hscei-covered-call-etf/"
+    },
+    {
+      "id": "7a53576ce26f0ffb",
+      "type": "product_added",
+      "category": "new",
+      "severity": "info",
+      "detectedAt": "2026-08-24T16:05:19.168Z",
+      "stockCode": "3417",
+      "name": "Global X Hang Seng TECH Covered Call Active ETF",
+      "issuer": "Global X Hong Kong",
+      "summary": "发现新 ETF：Global X Hang Seng TECH Covered Call Active ETF",
+      "before": null,
+      "after": {
+        "stockCode": "3417",
+        "listingDate": "2025-03-13"
+      },
+      "sourceUrl": "https://www.globalxetfs.com.hk/funds/hang-seng-tech-covered-call-active-etf/"
+    },
+    {
+      "id": "de70702c2a72840f",
+      "type": "product_added",
+      "category": "new",
+      "severity": "info",
+      "detectedAt": "2026-08-24T16:05:19.168Z",
+      "stockCode": "3419",
+      "name": "Global X HSI Covered Call Active ETF",
+      "issuer": "Global X Hong Kong",
+      "summary": "发现新 ETF：Global X HSI Covered Call Active ETF",
+      "before": null,
+      "after": {
+        "stockCode": "3419",
+        "listingDate": "2024-02-29"
+      },
+      "sourceUrl": "https://www.globalxetfs.com.hk/funds/covered-call-etf/"
+    },
+    {
+      "id": "5190118064c68a19",
+      "type": "product_added",
+      "category": "new",
+      "severity": "info",
+      "detectedAt": "2026-08-24T16:05:19.168Z",
+      "stockCode": "3422",
+      "name": "Global X Innovative Bluechip Top 10 ETF",
+      "issuer": "Global X Hong Kong",
+      "summary": "发现新 ETF：Global X Innovative Bluechip Top 10 ETF",
+      "before": null,
+      "after": {
+        "stockCode": "3422",
+        "listingDate": "2023-11-24"
+      },
+      "sourceUrl": "https://www.globalxetfs.com.hk/funds/innovative-bluechip-top-10-etf/"
+    },
+    {
+      "id": "c60e095c5028f095",
+      "type": "product_added",
+      "category": "new",
+      "severity": "info",
+      "detectedAt": "2026-08-24T16:05:19.168Z",
+      "stockCode": "3428",
+      "name": "Global X China Life Franklin HK-US Equity Select ETF",
+      "issuer": "Global X Hong Kong",
+      "summary": "发现新 ETF：Global X China Life Franklin HK-US Equity Select ETF",
+      "before": null,
+      "after": {
+        "stockCode": "3428",
+        "listingDate": "2026-03-30"
+      },
+      "sourceUrl": "https://www.globalxetfs.com.hk/funds/china-life-franklin-hk-us-equity-select-etf/"
+    },
+    {
+      "id": "dc9497f265fb18de",
+      "type": "product_added",
+      "category": "new",
+      "severity": "info",
+      "detectedAt": "2026-08-24T16:05:19.168Z",
+      "stockCode": "3440",
+      "name": "Global X US Treasury 0-3 Month ETF",
+      "issuer": "Global X Hong Kong",
+      "summary": "发现新 ETF：Global X US Treasury 0-3 Month ETF",
+      "before": null,
+      "after": {
+        "stockCode": "3440",
+        "listingDate": "2024-12-13"
+      },
+      "sourceUrl": "https://www.globalxetfs.com.hk/funds/global-x-us-treasury-0-3-month-etf/"
+    },
+    {
+      "id": "b95d2d09fe10d04b",
+      "type": "product_added",
+      "category": "new",
+      "severity": "info",
+      "detectedAt": "2026-08-24T16:05:19.168Z",
+      "stockCode": "3450",
+      "name": "Global X US Treasury 3-5 Year ETF",
+      "issuer": "Global X Hong Kong",
+      "summary": "发现新 ETF：Global X US Treasury 3-5 Year ETF",
+      "before": null,
+      "after": {
+        "stockCode": "3450",
+        "listingDate": "2024-07-11"
+      },
+      "sourceUrl": "https://www.globalxetfs.com.hk/funds/global-x-us-treasury-3-5-year-etf/"
+    },
+    {
+      "id": "b523861079ef4d57",
+      "type": "product_added",
+      "category": "new",
+      "severity": "info",
+      "detectedAt": "2026-08-24T16:05:19.168Z",
+      "stockCode": "3451",
+      "name": "Global X Nasdaq 100 Covered Call Active ETF",
+      "issuer": "Global X Hong Kong",
+      "summary": "发现新 ETF：Global X Nasdaq 100 Covered Call Active ETF",
+      "before": null,
+      "after": {
+        "stockCode": "3451",
+        "listingDate": "2025-09-30"
+      },
+      "sourceUrl": "https://www.globalxetfs.com.hk/funds/nasdaq-100-covered-call-active-etf/"
+    },
+    {
+      "id": "7bd88f16bf7afd25",
+      "type": "product_added",
+      "category": "new",
+      "severity": "info",
+      "detectedAt": "2026-08-24T16:05:19.168Z",
+      "stockCode": "3470",
+      "name": "Global X FTSE Greater China ETF",
+      "issuer": "Global X Hong Kong",
+      "summary": "发现新 ETF：Global X FTSE Greater China ETF",
+      "before": null,
+      "after": {
+        "stockCode": "3470",
+        "listingDate": "2025-03-28"
+      },
+      "sourceUrl": "https://www.globalxetfs.com.hk/funds/ftse-greater-china-etf/"
+    },
+    {
+      "id": "a24886af46005e54",
+      "type": "product_added",
+      "category": "new",
+      "severity": "info",
+      "detectedAt": "2026-08-24T16:05:19.168Z",
+      "stockCode": "3533",
+      "name": "Global X Gold Covered Call Active ETF* (*This is a synthetic ETF)",
+      "issuer": "Global X Hong Kong",
+      "summary": "发现新 ETF：Global X Gold Covered Call Active ETF* (*This is a synthetic ETF)",
+      "before": null,
+      "after": {
+        "stockCode": "3533",
+        "listingDate": "2026-05-15"
+      },
+      "sourceUrl": "https://www.globalxetfs.com.hk/funds/gold-covered-call-active-etf/"
+    },
+    {
+      "id": "02c79999d1f8f15c",
+      "type": "product_added",
+      "category": "new",
+      "severity": "info",
+      "detectedAt": "2026-08-24T16:05:19.168Z",
+      "stockCode": "3555",
+      "name": "Global X Hang Seng High Dividend Yield Enhanced Income ETF",
+      "issuer": "Global X Hong Kong",
+      "summary": "发现新 ETF：Global X Hang Seng High Dividend Yield Enhanced Income ETF",
+      "before": null,
+      "after": {
+        "stockCode": "3555",
+        "listingDate": "2026-08-20"
+      },
+      "sourceUrl": "https://www.globalxetfs.com.hk/funds/hang-seng-high-dividend-yield-enhanced-income-etf/"
+    }
+  ],
+  "methodology": "Compares normalized catalog versions; ignores routine NAV changes and records AUM only when the absolute change is at least 20%."
+}

@@ -88,6 +88,14 @@
       <div id="trustGrid" class="trust-grid"></div>
     </section>
 
+    <section class="change-radar" id="changes" aria-labelledby="changeTitle">
+      <div class="radar-heading"><div><p class="eyebrow">CATALOG CHANGE RADAR</p><h2 id="changeTitle">ETF 变化雷达</h2><p>自动比较前后两个标准化目录版本，记录新基金、下架、费率、基准、状态及显著规模变化。</p></div><div class="radar-version" id="radarVersion">正在读取版本记录…</div></div>
+      <div class="radar-stats"><article><span>当前目录</span><b id="radarCurrent">—</b><small>ETF 产品记录</small></article><article><span>本次新增</span><b id="radarAdded">—</b><small>相对上一版本</small></article><article><span>累计事件</span><b id="radarEvents">—</b><small>自动去重保留</small></article><article><span>高关注变化</span><b id="radarHigh">—</b><small>费率、状态及显著变化</small></article></div>
+      <div class="radar-toolbar"><div id="radarFilters" class="radar-filters" aria-label="筛选变化类型"></div><span>日常 NAV 波动不记为产品变化；AUM 变动达到 20% 才记录。</span></div>
+      <div id="radarTimeline" class="radar-timeline" aria-live="polite"></div>
+      <button id="radarMore" class="radar-more" type="button">显示更多变化</button>
+    </section>
+
     <section class="toolbar" aria-label="筛选 ETF">
       <label class="search-box"><span aria-hidden="true">⌕</span><input id="searchInput" type="search" placeholder="搜索 ETF 名称、代码或追踪指数"></label>
       <div class="filter-group" id="styleFilters" aria-label="管理方式"><button class="filter active" data-style="all">全部</button><button class="filter" data-style="passive">被动型</button><button class="filter" data-style="active">主动型</button></div>
@@ -105,8 +113,10 @@
   <template id="emptyState"><div class="empty-state"><b>没有找到符合条件的 ETF</b><span>可尝试搜索股票代码、基金名称或追踪指数。</span></div></template>
   <script src="data/catalog-latest.js"></script>
   <script src="data/market-yfinance-latest.js"></script>
+  <script src="data/changes-latest.js"></script>
   <script src="analytics.js"></script>
   <script src="app.js"></script>
   <script src="compare.js"></script>
+  <script src="radar.js"></script>
 </body>
 </html>
