@@ -1,7 +1,7 @@
 window.HK_ETF_MARKET = {
-  "schemaVersion": "market-yfinance-v1",
+  "schemaVersion": "market-yfinance-v2",
   "provider": "Yahoo Finance via yfinance",
-  "fetchedAt": "2026-08-26T06:05:26.487038+00:00",
+  "fetchedAt": "2026-08-26T07:27:34.953814+00:00",
   "quoteType": "delayed_or_end_of_bar",
   "recordsRequested": 11,
   "recordsAvailable": 11,
@@ -14,16 +14,16 @@ window.HK_ETF_MARKET = {
       "status": "ok",
       "currency": "HKD",
       "exchangeTimezone": "Asia/Hong_Kong",
-      "lastPrice": 16.28,
+      "lastPrice": 16.29,
       "previousClose": 16.2646,
-      "change": 0.0154,
-      "changePct": 0.0947,
+      "change": 0.0254,
+      "changePct": 0.1562,
       "open": 16.26,
-      "high": 16.28,
+      "high": 16.29,
       "low": 16.26,
-      "volume": 0,
-      "turnoverEstimate": 0,
-      "asOf": "2026-08-26T13:40:00+08:00",
+      "volume": 2175,
+      "turnoverEstimate": 35430.75,
+      "asOf": "2026-08-26T14:15:00+08:00",
       "candles": [
         {
           "date": "2026-06-08",
@@ -570,18 +570,18 @@ window.HK_ETF_MARKET = {
           "open": 16.22,
           "high": 16.28,
           "low": 16.22,
-          "close": 16.28,
-          "volume": 275,
-          "ma5": 16.1709,
-          "ma20": 15.8792
+          "close": 16.29,
+          "volume": 2175,
+          "ma5": 16.1729,
+          "ma20": 15.8797
         }
       ],
       "flowProxy": {
-        "buyTurnover": 0,
+        "buyTurnover": 35430.75,
         "sellTurnover": 0,
         "neutralTurnover": 0,
-        "netTurnover": 0,
-        "buyRatio": null,
+        "netTurnover": 35430.75,
+        "buyRatio": 100,
         "method": "5 分钟 K 线按收盘价相对开盘价方向归类的成交额估算；并非 ETF 申购赎回数据。"
       }
     },
@@ -592,10 +592,10 @@ window.HK_ETF_MARKET = {
       "status": "ok",
       "currency": "HKD",
       "exchangeTimezone": "Asia/Hong_Kong",
-      "lastPrice": 40.52,
+      "lastPrice": 40.54,
       "previousClose": 40.4,
-      "change": 0.12,
-      "changePct": 0.297,
+      "change": 0.14,
+      "changePct": 0.3465,
       "open": 40.52,
       "high": 40.56,
       "low": 40.48,
@@ -1258,10 +1258,10 @@ window.HK_ETF_MARKET = {
           "open": 40.52,
           "high": 40.58,
           "low": 40.46,
-          "close": 40.52,
+          "close": 40.54,
           "volume": 1300,
-          "ma5": 40.364,
-          "ma20": 40.393
+          "ma5": 40.368,
+          "ma20": 40.394
         }
       ],
       "flowProxy": {
@@ -1280,15 +1280,15 @@ window.HK_ETF_MARKET = {
       "status": "ok",
       "currency": "HKD",
       "exchangeTimezone": "Asia/Hong_Kong",
-      "lastPrice": 103.35,
+      "lastPrice": 103.15,
       "previousClose": 101.8,
-      "change": 1.55,
-      "changePct": 1.5226,
+      "change": 1.35,
+      "changePct": 1.3261,
       "open": 102.8,
       "high": 103.45,
       "low": 102.8,
-      "volume": 1150,
-      "turnoverEstimate": 118852.5,
+      "volume": 0,
+      "turnoverEstimate": 0,
       "asOf": "2026-08-26T13:00:00+08:00",
       "candles": [
         {
@@ -1946,16 +1946,16 @@ window.HK_ETF_MARKET = {
           "open": 102.8,
           "high": 103.35,
           "low": 102.45,
-          "close": 103.35,
+          "close": 103.15,
           "volume": 1200,
-          "ma5": 102.73,
-          "ma20": 103.6775
+          "ma5": 102.69,
+          "ma20": 103.6675
         }
       ],
       "flowProxy": {
         "buyTurnover": 0,
         "sellTurnover": 0,
-        "neutralTurnover": 118852.5,
+        "neutralTurnover": 0,
         "netTurnover": 0,
         "buyRatio": null,
         "method": "5 分钟 K 线按收盘价相对开盘价方向归类的成交额估算；并非 ETF 申购赎回数据。"
@@ -1968,16 +1968,16 @@ window.HK_ETF_MARKET = {
       "status": "ok",
       "currency": "HKD",
       "exchangeTimezone": "Asia/Hong_Kong",
-      "lastPrice": 75.86,
+      "lastPrice": 76.04,
       "previousClose": 73.3,
-      "change": 2.56,
-      "changePct": 3.4925,
+      "change": 2.74,
+      "changePct": 3.7381,
       "open": 76,
       "high": 77.38,
       "low": 75.8,
       "volume": 12400,
       "turnoverEstimate": 946479,
-      "asOf": "2026-08-26T13:45:00+08:00",
+      "asOf": "2026-08-26T15:05:00+08:00",
       "candles": [
         {
           "date": "2026-05-21",
@@ -2634,10 +2634,10 @@ window.HK_ETF_MARKET = {
           "open": 76,
           "high": 77.24,
           "low": 75.8,
-          "close": 75.86,
-          "volume": 6900,
-          "ma5": 75.632,
-          "ma20": 73.108
+          "close": 76.04,
+          "volume": 7000,
+          "ma5": 75.668,
+          "ma20": 73.117
         }
       ],
       "flowProxy": {
@@ -2663,8 +2663,8 @@ window.HK_ETF_MARKET = {
       "open": 54.5,
       "high": 54.6,
       "low": 54.5,
-      "volume": 2600,
-      "turnoverEstimate": 141745,
+      "volume": 3950,
+      "turnoverEstimate": 215320,
       "asOf": "2026-08-26T13:20:00+08:00",
       "candles": [
         {
@@ -3331,7 +3331,7 @@ window.HK_ETF_MARKET = {
       "flowProxy": {
         "buyTurnover": 0,
         "sellTurnover": 0,
-        "neutralTurnover": 141745,
+        "neutralTurnover": 215320,
         "netTurnover": 0,
         "buyRatio": null,
         "method": "5 分钟 K 线按收盘价相对开盘价方向归类的成交额估算；并非 ETF 申购赎回数据。"
@@ -5408,16 +5408,16 @@ window.HK_ETF_MARKET = {
       "status": "ok",
       "currency": "HKD",
       "exchangeTimezone": "Asia/Hong_Kong",
-      "lastPrice": 106.7,
+      "lastPrice": 106.25,
       "previousClose": 106.9,
-      "change": -0.2,
-      "changePct": -0.1871,
+      "change": -0.65,
+      "changePct": -0.608,
       "open": 106.9,
       "high": 106.95,
-      "low": 106.5,
-      "volume": 2525,
-      "turnoverEstimate": 269135,
-      "asOf": "2026-08-26T13:05:00+08:00",
+      "low": 106.25,
+      "volume": 4625,
+      "turnoverEstimate": 493076.24,
+      "asOf": "2026-08-26T14:00:00+08:00",
       "candles": [
         {
           "date": "2026-05-21",
@@ -6073,19 +6073,19 @@ window.HK_ETF_MARKET = {
           "date": "2026-08-26",
           "open": 106.9,
           "high": 106.95,
-          "low": 106.5,
-          "close": 106.7,
-          "volume": 2525,
-          "ma5": 106.21,
-          "ma20": 105.075
+          "low": 106.25,
+          "close": 106.25,
+          "volume": 3100,
+          "ma5": 106.12,
+          "ma20": 105.0525
         }
       ],
       "flowProxy": {
         "buyTurnover": 15997.5,
-        "sellTurnover": 0,
-        "neutralTurnover": 253137.5,
-        "netTurnover": 15997.5,
-        "buyRatio": 100,
+        "sellTurnover": 39843.75,
+        "neutralTurnover": 437234.99,
+        "netTurnover": -23846.25,
+        "buyRatio": 28.65,
         "method": "5 分钟 K 线按收盘价相对开盘价方向归类的成交额估算；并非 ETF 申购赎回数据。"
       }
     },
@@ -6096,16 +6096,16 @@ window.HK_ETF_MARKET = {
       "status": "ok",
       "currency": "HKD",
       "exchangeTimezone": "Asia/Hong_Kong",
-      "lastPrice": 175.8,
+      "lastPrice": 175.4,
       "previousClose": 172.4,
-      "change": 3.4,
-      "changePct": 1.9722,
+      "change": 3,
+      "changePct": 1.7401,
       "open": 173.2,
       "high": 178,
       "low": 171.65,
-      "volume": 96650,
-      "turnoverEstimate": 16957113.82,
-      "asOf": "2026-08-26T13:45:00+08:00",
+      "volume": 142075,
+      "turnoverEstimate": 24920043.95,
+      "asOf": "2026-08-26T15:05:00+08:00",
       "candles": [
         {
           "date": "2026-05-21",
@@ -6762,18 +6762,18 @@ window.HK_ETF_MARKET = {
           "open": 173.2,
           "high": 178,
           "low": 171.65,
-          "close": 175.8,
-          "volume": 43600,
-          "ma5": 175.01,
-          "ma20": 169.6725
+          "close": 175.4,
+          "volume": 45825,
+          "ma5": 174.93,
+          "ma20": 169.6525
         }
       ],
       "flowProxy": {
-        "buyTurnover": 8842686.24,
-        "sellTurnover": 1853247.56,
-        "neutralTurnover": 6261180.01,
-        "netTurnover": 6989438.68,
-        "buyRatio": 82.67,
+        "buyTurnover": 8960976.24,
+        "sellTurnover": 1923335.06,
+        "neutralTurnover": 14035732.65,
+        "netTurnover": 7037641.18,
+        "buyRatio": 82.33,
         "method": "5 分钟 K 线按收盘价相对开盘价方向归类的成交额估算；并非 ETF 申购赎回数据。"
       }
     },
@@ -6784,16 +6784,16 @@ window.HK_ETF_MARKET = {
       "status": "ok",
       "currency": "HKD",
       "exchangeTimezone": "Asia/Hong_Kong",
-      "lastPrice": 118.05,
+      "lastPrice": 118,
       "previousClose": 115.7,
-      "change": 2.35,
-      "changePct": 2.0311,
+      "change": 2.3,
+      "changePct": 1.9879,
       "open": 117.5,
       "high": 118.85,
       "low": 117.05,
-      "volume": 9915,
-      "turnoverEstimate": 1174417.65,
-      "asOf": "2026-08-26T13:25:00+08:00",
+      "volume": 16453,
+      "turnoverEstimate": 1947513.15,
+      "asOf": "2026-08-26T14:55:00+08:00",
       "candles": [
         {
           "date": "2026-05-21",
@@ -7450,20 +7450,759 @@ window.HK_ETF_MARKET = {
           "open": 117.5,
           "high": 118.7,
           "low": 117.3,
-          "close": 118.05,
-          "volume": 5946,
-          "ma5": 118.23,
-          "ma20": 118.7675
+          "close": 118,
+          "volume": 7538,
+          "ma5": 118.22,
+          "ma20": 118.765
         }
       ],
       "flowProxy": {
-        "buyTurnover": 1122963.66,
-        "sellTurnover": 50860.5,
+        "buyTurnover": 1133819.66,
+        "sellTurnover": 813100,
         "neutralTurnover": 593.5,
-        "netTurnover": 1072103.16,
-        "buyRatio": 95.67,
+        "netTurnover": 320719.66,
+        "buyRatio": 58.24,
         "method": "5 分钟 K 线按收盘价相对开盘价方向归类的成交额估算；并非 ETF 申购赎回数据。"
       }
+    }
+  ],
+  "fxRatesAvailable": 2,
+  "fxRates": [
+    {
+      "pair": "USD/HKD",
+      "yahooSymbol": "HKD=X",
+      "baseCurrency": "USD",
+      "quoteCurrency": "HKD",
+      "rates": [
+        {
+          "date": "2026-04-23",
+          "close": 7.83195
+        },
+        {
+          "date": "2026-04-24",
+          "close": 7.83234
+        },
+        {
+          "date": "2026-04-27",
+          "close": 7.8349
+        },
+        {
+          "date": "2026-04-28",
+          "close": 7.8367
+        },
+        {
+          "date": "2026-04-29",
+          "close": 7.8356
+        },
+        {
+          "date": "2026-04-30",
+          "close": 7.8369
+        },
+        {
+          "date": "2026-05-01",
+          "close": 7.83267
+        },
+        {
+          "date": "2026-05-04",
+          "close": 7.8349
+        },
+        {
+          "date": "2026-05-05",
+          "close": 7.83305
+        },
+        {
+          "date": "2026-05-06",
+          "close": 7.83565
+        },
+        {
+          "date": "2026-05-07",
+          "close": 7.83408
+        },
+        {
+          "date": "2026-05-08",
+          "close": 7.83378
+        },
+        {
+          "date": "2026-05-11",
+          "close": 7.82869
+        },
+        {
+          "date": "2026-05-12",
+          "close": 7.8282
+        },
+        {
+          "date": "2026-05-13",
+          "close": 7.82818
+        },
+        {
+          "date": "2026-05-14",
+          "close": 7.8292
+        },
+        {
+          "date": "2026-05-15",
+          "close": 7.83226
+        },
+        {
+          "date": "2026-05-18",
+          "close": 7.83014
+        },
+        {
+          "date": "2026-05-19",
+          "close": 7.83029
+        },
+        {
+          "date": "2026-05-20",
+          "close": 7.8327
+        },
+        {
+          "date": "2026-05-21",
+          "close": 7.8314
+        },
+        {
+          "date": "2026-05-22",
+          "close": 7.83391
+        },
+        {
+          "date": "2026-05-25",
+          "close": 7.83467
+        },
+        {
+          "date": "2026-05-26",
+          "close": 7.83427
+        },
+        {
+          "date": "2026-05-27",
+          "close": 7.83581
+        },
+        {
+          "date": "2026-05-28",
+          "close": 7.83368
+        },
+        {
+          "date": "2026-05-29",
+          "close": 7.8333
+        },
+        {
+          "date": "2026-06-01",
+          "close": 7.83581
+        },
+        {
+          "date": "2026-06-02",
+          "close": 7.837
+        },
+        {
+          "date": "2026-06-03",
+          "close": 7.8369
+        },
+        {
+          "date": "2026-06-04",
+          "close": 7.83574
+        },
+        {
+          "date": "2026-06-05",
+          "close": 7.8343
+        },
+        {
+          "date": "2026-06-08",
+          "close": 7.83413
+        },
+        {
+          "date": "2026-06-09",
+          "close": 7.83612
+        },
+        {
+          "date": "2026-06-10",
+          "close": 7.8373
+        },
+        {
+          "date": "2026-06-11",
+          "close": 7.83555
+        },
+        {
+          "date": "2026-06-12",
+          "close": 7.83561
+        },
+        {
+          "date": "2026-06-15",
+          "close": 7.83463
+        },
+        {
+          "date": "2026-06-16",
+          "close": 7.8345
+        },
+        {
+          "date": "2026-06-17",
+          "close": 7.83259
+        },
+        {
+          "date": "2026-06-18",
+          "close": 7.83496
+        },
+        {
+          "date": "2026-06-19",
+          "close": 7.83681
+        },
+        {
+          "date": "2026-06-22",
+          "close": 7.83645
+        },
+        {
+          "date": "2026-06-23",
+          "close": 7.8393
+        },
+        {
+          "date": "2026-06-24",
+          "close": 7.8404
+        },
+        {
+          "date": "2026-06-25",
+          "close": 7.83892
+        },
+        {
+          "date": "2026-06-26",
+          "close": 7.83955
+        },
+        {
+          "date": "2026-06-29",
+          "close": 7.84181
+        },
+        {
+          "date": "2026-06-30",
+          "close": 7.8403
+        },
+        {
+          "date": "2026-07-01",
+          "close": 7.84245
+        },
+        {
+          "date": "2026-07-02",
+          "close": 7.8438
+        },
+        {
+          "date": "2026-07-03",
+          "close": 7.84281
+        },
+        {
+          "date": "2026-07-06",
+          "close": 7.84282
+        },
+        {
+          "date": "2026-07-07",
+          "close": 7.8423
+        },
+        {
+          "date": "2026-07-08",
+          "close": 7.8416
+        },
+        {
+          "date": "2026-07-09",
+          "close": 7.8388
+        },
+        {
+          "date": "2026-07-10",
+          "close": 7.8358
+        },
+        {
+          "date": "2026-07-13",
+          "close": 7.83946
+        },
+        {
+          "date": "2026-07-14",
+          "close": 7.8375
+        },
+        {
+          "date": "2026-07-15",
+          "close": 7.83749
+        },
+        {
+          "date": "2026-07-16",
+          "close": 7.83826
+        },
+        {
+          "date": "2026-07-17",
+          "close": 7.8405
+        },
+        {
+          "date": "2026-07-20",
+          "close": 7.83972
+        },
+        {
+          "date": "2026-07-21",
+          "close": 7.84065
+        },
+        {
+          "date": "2026-07-22",
+          "close": 7.84137
+        },
+        {
+          "date": "2026-07-23",
+          "close": 7.8399
+        },
+        {
+          "date": "2026-07-24",
+          "close": 7.8411
+        },
+        {
+          "date": "2026-07-27",
+          "close": 7.84178
+        },
+        {
+          "date": "2026-07-28",
+          "close": 7.84166
+        },
+        {
+          "date": "2026-07-29",
+          "close": 7.84073
+        },
+        {
+          "date": "2026-07-30",
+          "close": 7.84198
+        },
+        {
+          "date": "2026-07-31",
+          "close": 7.8428
+        },
+        {
+          "date": "2026-08-03",
+          "close": 7.84181
+        },
+        {
+          "date": "2026-08-04",
+          "close": 7.84171
+        },
+        {
+          "date": "2026-08-05",
+          "close": 7.8422
+        },
+        {
+          "date": "2026-08-06",
+          "close": 7.8433
+        },
+        {
+          "date": "2026-08-07",
+          "close": 7.8443
+        },
+        {
+          "date": "2026-08-10",
+          "close": 7.84519
+        },
+        {
+          "date": "2026-08-11",
+          "close": 7.84512
+        },
+        {
+          "date": "2026-08-12",
+          "close": 7.84641
+        },
+        {
+          "date": "2026-08-13",
+          "close": 7.8463
+        },
+        {
+          "date": "2026-08-14",
+          "close": 7.8472
+        },
+        {
+          "date": "2026-08-17",
+          "close": 7.84656
+        },
+        {
+          "date": "2026-08-18",
+          "close": 7.84405
+        },
+        {
+          "date": "2026-08-19",
+          "close": 7.84371
+        },
+        {
+          "date": "2026-08-20",
+          "close": 7.84003
+        },
+        {
+          "date": "2026-08-21",
+          "close": 7.84347
+        },
+        {
+          "date": "2026-08-24",
+          "close": 7.8392
+        },
+        {
+          "date": "2026-08-25",
+          "close": 7.83601
+        },
+        {
+          "date": "2026-08-26",
+          "close": 7.8394
+        }
+      ]
+    },
+    {
+      "pair": "RMB/HKD",
+      "yahooSymbol": "CNYHKD=X",
+      "baseCurrency": "RMB",
+      "quoteCurrency": "HKD",
+      "rates": [
+        {
+          "date": "2026-04-23",
+          "close": 1.147513
+        },
+        {
+          "date": "2026-04-24",
+          "close": 1.147369
+        },
+        {
+          "date": "2026-04-27",
+          "close": 1.146002
+        },
+        {
+          "date": "2026-04-28",
+          "close": 1.148522
+        },
+        {
+          "date": "2026-04-29",
+          "close": 1.145936
+        },
+        {
+          "date": "2026-04-30",
+          "close": 1.145792
+        },
+        {
+          "date": "2026-05-01",
+          "close": 1.146976
+        },
+        {
+          "date": "2026-05-04",
+          "close": 1.14734
+        },
+        {
+          "date": "2026-05-05",
+          "close": 1.146814
+        },
+        {
+          "date": "2026-05-06",
+          "close": 1.147084
+        },
+        {
+          "date": "2026-05-07",
+          "close": 1.150125
+        },
+        {
+          "date": "2026-05-08",
+          "close": 1.15172
+        },
+        {
+          "date": "2026-05-11",
+          "close": 1.15109
+        },
+        {
+          "date": "2026-05-12",
+          "close": 1.152079
+        },
+        {
+          "date": "2026-05-13",
+          "close": 1.152538
+        },
+        {
+          "date": "2026-05-14",
+          "close": 1.152663
+        },
+        {
+          "date": "2026-05-15",
+          "close": 1.15432
+        },
+        {
+          "date": "2026-05-18",
+          "close": 1.149822
+        },
+        {
+          "date": "2026-05-19",
+          "close": 1.151532
+        },
+        {
+          "date": "2026-05-20",
+          "close": 1.149293
+        },
+        {
+          "date": "2026-05-21",
+          "close": 1.151231
+        },
+        {
+          "date": "2026-05-22",
+          "close": 1.151488
+        },
+        {
+          "date": "2026-05-25",
+          "close": 1.152979
+        },
+        {
+          "date": "2026-05-26",
+          "close": 1.152968
+        },
+        {
+          "date": "2026-05-27",
+          "close": 1.154563
+        },
+        {
+          "date": "2026-05-28",
+          "close": 1.155386
+        },
+        {
+          "date": "2026-05-29",
+          "close": 1.155283
+        },
+        {
+          "date": "2026-06-01",
+          "close": 1.15805
+        },
+        {
+          "date": "2026-06-02",
+          "close": 1.158407
+        },
+        {
+          "date": "2026-06-03",
+          "close": 1.158795
+        },
+        {
+          "date": "2026-06-04",
+          "close": 1.15742
+        },
+        {
+          "date": "2026-06-05",
+          "close": 1.156492
+        },
+        {
+          "date": "2026-06-08",
+          "close": 1.157666
+        },
+        {
+          "date": "2026-06-09",
+          "close": 1.158027
+        },
+        {
+          "date": "2026-06-10",
+          "close": 1.157112
+        },
+        {
+          "date": "2026-06-11",
+          "close": 1.156929
+        },
+        {
+          "date": "2026-06-12",
+          "close": 1.156346
+        },
+        {
+          "date": "2026-06-15",
+          "close": 1.15688
+        },
+        {
+          "date": "2026-06-16",
+          "close": 1.158604
+        },
+        {
+          "date": "2026-06-17",
+          "close": 1.158974
+        },
+        {
+          "date": "2026-06-18",
+          "close": 1.159356
+        },
+        {
+          "date": "2026-06-19",
+          "close": 1.157686
+        },
+        {
+          "date": "2026-06-22",
+          "close": 1.157494
+        },
+        {
+          "date": "2026-06-23",
+          "close": 1.156897
+        },
+        {
+          "date": "2026-06-24",
+          "close": 1.154509
+        },
+        {
+          "date": "2026-06-25",
+          "close": 1.154152
+        },
+        {
+          "date": "2026-06-26",
+          "close": 1.154501
+        },
+        {
+          "date": "2026-06-29",
+          "close": 1.153512
+        },
+        {
+          "date": "2026-06-30",
+          "close": 1.153959
+        },
+        {
+          "date": "2026-07-01",
+          "close": 1.154286
+        },
+        {
+          "date": "2026-07-02",
+          "close": 1.154355
+        },
+        {
+          "date": "2026-07-03",
+          "close": 1.155221
+        },
+        {
+          "date": "2026-07-06",
+          "close": 1.155068
+        },
+        {
+          "date": "2026-07-07",
+          "close": 1.153808
+        },
+        {
+          "date": "2026-07-08",
+          "close": 1.154154
+        },
+        {
+          "date": "2026-07-09",
+          "close": 1.15212
+        },
+        {
+          "date": "2026-07-10",
+          "close": 1.15355
+        },
+        {
+          "date": "2026-07-13",
+          "close": 1.156761
+        },
+        {
+          "date": "2026-07-14",
+          "close": 1.155826
+        },
+        {
+          "date": "2026-07-15",
+          "close": 1.157556
+        },
+        {
+          "date": "2026-07-16",
+          "close": 1.157913
+        },
+        {
+          "date": "2026-07-17",
+          "close": 1.157472
+        },
+        {
+          "date": "2026-07-20",
+          "close": 1.157451
+        },
+        {
+          "date": "2026-07-21",
+          "close": 1.157507
+        },
+        {
+          "date": "2026-07-22",
+          "close": 1.158938
+        },
+        {
+          "date": "2026-07-23",
+          "close": 1.157411
+        },
+        {
+          "date": "2026-07-24",
+          "close": 1.157622
+        },
+        {
+          "date": "2026-07-27",
+          "close": 1.157898
+        },
+        {
+          "date": "2026-07-28",
+          "close": 1.158699
+        },
+        {
+          "date": "2026-07-29",
+          "close": 1.15791
+        },
+        {
+          "date": "2026-07-30",
+          "close": 1.158943
+        },
+        {
+          "date": "2026-07-31",
+          "close": 1.160945
+        },
+        {
+          "date": "2026-08-03",
+          "close": 1.16158
+        },
+        {
+          "date": "2026-08-04",
+          "close": 1.161065
+        },
+        {
+          "date": "2026-08-05",
+          "close": 1.161147
+        },
+        {
+          "date": "2026-08-06",
+          "close": 1.161936
+        },
+        {
+          "date": "2026-08-07",
+          "close": 1.162284
+        },
+        {
+          "date": "2026-08-10",
+          "close": 1.16263
+        },
+        {
+          "date": "2026-08-11",
+          "close": 1.162588
+        },
+        {
+          "date": "2026-08-12",
+          "close": 1.163135
+        },
+        {
+          "date": "2026-08-13",
+          "close": 1.163341
+        },
+        {
+          "date": "2026-08-14",
+          "close": 1.163571
+        },
+        {
+          "date": "2026-08-17",
+          "close": 1.163602
+        },
+        {
+          "date": "2026-08-18",
+          "close": 1.163733
+        },
+        {
+          "date": "2026-08-19",
+          "close": 1.163092
+        },
+        {
+          "date": "2026-08-20",
+          "close": 1.164932
+        },
+        {
+          "date": "2026-08-21",
+          "close": 1.166555
+        },
+        {
+          "date": "2026-08-24",
+          "close": 1.166317
+        },
+        {
+          "date": "2026-08-25",
+          "close": 1.165253
+        },
+        {
+          "date": "2026-08-26",
+          "close": 1.1661
+        }
+      ]
     }
   ],
   "disclaimer": "数据来自 yfinance 使用的 Yahoo Finance 公开接口，可能延迟、缺失或调整，仅供教育与研究展示。"
