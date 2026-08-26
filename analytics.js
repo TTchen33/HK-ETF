@@ -121,6 +121,58 @@
     };
   }
 
+  function premiumDiscount(record, catalogRecord = {}, marketSource = {}, maximumFxLagDays = 3) {
+    const snapshot = catalogRecord?.snapshot || {};
+    const navDate = snapshot.asOfDate;
+    const nav = Number(snapshot.navPerShare);
+    const navCurrencyRaw = String(snapshot.navCurrency || '').toUpperCase();
+    const navCurrency = ['CNY', 'CNH', 'RMB'].includes(navCurrencyRaw) ? 'RMB' : navCurrencyRaw;
+    const unavailable = (reason) => ({ stockCode: record?.stockCode, status: 'unavailable', reason, navDate, navCurrency });
+    if (!navDate || !Number.isFinite(nav) || nav <= 0) return unavailable('缺少有效的每单位净值或净值日期');
+    if (record?.currency !== 'HKD') return unavailable('当前只支持港元交易柜台');
+    const candle = (record?.candles || []).find((item) => item.date === navDate && isFiniteNumber(item.close));
+    if (!candle) return unavailable('净值日期没有可匹配的同日收盘价');
+
+    let fxRate = 1;
+    let fxDate = navDate;
+    let fxPair = 'HKD/HKD';
+    let fxLagDays = 0;
+    let estimated = false;
+    if (navCurrency !== 'HKD') {
+      if (!['USD', 'RMB'].includes(navCurrency)) return unavailable(`暂不支持 ${navCurrency || '未知'} 净值币种`);
+      fxPair = `${navCurrency}/HKD`;
+      const series = marketSource?.fxRates?.find((item) => item.pair === fxPair)?.rates || [];
+      const candidates = series.filter((item) => item.date <= navDate && isFiniteNumber(item.close)).sort((a, b) => b.date.localeCompare(a.date));
+      const match = candidates[0];
+      if (!match) return unavailable(`缺少 ${fxPair} 历史汇率`);
+      fxLagDays = Math.round((Date.parse(`${navDate}T00:00:00Z`) - Date.parse(`${match.date}T00:00:00Z`)) / 864e5);
+      if (fxLagDays < 0 || fxLagDays > maximumFxLagDays) return unavailable(`${fxPair} 汇率与净值日期相差超过 ${maximumFxLagDays} 天`);
+      fxRate = Number(match.close);
+      fxDate = match.date;
+      estimated = navCurrency === 'RMB' || fxLagDays > 0;
+    }
+    const navHkd = nav * fxRate;
+    const close = Number(candle.close);
+    const premiumPct = (close / navHkd - 1) * 100;
+    return {
+      stockCode: record.stockCode,
+      status: estimated ? 'estimated' : 'matched',
+      reason: estimated ? (navCurrency === 'RMB' ? '人民币净值使用 CNY/HKD 公开汇率作近似换算' : '使用最近可得汇率') : '净值、收盘价与汇率日期已对齐',
+      navDate,
+      nav,
+      navCurrency,
+      close,
+      closeDate: candle.date,
+      fxPair,
+      fxRate: round(fxRate, 6),
+      fxDate,
+      fxLagDays,
+      navHkd: round(navHkd, 4),
+      premiumPct: round(premiumPct, 2),
+      direction: premiumPct > 0.005 ? 'premium' : premiumPct < -0.005 ? 'discount' : 'flat',
+    };
+  }
+
   const api = {
     dailyReturns,
     cumulativeReturn,
@@ -131,6 +183,7 @@
     normalizedSeries,
     summarizeMarket,
     reliabilityReport,
+    premiumDiscount,
   };
   if (typeof module !== 'undefined' && module.exports) module.exports = api;
   if (root) root.HK_ETF_ANALYTICS = api;

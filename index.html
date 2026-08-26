@@ -88,6 +88,15 @@
       <div id="trustGrid" class="trust-grid"></div>
     </section>
 
+    <section class="premium-monitor" id="premium" aria-labelledby="premiumTitle">
+      <div class="premium-heading"><div><p class="eyebrow">PREMIUM / DISCOUNT MONITOR</p><h2 id="premiumTitle">ETF 溢价／折价监测</h2><p>将每单位净值按净值日期的汇率换算为港元，再与同日市场收盘价比较；不使用今天价格匹配旧净值。</p></div><span>历史日终估算 · 非实时 iNAV</span></div>
+      <div class="premium-stats"><article><span>可计算覆盖</span><b id="premiumCoverage">—</b><small>已对齐价格、净值与汇率</small></article><article><span>溢价</span><b id="premiumCount">—</b><small>市场价高于换算净值</small></article><article><span>折价</span><b id="discountCount">—</b><small>市场价低于换算净值</small></article><article><span>最大绝对偏离</span><b id="premiumLargest">—</b><small>仅在当前可计算记录中</small></article></div>
+      <div id="premiumDetail" class="premium-detail" aria-live="polite"></div>
+      <div class="premium-toolbar"><div id="premiumFilters" class="premium-filters" aria-label="筛选溢价折价状态"></div><span>人民币净值以 CNY/HKD 公开汇率近似；不同发布截止时间仍可能带来误差。</span></div>
+      <div class="premium-table-wrap"><table class="premium-table"><thead><tr><th>ETF</th><th>净值日期</th><th>每单位净值</th><th>换算汇率</th><th>港元净值</th><th>同日收盘价</th><th>溢价／折价</th><th>数据状态</th></tr></thead><tbody id="premiumTableBody"></tbody></table></div>
+      <p class="premium-disclaimer">计算式：(同日收盘价 ÷ 港元换算净值 − 1) × 100%。结果是历史日终估算，不代表交易所实时估算净值、可成交价或申购赎回资金流。</p>
+    </section>
+
     <section class="change-radar" id="changes" aria-labelledby="changeTitle">
       <div class="radar-heading"><div><p class="eyebrow">CATALOG CHANGE RADAR</p><h2 id="changeTitle">ETF 变化雷达</h2><p>自动比较前后两个标准化目录版本，记录新基金、下架、费率、基准、状态及显著规模变化。</p></div><div class="radar-version" id="radarVersion">正在读取版本记录…</div></div>
       <div class="radar-stats"><article><span>当前目录</span><b id="radarCurrent">—</b><small>ETF 产品记录</small></article><article><span>本次新增</span><b id="radarAdded">—</b><small>相对上一版本</small></article><article><span>累计事件</span><b id="radarEvents">—</b><small>自动去重保留</small></article><article><span>高关注变化</span><b id="radarHigh">—</b><small>费率、状态及显著变化</small></article></div>
@@ -117,6 +126,7 @@
   <script src="analytics.js"></script>
   <script src="app.js"></script>
   <script src="compare.js"></script>
+  <script src="premium.js"></script>
   <script src="radar.js"></script>
 </body>
 </html>

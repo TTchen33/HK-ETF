@@ -22,6 +22,10 @@ CATALOG_PATH = ROOT / "data" / "catalog-latest.json"
 SYMBOL_PATH = ROOT / "config" / "yfinance-symbols.json"
 JSON_OUTPUT = ROOT / "data" / "market-yfinance-latest.json"
 JS_OUTPUT = ROOT / "data" / "market-yfinance-latest.js"
+FX_PAIRS = {
+    "USD/HKD": {"symbol": "HKD=X", "baseCurrency": "USD", "quoteCurrency": "HKD"},
+    "RMB/HKD": {"symbol": "CNYHKD=X", "baseCurrency": "RMB", "quoteCurrency": "HKD"},
+}
 
 
 def finite_number(value: Any, digits: int = 4) -> float | int | None:
@@ -75,6 +79,17 @@ def candle_rows(history: pd.DataFrame) -> list[dict[str, Any]]:
             }
         )
     return rows
+
+
+def fx_rate_rows(history: pd.DataFrame) -> list[dict[str, Any]]:
+    """Keep date-aligned FX closes used to translate historical NAV into HKD."""
+    if history.empty or "Close" not in history:
+        return []
+    frame = history.dropna(subset=["Close"]).tail(90)
+    return [
+        {"date": pd.Timestamp(index).date().isoformat(), "close": finite_number(row["Close"], 6)}
+        for index, row in frame.iterrows()
+    ]
 
 
 def latest_intraday_session(history: pd.DataFrame) -> pd.DataFrame:
@@ -209,6 +224,7 @@ def main() -> None:
     catalog = json.loads(CATALOG_PATH.read_text(encoding="utf-8"))
     overrides = json.loads(SYMBOL_PATH.read_text(encoding="utf-8"))
     previous_records: dict[str, dict[str, Any]] = {}
+    previous_fx: dict[str, dict[str, Any]] = {}
     if JSON_OUTPUT.exists():
         try:
             previous = json.loads(JSON_OUTPUT.read_text(encoding="utf-8"))
@@ -217,8 +233,10 @@ def main() -> None:
                 for record in previous.get("records", [])
                 if record.get("status") == "ok"
             }
+            previous_fx = {item["pair"]: item for item in previous.get("fxRates", []) if item.get("rates")}
         except (json.JSONDecodeError, KeyError):
             previous_records = {}
+            previous_fx = {}
 
     requested = []
     for catalog_record in catalog.get("records", []):
@@ -233,8 +251,9 @@ def main() -> None:
             }
         )
     symbols = [item["symbol"] for item in requested]
-    print(f"Downloading daily history for {len(symbols)} symbols in one batch...")
-    daily_batch = batch_history(symbols, period="6mo", interval="1d")
+    daily_symbols = symbols + [pair["symbol"] for pair in FX_PAIRS.values()]
+    print(f"Downloading daily history for {len(daily_symbols)} ETF and FX symbols in one batch...")
+    daily_batch = batch_history(daily_symbols, period="6mo", interval="1d")
     print(f"Downloading 5-minute history for {len(symbols)} symbols in one batch...")
     intraday_batch = batch_history(symbols, period="5d", interval="5m")
 
@@ -259,12 +278,28 @@ def main() -> None:
             }
         records.append(record)
 
+    fx_rates = []
+    for pair, config in FX_PAIRS.items():
+        rates = fx_rate_rows(ticker_frame(daily_batch, config["symbol"]))
+        if rates:
+            fx_rates.append(
+                {
+                    "pair": pair,
+                    "yahooSymbol": config["symbol"],
+                    "baseCurrency": config["baseCurrency"],
+                    "quoteCurrency": config["quoteCurrency"],
+                    "rates": rates,
+                }
+            )
+        elif pair in previous_fx:
+            fx_rates.append({**previous_fx[pair], "stale": True})
+
     available = sum(record["status"] == "ok" for record in records)
     if not records or fresh == 0:
         raise RuntimeError("Market refresh returned no usable ETF records; previous output was preserved.")
 
     payload = {
-        "schemaVersion": "market-yfinance-v1",
+        "schemaVersion": "market-yfinance-v2",
         "provider": "Yahoo Finance via yfinance",
         "fetchedAt": datetime.now(timezone.utc).isoformat(),
         "quoteType": "delayed_or_end_of_bar",
@@ -272,6 +307,8 @@ def main() -> None:
         "recordsAvailable": available,
         "recordsFresh": fresh,
         "records": records,
+        "fxRatesAvailable": len(fx_rates),
+        "fxRates": fx_rates,
         "disclaimer": "数据来自 yfinance 使用的 Yahoo Finance 公开接口，可能延迟、缺失或调整，仅供教育与研究展示。",
     }
     serialized = json.dumps(payload, ensure_ascii=False, indent=2, allow_nan=False) + "\n"

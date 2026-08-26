@@ -45,4 +45,28 @@ const warning = analytics.reliabilityReport(
 assert.equal(warning.invalidCandles, 1);
 assert.ok(warning.score < 100);
 
+const premiumMarket = {
+  fxRates: [
+    { pair: 'USD/HKD', rates: [{ date: '2026-02-27', close: 7.8 }] },
+    { pair: 'RMB/HKD', rates: [{ date: '2026-02-27', close: 1.1 }] },
+  ],
+};
+const premiumRecord = { stockCode: 'TEST', currency: 'HKD', candles: [{ date: '2026-02-27', close: 78.78 }] };
+const usdPremium = analytics.premiumDiscount(premiumRecord, { snapshot: { asOfDate: '2026-02-27', navPerShare: 10, navCurrency: 'USD' } }, premiumMarket);
+assert.equal(usdPremium.status, 'matched');
+assert.equal(usdPremium.navHkd, 78);
+assert.equal(usdPremium.premiumPct, 1);
+assert.equal(usdPremium.direction, 'premium');
+
+const hkdDiscount = analytics.premiumDiscount(
+  { stockCode: 'TEST', currency: 'HKD', candles: [{ date: '2026-02-27', close: 99 }] },
+  { snapshot: { asOfDate: '2026-02-27', navPerShare: 100, navCurrency: 'HKD' } },
+  premiumMarket,
+);
+assert.equal(hkdDiscount.premiumPct, -1);
+assert.equal(hkdDiscount.direction, 'discount');
+
+const missingDate = analytics.premiumDiscount(premiumRecord, { snapshot: { asOfDate: '2026-02-26', navPerShare: 10, navCurrency: 'USD' } }, premiumMarket);
+assert.equal(missingDate.status, 'unavailable');
+
 console.log('analytics tests passed');
