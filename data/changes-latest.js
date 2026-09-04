@@ -1,31 +1,94 @@
 window.HK_ETF_CHANGES = {
   "schemaVersion": "catalog-change-radar-v1",
-  "generatedAt": "2026-08-25T16:11:44.279Z",
-  "previousCollectedAt": "2026-08-24T16:05:19.168Z",
-  "currentCollectedAt": "2026-08-25T16:11:43.049Z",
+  "generatedAt": "2026-09-04T14:13:49.907Z",
+  "previousCollectedAt": "2026-08-25T16:11:43.049Z",
+  "currentCollectedAt": "2026-09-04T14:13:48.568Z",
   "previousRecordCount": 46,
   "currentRecordCount": 46,
   "latestSummary": {
-    "total": 1,
+    "total": 3,
     "new": 0,
     "removed": 0,
     "fee": 0,
     "benchmark": 0,
     "status": 0,
-    "scale": 1,
+    "scale": 3,
     "metadata": 0
   },
   "historySummary": {
-    "total": 36,
+    "total": 39,
     "new": 35,
     "removed": 0,
     "fee": 0,
     "benchmark": 0,
     "status": 0,
-    "scale": 1,
+    "scale": 4,
     "metadata": 0
   },
   "events": [
+    {
+      "id": "3c892768601db2f1",
+      "type": "aum_jump",
+      "category": "scale",
+      "severity": "high",
+      "detectedAt": "2026-09-04T14:13:48.568Z",
+      "stockCode": "03488",
+      "name": "Value Partners HK-US Dividend Low Volatility ETF",
+      "issuer": "Value Partners Hong Kong Limited",
+      "summary": "基金规模较上一版本增加 74.4%",
+      "before": {
+        "value": 771113122.77,
+        "currency": "HKD"
+      },
+      "after": {
+        "value": 1345069882.31,
+        "currency": "HKD",
+        "changePct": 74.43
+      },
+      "sourceUrl": "https://www.valueetf.com.hk/eng/value-partners-hk-us-dividend-low-volatility-etf-3488.html"
+    },
+    {
+      "id": "3c92315057915a68",
+      "type": "aum_jump",
+      "category": "scale",
+      "severity": "high",
+      "detectedAt": "2026-09-04T14:13:48.568Z",
+      "stockCode": "3137",
+      "name": "Global X USD Money Market ETF",
+      "issuer": "Global X Hong Kong",
+      "summary": "基金规模较上一版本增加 53.7%",
+      "before": {
+        "value": 838990532.55,
+        "currency": "HKD"
+      },
+      "after": {
+        "value": 1289317884.66,
+        "currency": "HKD",
+        "changePct": 53.67
+      },
+      "sourceUrl": "https://www.globalxetfs.com.hk/funds/usd-money-market-etf/"
+    },
+    {
+      "id": "7521d30fce7c7ddc",
+      "type": "aum_jump",
+      "category": "scale",
+      "severity": "high",
+      "detectedAt": "2026-09-04T14:13:48.568Z",
+      "stockCode": "3555",
+      "name": "Global X Hang Seng High Dividend Yield Enhanced Income ETF",
+      "issuer": "Global X Hong Kong",
+      "summary": "基金规模较上一版本增加 60.7%",
+      "before": {
+        "value": 90004990.94,
+        "currency": "HKD"
+      },
+      "after": {
+        "value": 144617833.48,
+        "currency": "HKD",
+        "changePct": 60.68
+      },
+      "sourceUrl": "https://www.globalxetfs.com.hk/funds/hang-seng-high-dividend-yield-enhanced-income-etf/"
+    },
     {
       "id": "d9b643a503df1d64",
       "type": "aum_jump",

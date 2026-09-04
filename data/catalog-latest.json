@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-08-25T16:11:43.049Z",
+  "collectedAt": "2026-09-04T14:13:48.568Z",
   "source": "Issuer public product pages",
   "collectionMode": "multi-issuer configured catalog",
   "records": [
@@ -16,8 +16,8 @@
         "baseCurrency": "HKD",
         "distributionDescription": null,
         "listingDate": "2026-03-31",
-        "asOfDate": "2026-08-24",
-        "collectedAt": "2026-08-25T16:11:43.049Z",
+        "asOfDate": "2026-09-03",
+        "collectedAt": "2026-09-04T14:13:48.568Z",
         "productStructure": {
           "manager": "Value Partners Hong Kong Limited"
         }
@@ -31,16 +31,16 @@
         "status": "active_unverified"
       },
       "snapshot": {
-        "asOfDate": "2026-08-24",
-        "navPerShare": 16.2646,
+        "asOfDate": "2026-09-03",
+        "navPerShare": 16.1259,
         "navCurrency": "HKD",
-        "totalNav": 771113122.77,
+        "totalNav": 1345069882.31,
         "totalNavCurrency": "HKD",
         "outstandingUnits": null,
         "managementFeePct": 0.9,
         "ongoingChargesPct": 1.15,
         "sourceUrl": "https://www.valueetf.com.hk/eng/value-partners-hk-us-dividend-low-volatility-etf-3488.html",
-        "collectedAt": "2026-08-25T16:11:43.049Z"
+        "collectedAt": "2026-09-04T14:13:48.568Z"
       },
       "documents": [],
       "validation": {
@@ -61,8 +61,8 @@
         "baseCurrency": "RMB",
         "distributionDescription": "Annually at the Manager's discretion (May in each year).",
         "listingDate": "2020-01-17",
-        "asOfDate": "2026-08-24",
-        "collectedAt": "2026-08-25T16:10:25.244Z"
+        "asOfDate": "2026-09-03",
+        "collectedAt": "2026-09-04T14:12:06.160Z"
       },
       "listingCounter": {
         "exchange": "HKEX",
@@ -73,21 +73,21 @@
         "status": "active_unverified"
       },
       "snapshot": {
-        "asOfDate": "2026-08-24",
-        "navPerShare": 34.91,
+        "asOfDate": "2026-09-03",
+        "navPerShare": 33.35,
         "navCurrency": "RMB",
-        "totalNav": 174990717.16,
+        "totalNav": 167332646.11,
         "totalNavCurrency": "HKD",
         "outstandingUnits": 4300000,
         "managementFeePct": null,
         "ongoingChargesPct": 0.68,
         "sourceUrl": "https://www.globalxetfs.com.hk/funds/china-consumer-brand-etf/",
-        "collectedAt": "2026-08-25T16:10:25.244Z"
+        "collectedAt": "2026-09-04T14:12:06.160Z"
       },
       "documents": [
         {
           "type": "fact_sheet",
-          "url": "https://investments.miraeasset.com.hk/docs/ETF/2806e.pdf?v=1.3"
+          "url": "https://investments.miraeasset.com.hk/docs/ETF/2806e.pdf?v=1.5"
         }
       ],
       "validation": {
@@ -108,8 +108,8 @@
         "baseCurrency": "RMB",
         "distributionDescription": "Annually at the Manager's discretion (May in each year).",
         "listingDate": "2020-08-07",
-        "asOfDate": "2026-08-24",
-        "collectedAt": "2026-08-25T16:10:25.244Z"
+        "asOfDate": "2026-09-03",
+        "collectedAt": "2026-09-04T14:12:06.160Z"
       },
       "listingCounter": {
         "exchange": "HKEX",
@@ -120,21 +120,21 @@
         "status": "active_unverified"
       },
       "snapshot": {
-        "asOfDate": "2026-08-24",
-        "navPerShare": 46.8,
+        "asOfDate": "2026-09-03",
+        "navPerShare": 47.66,
         "navCurrency": "RMB",
-        "totalNav": 760966154.95,
+        "totalNav": 775767894.52,
         "totalNavCurrency": "HKD",
         "outstandingUnits": 13950000,
         "managementFeePct": null,
         "ongoingChargesPct": 0.68,
         "sourceUrl": "https://www.globalxetfs.com.hk/funds/global-x-china-robotics-ai-etf/",
-        "collectedAt": "2026-08-25T16:10:25.244Z"
+        "collectedAt": "2026-09-04T14:12:06.160Z"
       },
       "documents": [
         {
           "type": "fact_sheet",
-          "url": "https://investments.miraeasset.com.hk/docs/ETF/2807e.pdf?v=1.3"
+          "url": "https://investments.miraeasset.com.hk/docs/ETF/2807e.pdf?v=1.5"
         }
       ],
       "validation": {
@@ -155,8 +155,8 @@
         "baseCurrency": "RMB",
         "distributionDescription": "Annually at the Manager's discretion (May in each year).",
         "listingDate": "2020-01-17",
-        "asOfDate": "2026-08-24",
-        "collectedAt": "2026-08-25T16:10:25.244Z"
+        "asOfDate": "2026-09-03",
+        "collectedAt": "2026-09-04T14:12:06.160Z"
       },
       "listingCounter": {
         "exchange": "HKEX",
@@ -167,21 +167,21 @@
         "status": "active_unverified"
       },
       "snapshot": {
-        "asOfDate": "2026-08-24",
-        "navPerShare": 87.56,
+        "asOfDate": "2026-09-03",
+        "navPerShare": 83.49,
         "navCurrency": "RMB",
-        "totalNav": 433747089.99,
+        "totalNav": 414034500.81,
         "totalNavCurrency": "HKD",
         "outstandingUnits": 4250000,
         "managementFeePct": null,
         "ongoingChargesPct": 0.68,
         "sourceUrl": "https://www.globalxetfs.com.hk/funds/china-clean-energy-etf/",
-        "collectedAt": "2026-08-25T16:10:25.244Z"
+        "collectedAt": "2026-09-04T14:12:06.160Z"
       },
       "documents": [
         {
           "type": "fact_sheet",
-          "url": "https://investments.miraeasset.com.hk/docs/ETF/2809e.pdf?v=1.3"
+          "url": "https://investments.miraeasset.com.hk/docs/ETF/2809e.pdf?v=1.5"
         }
       ],
       "validation": {
@@ -202,8 +202,8 @@
         "baseCurrency": "RMB",
         "distributionDescription": "Annually (usually in May of each year) at the Manager’s discretion.*",
         "listingDate": "2023-11-20",
-        "asOfDate": "2026-08-24",
-        "collectedAt": "2026-08-25T16:10:25.244Z"
+        "asOfDate": "2026-09-03",
+        "collectedAt": "2026-09-04T14:12:06.160Z"
       },
       "listingCounter": {
         "exchange": "HKEX",
@@ -214,21 +214,21 @@
         "status": "active_unverified"
       },
       "snapshot": {
-        "asOfDate": "2026-08-24",
-        "navPerShare": 72.81,
+        "asOfDate": "2026-09-03",
+        "navPerShare": 72.33,
         "navCurrency": "RMB",
-        "totalNav": 33076092.02,
+        "totalNav": 32893775.54,
         "totalNavCurrency": "HKD",
         "outstandingUnits": 389750,
         "managementFeePct": null,
         "ongoingChargesPct": 0.68,
         "sourceUrl": "https://www.globalxetfs.com.hk/funds/china-little-giant-etf/",
-        "collectedAt": "2026-08-25T16:10:25.244Z"
+        "collectedAt": "2026-09-04T14:12:06.160Z"
       },
       "documents": [
         {
           "type": "fact_sheet",
-          "url": "https://investments.miraeasset.com.hk/docs/ETF/2815e.pdf?v=1.3"
+          "url": "https://investments.miraeasset.com.hk/docs/ETF/2815e.pdf?v=1.5"
         }
       ],
       "validation": {
@@ -249,8 +249,8 @@
         "baseCurrency": "RMB",
         "distributionDescription": "Annually at the Manager's discretion (May in each year).",
         "listingDate": "2019-07-25",
-        "asOfDate": "2026-08-24",
-        "collectedAt": "2026-08-25T16:10:25.244Z"
+        "asOfDate": "2026-09-03",
+        "collectedAt": "2026-09-04T14:12:06.160Z"
       },
       "listingCounter": {
         "exchange": "HKEX",
@@ -261,21 +261,21 @@
         "status": "active_unverified"
       },
       "snapshot": {
-        "asOfDate": "2026-08-24",
-        "navPerShare": 63.01,
+        "asOfDate": "2026-09-03",
+        "navPerShare": 63.81,
         "navCurrency": "RMB",
-        "totalNav": 675653475.49,
+        "totalNav": 685066286.07,
         "totalNavCurrency": "HKD",
         "outstandingUnits": 9200000,
         "managementFeePct": null,
         "ongoingChargesPct": 0.68,
         "sourceUrl": "https://www.globalxetfs.com.hk/funds/china-biotech-etf/",
-        "collectedAt": "2026-08-25T16:10:25.244Z"
+        "collectedAt": "2026-09-04T14:12:06.160Z"
       },
       "documents": [
         {
           "type": "fact_sheet",
-          "url": "http://investments.miraeasset.com.hk/docs/ETF/2820e.pdf?v=1.3"
+          "url": "http://investments.miraeasset.com.hk/docs/ETF/2820e.pdf?v=1.5"
         }
       ],
       "validation": {
@@ -296,8 +296,8 @@
         "baseCurrency": "RMB",
         "distributionDescription": "Annually at the Manager's discretion (May in each year).",
         "listingDate": "2019-07-25",
-        "asOfDate": "2026-08-24",
-        "collectedAt": "2026-08-25T16:10:25.244Z"
+        "asOfDate": "2026-09-03",
+        "collectedAt": "2026-09-04T14:12:06.160Z"
       },
       "listingCounter": {
         "exchange": "HKEX",
@@ -308,21 +308,21 @@
         "status": "active_unverified"
       },
       "snapshot": {
-        "asOfDate": "2026-08-24",
-        "navPerShare": 46.57,
+        "asOfDate": "2026-09-03",
+        "navPerShare": 46.42,
         "navCurrency": "RMB",
-        "totalNav": 176424996.21,
+        "totalNav": 176043559.45,
         "totalNavCurrency": "HKD",
         "outstandingUnits": 3250000,
         "managementFeePct": null,
         "ongoingChargesPct": 0.68,
         "sourceUrl": "https://www.globalxetfs.com.hk/funds/china-cloud-computing-etf/",
-        "collectedAt": "2026-08-25T16:10:25.244Z"
+        "collectedAt": "2026-09-04T14:12:06.160Z"
       },
       "documents": [
         {
           "type": "fact_sheet",
-          "url": "http://investments.miraeasset.com.hk/docs/ETF/2826e.pdf?v=1.3"
+          "url": "http://investments.miraeasset.com.hk/docs/ETF/2826e.pdf?v=1.5"
         }
       ],
       "validation": {
@@ -343,8 +343,8 @@
         "baseCurrency": "HKD",
         "distributionDescription": "Semi-annually (usually in March and Septemeber of each year) at the Manager’s discretion.*",
         "listingDate": "2023-03-30",
-        "asOfDate": "2026-08-24",
-        "collectedAt": "2026-08-25T16:10:25.244Z"
+        "asOfDate": "2026-09-03",
+        "collectedAt": "2026-09-04T14:12:06.160Z"
       },
       "listingCounter": {
         "exchange": "HKEX",
@@ -355,21 +355,21 @@
         "status": "active_unverified"
       },
       "snapshot": {
-        "asOfDate": "2026-08-24",
-        "navPerShare": 5.69,
+        "asOfDate": "2026-09-03",
+        "navPerShare": 5.53,
         "navCurrency": "HKD",
-        "totalNav": 2028648575.99,
+        "totalNav": 2172753506.09,
         "totalNavCurrency": "HKD",
-        "outstandingUnits": 356800000,
+        "outstandingUnits": 392800000,
         "managementFeePct": 0.45,
         "ongoingChargesPct": null,
         "sourceUrl": "https://www.globalxetfs.com.hk/funds/hang-seng-tech-etf/",
-        "collectedAt": "2026-08-25T16:10:25.244Z"
+        "collectedAt": "2026-09-04T14:12:06.160Z"
       },
       "documents": [
         {
           "type": "fact_sheet",
-          "url": "https://investments.miraeasset.com.hk/docs/ETF/2837e.pdf?v=1.3"
+          "url": "https://investments.miraeasset.com.hk/docs/ETF/2837e.pdf?v=1.5"
         }
       ],
       "validation": {
@@ -390,8 +390,8 @@
         "baseCurrency": "RMB",
         "distributionDescription": "Annually (usually in May of each year) at the Manager’s discretion. *",
         "listingDate": "2023-08-04",
-        "asOfDate": "2026-08-24",
-        "collectedAt": "2026-08-25T16:10:25.244Z"
+        "asOfDate": "2026-09-03",
+        "collectedAt": "2026-09-04T14:12:06.160Z"
       },
       "listingCounter": {
         "exchange": "HKEX",
@@ -402,21 +402,21 @@
         "status": "active_unverified"
       },
       "snapshot": {
-        "asOfDate": "2026-08-24",
-        "navPerShare": 34.37,
+        "asOfDate": "2026-09-03",
+        "navPerShare": 34.23,
         "navCurrency": "RMB",
-        "totalNav": 12019921.1,
+        "totalNav": 11984011.69,
         "totalNavCurrency": "HKD",
         "outstandingUnits": 300000,
         "managementFeePct": null,
         "ongoingChargesPct": 0.68,
         "sourceUrl": "https://www.globalxetfs.com.hk/funds/china-medtech-etf/",
-        "collectedAt": "2026-08-25T16:10:25.244Z"
+        "collectedAt": "2026-09-04T14:12:06.160Z"
       },
       "documents": [
         {
           "type": "fact_sheet",
-          "url": "https://investments.miraeasset.com.hk/docs/ETF/2841e.pdf?v=1.3"
+          "url": "https://investments.miraeasset.com.hk/docs/ETF/2841e.pdf?v=1.5"
         }
       ],
       "validation": {
@@ -437,8 +437,8 @@
         "baseCurrency": "RMB",
         "distributionDescription": "Annually at the Manager's discretion (May in each year).",
         "listingDate": "2020-01-17",
-        "asOfDate": "2026-08-24",
-        "collectedAt": "2026-08-25T16:10:25.244Z"
+        "asOfDate": "2026-09-03",
+        "collectedAt": "2026-09-04T14:12:06.160Z"
       },
       "listingCounter": {
         "exchange": "HKEX",
@@ -449,21 +449,21 @@
         "status": "active_unverified"
       },
       "snapshot": {
-        "asOfDate": "2026-08-24",
-        "navPerShare": 84.13,
+        "asOfDate": "2026-09-03",
+        "navPerShare": 79.96,
         "navCurrency": "RMB",
-        "totalNav": 892353585.87,
+        "totalNav": 849125922.3,
         "totalNavCurrency": "HKD",
         "outstandingUnits": 9100000,
         "managementFeePct": null,
         "ongoingChargesPct": 0.68,
         "sourceUrl": "https://www.globalxetfs.com.hk/funds/china-electric-vehicle-etf/",
-        "collectedAt": "2026-08-25T16:10:25.244Z"
+        "collectedAt": "2026-09-04T14:12:06.160Z"
       },
       "documents": [
         {
           "type": "fact_sheet",
-          "url": "https://investments.miraeasset.com.hk/docs/ETF/2845e.pdf?v=1.3"
+          "url": "https://investments.miraeasset.com.hk/docs/ETF/2845e.pdf?v=1.5"
         }
       ],
       "validation": {
@@ -484,8 +484,8 @@
         "baseCurrency": "USD",
         "distributionDescription": "Annually (usually in May of each year) at the Manager’s discretion.",
         "listingDate": "2022-03-21",
-        "asOfDate": "2026-08-24",
-        "collectedAt": "2026-08-25T16:10:25.244Z"
+        "asOfDate": "2026-09-03",
+        "collectedAt": "2026-09-04T14:12:06.160Z"
       },
       "listingCounter": {
         "exchange": "HKEX",
@@ -496,21 +496,21 @@
         "status": "active_unverified"
       },
       "snapshot": {
-        "asOfDate": "2026-08-24",
-        "navPerShare": 16.68,
+        "asOfDate": "2026-09-03",
+        "navPerShare": 17,
         "navCurrency": "USD",
-        "totalNav": 71913341.91,
+        "totalNav": 73288243.27,
         "totalNavCurrency": "HKD",
         "outstandingUnits": 550000,
         "managementFeePct": null,
         "ongoingChargesPct": 0.75,
         "sourceUrl": "https://www.globalxetfs.com.hk/funds/ai-and-innovative-technology-active-etf/",
-        "collectedAt": "2026-08-25T16:10:25.244Z"
+        "collectedAt": "2026-09-04T14:12:06.160Z"
       },
       "documents": [
         {
           "type": "fact_sheet",
-          "url": "https://investments.miraeasset.com.hk/docs/ETF/3006e.pdf?v=1.3"
+          "url": "https://investments.miraeasset.com.hk/docs/ETF/3006e.pdf?v=1.5"
         }
       ],
       "validation": {
@@ -531,8 +531,8 @@
         "baseCurrency": "HKD",
         "distributionDescription": "Annually at the Manager's discretion (May in each year).",
         "listingDate": "2022-03-21",
-        "asOfDate": "2026-08-24",
-        "collectedAt": "2026-08-25T16:10:25.244Z"
+        "asOfDate": "2026-09-03",
+        "collectedAt": "2026-09-04T14:12:06.160Z"
       },
       "listingCounter": {
         "exchange": "HKEX",
@@ -543,21 +543,21 @@
         "status": "active_unverified"
       },
       "snapshot": {
-        "asOfDate": "2026-08-24",
-        "navPerShare": 5.05,
+        "asOfDate": "2026-09-03",
+        "navPerShare": 5.01,
         "navCurrency": "HKD",
-        "totalNav": 17651908.51,
+        "totalNav": 17527639.04,
         "totalNavCurrency": "HKD",
         "outstandingUnits": 3000000,
         "managementFeePct": 0.29,
         "ongoingChargesPct": 0.29,
         "sourceUrl": "https://www.globalxetfs.com.hk/funds/hang-seng-esg-etf/",
-        "collectedAt": "2026-08-25T16:10:25.244Z"
+        "collectedAt": "2026-09-04T14:12:06.160Z"
       },
       "documents": [
         {
           "type": "fact_sheet",
-          "url": "https://investments.miraeasset.com.hk/docs/ETF/3029e.pdf?v=1.3"
+          "url": "https://investments.miraeasset.com.hk/docs/ETF/3029e.pdf?v=1.5"
         }
       ],
       "validation": {
@@ -578,8 +578,8 @@
         "baseCurrency": "HKD",
         "distributionDescription": "Annually at the Manager’s discretion (May in each year)",
         "listingDate": "2013-06-17",
-        "asOfDate": "2026-08-24",
-        "collectedAt": "2026-08-25T16:10:25.244Z"
+        "asOfDate": "2026-09-03",
+        "collectedAt": "2026-09-04T14:12:06.160Z"
       },
       "listingCounter": {
         "exchange": "HKEX",
@@ -590,21 +590,21 @@
         "status": "active_unverified"
       },
       "snapshot": {
-        "asOfDate": "2026-08-24",
-        "navPerShare": 34.18,
+        "asOfDate": "2026-09-03",
+        "navPerShare": 33.84,
         "navCurrency": "HKD",
-        "totalNav": 451133927.32,
+        "totalNav": 446632734.99,
         "totalNavCurrency": "HKD",
         "outstandingUnits": 13200000,
         "managementFeePct": 0.18,
         "ongoingChargesPct": null,
         "sourceUrl": "https://www.globalxetfs.com.hk/funds/msci-china-etf/",
-        "collectedAt": "2026-08-25T16:10:25.244Z"
+        "collectedAt": "2026-09-04T14:12:06.160Z"
       },
       "documents": [
         {
           "type": "fact_sheet",
-          "url": "http://investments.miraeasset.com.hk/docs/ETF/3040e.pdf?v=1.3"
+          "url": "http://investments.miraeasset.com.hk/docs/ETF/3040e.pdf?v=1.5"
         }
       ],
       "validation": {
@@ -625,8 +625,8 @@
         "baseCurrency": "RMB",
         "distributionDescription": "Semi-annually at the Manager’s discretion (March and September) *",
         "listingDate": "2022-10-19",
-        "asOfDate": "2026-08-24",
-        "collectedAt": "2026-08-25T16:10:25.244Z"
+        "asOfDate": "2026-09-03",
+        "collectedAt": "2026-09-04T14:12:06.160Z"
       },
       "listingCounter": {
         "exchange": "HKEX",
@@ -637,21 +637,21 @@
         "status": "active_unverified"
       },
       "snapshot": {
-        "asOfDate": "2026-08-24",
-        "navPerShare": 52.85,
+        "asOfDate": "2026-09-03",
+        "navPerShare": 52.29,
         "navCurrency": "RMB",
-        "totalNav": 17556125.32,
+        "totalNav": 17389472.25,
         "totalNavCurrency": "HKD",
         "outstandingUnits": 285000,
         "managementFeePct": null,
         "ongoingChargesPct": 0.3,
         "sourceUrl": "https://www.globalxetfs.com.hk/funds/ftse-china-policy-bank-bond-etf/",
-        "collectedAt": "2026-08-25T16:10:25.244Z"
+        "collectedAt": "2026-09-04T14:12:06.160Z"
       },
       "documents": [
         {
           "type": "fact_sheet",
-          "url": "http://investments.miraeasset.com.hk/docs/ETF/3041e.pdf?v=1.3"
+          "url": "http://investments.miraeasset.com.hk/docs/ETF/3041e.pdf?v=1.5"
         }
       ],
       "validation": {
@@ -672,8 +672,8 @@
         "baseCurrency": "RMB",
         "distributionDescription": "Annually at the Manager's discretion (May in each year).",
         "listingDate": "2021-03-11",
-        "asOfDate": "2026-08-24",
-        "collectedAt": "2026-08-25T16:10:25.244Z"
+        "asOfDate": "2026-09-03",
+        "collectedAt": "2026-09-04T14:12:06.160Z"
       },
       "listingCounter": {
         "exchange": "HKEX",
@@ -684,21 +684,21 @@
         "status": "active_unverified"
       },
       "snapshot": {
-        "asOfDate": "2026-08-24",
-        "navPerShare": 50.2,
+        "asOfDate": "2026-09-03",
+        "navPerShare": 48.83,
         "navCurrency": "RMB",
-        "totalNav": 38033362.29,
+        "totalNav": 37038802.66,
         "totalNavCurrency": "HKD",
         "outstandingUnits": 650000,
         "managementFeePct": 0.68,
         "ongoingChargesPct": null,
         "sourceUrl": "https://www.globalxetfs.com.hk/funds/china-global-leaders-etf/",
-        "collectedAt": "2026-08-25T16:10:25.244Z"
+        "collectedAt": "2026-09-04T14:12:06.160Z"
       },
       "documents": [
         {
           "type": "fact_sheet",
-          "url": "https://investments.miraeasset.com.hk/docs/ETF/3050e.pdf?v=1.3"
+          "url": "https://investments.miraeasset.com.hk/docs/ETF/3050e.pdf?v=1.5"
         }
       ],
       "validation": {
@@ -719,8 +719,8 @@
         "baseCurrency": "USD",
         "distributionDescription": "Semi-annually at the Manager’s discretion (March and September) *",
         "listingDate": "2022-08-19",
-        "asOfDate": "2026-08-24",
-        "collectedAt": "2026-08-25T16:10:25.244Z"
+        "asOfDate": "2026-09-03",
+        "collectedAt": "2026-09-04T14:12:06.160Z"
       },
       "listingCounter": {
         "exchange": "HKEX",
@@ -731,21 +731,21 @@
         "status": "active_unverified"
       },
       "snapshot": {
-        "asOfDate": "2026-08-24",
-        "navPerShare": 7.37,
+        "asOfDate": "2026-09-03",
+        "navPerShare": 7.29,
         "navCurrency": "USD",
-        "totalNav": 45917594.03,
+        "totalNav": 45423004.93,
         "totalNavCurrency": "HKD",
         "outstandingUnits": 795000,
         "managementFeePct": null,
         "ongoingChargesPct": 0.4,
         "sourceUrl": "https://www.globalxetfs.com.hk/funds/bloomberg-msci-asia-ex-japan-green-bond-etf/",
-        "collectedAt": "2026-08-25T16:10:25.244Z"
+        "collectedAt": "2026-09-04T14:12:06.160Z"
       },
       "documents": [
         {
           "type": "fact_sheet",
-          "url": "https://investments.miraeasset.com.hk/docs/ETF/3059e.pdf?v=1.3"
+          "url": "https://investments.miraeasset.com.hk/docs/ETF/3059e.pdf?v=1.5"
         }
       ],
       "validation": {
@@ -766,8 +766,8 @@
         "baseCurrency": "USD",
         "distributionDescription": "prospectus for further details.\"> Annually (usually in May of each year) at the Manager’s discretion. *",
         "listingDate": "2025-06-09",
-        "asOfDate": "2026-08-24",
-        "collectedAt": "2026-08-25T16:10:25.244Z"
+        "asOfDate": "2026-09-03",
+        "collectedAt": "2026-09-04T14:12:06.160Z"
       },
       "listingCounter": {
         "exchange": "HKEX",
@@ -778,21 +778,21 @@
         "status": "active_unverified"
       },
       "snapshot": {
-        "asOfDate": "2026-08-24",
-        "navPerShare": 10.22,
+        "asOfDate": "2026-09-03",
+        "navPerShare": 10.26,
         "navCurrency": "USD",
-        "totalNav": 448628349.36,
+        "totalNav": 450604246.65,
         "totalNavCurrency": "HKD",
         "outstandingUnits": 5600000,
         "managementFeePct": null,
         "ongoingChargesPct": 0.18,
         "sourceUrl": "https://www.globalxetfs.com.hk/funds/msci-asia-pacific-ex-japan-etf/",
-        "collectedAt": "2026-08-25T16:10:25.244Z"
+        "collectedAt": "2026-09-04T14:12:06.160Z"
       },
       "documents": [
         {
           "type": "fact_sheet",
-          "url": "https://investments.miraeasset.com.hk/docs/ETF/3064e.pdf?v=1.3"
+          "url": "https://investments.miraeasset.com.hk/docs/ETF/3064e.pdf?v=1.5"
         }
       ],
       "validation": {
@@ -813,8 +813,8 @@
         "baseCurrency": "USD",
         "distributionDescription": "Monthly at the Manager’s discretion.*",
         "listingDate": "2023-10-12",
-        "asOfDate": "2026-08-24",
-        "collectedAt": "2026-08-25T16:10:25.244Z"
+        "asOfDate": "2026-09-03",
+        "collectedAt": "2026-09-04T14:12:06.160Z"
       },
       "listingCounter": {
         "exchange": "HKEX",
@@ -825,21 +825,21 @@
         "status": "active_unverified"
       },
       "snapshot": {
-        "asOfDate": "2026-08-24",
-        "navPerShare": 7.27,
+        "asOfDate": "2026-09-03",
+        "navPerShare": 7.22,
         "navCurrency": "USD",
-        "totalNav": 70907604.11,
+        "totalNav": 72187493.39,
         "totalNavCurrency": "HKD",
-        "outstandingUnits": 1245000,
+        "outstandingUnits": 1275000,
         "managementFeePct": 0.35,
         "ongoingChargesPct": null,
         "sourceUrl": "https://www.globalxetfs.com.hk/funds/asia-usd-investment-grade-bond-etf/",
-        "collectedAt": "2026-08-25T16:10:25.244Z"
+        "collectedAt": "2026-09-04T14:12:06.160Z"
       },
       "documents": [
         {
           "type": "fact_sheet",
-          "url": "https://investments.miraeasset.com.hk/docs/ETF/3075e.pdf?v=1.3"
+          "url": "https://investments.miraeasset.com.hk/docs/ETF/3075e.pdf?v=1.5"
         }
       ],
       "validation": {
@@ -860,8 +860,8 @@
         "baseCurrency": "USD",
         "distributionDescription": "Annually (usually in May of each year) at the Manager’s discretion. *",
         "listingDate": "2024-11-26",
-        "asOfDate": "2026-08-24",
-        "collectedAt": "2026-08-25T16:10:25.244Z"
+        "asOfDate": "2026-09-03",
+        "collectedAt": "2026-09-04T14:12:06.160Z"
       },
       "listingCounter": {
         "exchange": "HKEX",
@@ -872,21 +872,21 @@
         "status": "active_unverified"
       },
       "snapshot": {
-        "asOfDate": "2026-08-24",
-        "navPerShare": 6.33,
+        "asOfDate": "2026-09-03",
+        "navPerShare": 6.35,
         "navCurrency": "USD",
-        "totalNav": 71522763.03,
+        "totalNav": 71788301.92,
         "totalNavCurrency": "HKD",
         "outstandingUnits": 1441428,
         "managementFeePct": null,
         "ongoingChargesPct": 0.9,
         "sourceUrl": "https://www.globalxetfs.com.hk/funds/india-sector-leader-active-etf/",
-        "collectedAt": "2026-08-25T16:10:25.244Z"
+        "collectedAt": "2026-09-04T14:12:06.160Z"
       },
       "documents": [
         {
           "type": "fact_sheet",
-          "url": "https://investments.miraeasset.com.hk/docs/ETF/3084e.pdf?v=1.3"
+          "url": "https://investments.miraeasset.com.hk/docs/ETF/3084e.pdf?v=1.5"
         }
       ],
       "validation": {
@@ -907,8 +907,8 @@
         "baseCurrency": "HKD",
         "distributionDescription": "Annually at Manager's discretion (March)",
         "listingDate": "2016-06-16",
-        "asOfDate": "2026-08-24",
-        "collectedAt": "2026-08-25T16:10:25.244Z"
+        "asOfDate": "2026-09-03",
+        "collectedAt": "2026-09-04T14:12:06.160Z"
       },
       "listingCounter": {
         "exchange": "HKEX",
@@ -919,21 +919,21 @@
         "status": "active_unverified"
       },
       "snapshot": {
-        "asOfDate": "2026-08-24",
-        "navPerShare": 8.57,
+        "asOfDate": "2026-09-03",
+        "navPerShare": 9.18,
         "navCurrency": "HKD",
-        "totalNav": 111432311.24,
+        "totalNav": 119298286.32,
         "totalNavCurrency": "HKD",
         "outstandingUnits": 13000000,
         "managementFeePct": 0.75,
         "ongoingChargesPct": 2.42,
         "sourceUrl": "https://www.globalxetfs.com.hk/funds/sp-crude-oil-futures-etf/",
-        "collectedAt": "2026-08-25T16:10:25.244Z"
+        "collectedAt": "2026-09-04T14:12:06.160Z"
       },
       "documents": [
         {
           "type": "fact_sheet",
-          "url": "http://investments.miraeasset.com.hk/docs/ETF/3097e.pdf?v=1.3"
+          "url": "http://investments.miraeasset.com.hk/docs/ETF/3097e.pdf?v=1.5"
         }
       ],
       "validation": {
@@ -954,8 +954,8 @@
         "baseCurrency": "USD",
         "distributionDescription": "Annually (usually in May of each year) at the Manager’s discretion. *",
         "listingDate": "2024-11-26",
-        "asOfDate": "2026-08-24",
-        "collectedAt": "2026-08-25T16:10:25.244Z"
+        "asOfDate": "2026-09-03",
+        "collectedAt": "2026-09-04T14:12:06.160Z"
       },
       "listingCounter": {
         "exchange": "HKEX",
@@ -966,21 +966,21 @@
         "status": "active_unverified"
       },
       "snapshot": {
-        "asOfDate": "2026-08-24",
-        "navPerShare": 11.97,
+        "asOfDate": "2026-09-03",
+        "navPerShare": 12.06,
         "navCurrency": "USD",
-        "totalNav": 3887711.16,
+        "totalNav": 3917339.6,
         "totalNavCurrency": "HKD",
         "outstandingUnits": 41428,
         "managementFeePct": null,
         "ongoingChargesPct": 0.9,
         "sourceUrl": "https://www.globalxetfs.com.hk/funds/emerging-markets-asia-active-etf/",
-        "collectedAt": "2026-08-25T16:10:25.244Z"
+        "collectedAt": "2026-09-04T14:12:06.160Z"
       },
       "documents": [
         {
           "type": "fact_sheet",
-          "url": "https://investments.miraeasset.com.hk/docs/ETF/3104e.pdf?v=1.3"
+          "url": "https://investments.miraeasset.com.hk/docs/ETF/3104e.pdf?v=1.5"
         }
       ],
       "validation": {
@@ -1001,8 +1001,8 @@
         "baseCurrency": "HKD",
         "distributionDescription": "Semi-annually at the Manager’s discretion (Mar and Sep)",
         "listingDate": "2013-06-17",
-        "asOfDate": "2026-08-24",
-        "collectedAt": "2026-08-25T16:10:25.244Z"
+        "asOfDate": "2026-09-03",
+        "collectedAt": "2026-09-04T14:12:06.160Z"
       },
       "listingCounter": {
         "exchange": "HKEX",
@@ -1013,21 +1013,21 @@
         "status": "active_unverified"
       },
       "snapshot": {
-        "asOfDate": "2026-08-24",
-        "navPerShare": 31.87,
+        "asOfDate": "2026-09-03",
+        "navPerShare": 31.18,
         "navCurrency": "HKD",
-        "totalNav": 5907900523.96,
+        "totalNav": 5780664065.75,
         "totalNavCurrency": "HKD",
         "outstandingUnits": 185400000,
         "managementFeePct": 0.68,
         "ongoingChargesPct": null,
         "sourceUrl": "https://www.globalxetfs.com.hk/funds/hang-seng-high-dividend-yield-etf/",
-        "collectedAt": "2026-08-25T16:10:25.244Z"
+        "collectedAt": "2026-09-04T14:12:06.160Z"
       },
       "documents": [
         {
           "type": "fact_sheet",
-          "url": "http://investments.miraeasset.com.hk/docs/ETF/3110e.pdf?v=1.3"
+          "url": "http://investments.miraeasset.com.hk/docs/ETF/3110e.pdf?v=1.5"
         }
       ],
       "validation": {
@@ -1048,8 +1048,8 @@
         "baseCurrency": "USD",
         "distributionDescription": "Monthly at the Manager’s discretion (Dividend rate is not guaranteed, distributions may be made out of capital #) *",
         "listingDate": "2022-07-27",
-        "asOfDate": "2026-08-24",
-        "collectedAt": "2026-08-25T16:10:25.244Z"
+        "asOfDate": "2026-09-03",
+        "collectedAt": "2026-09-04T14:12:06.160Z"
       },
       "listingCounter": {
         "exchange": "HKEX",
@@ -1060,21 +1060,21 @@
         "status": "active_unverified"
       },
       "snapshot": {
-        "asOfDate": "2026-08-24",
-        "navPerShare": 13.62,
+        "asOfDate": "2026-09-03",
+        "navPerShare": 13.31,
         "navCurrency": "USD",
-        "totalNav": 53348780.07,
+        "totalNav": 52163158.74,
         "totalNavCurrency": "HKD",
         "outstandingUnits": 500000,
         "managementFeePct": null,
         "ongoingChargesPct": 0.68,
         "sourceUrl": "https://www.globalxetfs.com.hk/funds/asia-pacific-high-dividend-yield-etf/",
-        "collectedAt": "2026-08-25T16:10:25.244Z"
+        "collectedAt": "2026-09-04T14:12:06.160Z"
       },
       "documents": [
         {
           "type": "fact_sheet",
-          "url": "https://investments.miraeasset.com.hk/docs/ETF/3116e.pdf?v=1.3"
+          "url": "https://investments.miraeasset.com.hk/docs/ETF/3116e.pdf?v=1.5"
         }
       ],
       "validation": {
@@ -1095,8 +1095,8 @@
         "baseCurrency": "RMB",
         "distributionDescription": "Annually at the Manager's discretion (May in each year).",
         "listingDate": "2021-07-23",
-        "asOfDate": "2026-08-24",
-        "collectedAt": "2026-08-25T16:10:25.244Z"
+        "asOfDate": "2026-09-03",
+        "collectedAt": "2026-09-04T14:12:06.160Z"
       },
       "listingCounter": {
         "exchange": "HKEX",
@@ -1107,21 +1107,21 @@
         "status": "active_unverified"
       },
       "snapshot": {
-        "asOfDate": "2026-08-24",
-        "navPerShare": 147.61,
+        "asOfDate": "2026-09-03",
+        "navPerShare": 147.72,
         "navCurrency": "RMB",
-        "totalNav": 1471034520.5,
+        "totalNav": 1508285135.42,
         "totalNavCurrency": "HKD",
-        "outstandingUnits": 8550000,
+        "outstandingUnits": 8750000,
         "managementFeePct": null,
         "ongoingChargesPct": 0.68,
         "sourceUrl": "https://www.globalxetfs.com.hk/funds/asia-semiconductor-etf/",
-        "collectedAt": "2026-08-25T16:10:25.244Z"
+        "collectedAt": "2026-09-04T14:12:06.160Z"
       },
       "documents": [
         {
           "type": "fact_sheet",
-          "url": "https://investments.miraeasset.com.hk/docs/ETF/3119e.pdf?v=1.3"
+          "url": "https://investments.miraeasset.com.hk/docs/ETF/3119e.pdf?v=1.5"
         }
       ],
       "validation": {
@@ -1142,8 +1142,8 @@
         "baseCurrency": "USD",
         "distributionDescription": "Annually (usually in Septemeber of each year) at the Manager’s discretion.*",
         "listingDate": "2023-06-29",
-        "asOfDate": "2026-08-24",
-        "collectedAt": "2026-08-25T16:10:25.244Z"
+        "asOfDate": "2026-09-03",
+        "collectedAt": "2026-09-04T14:12:06.160Z"
       },
       "listingCounter": {
         "exchange": "HKEX",
@@ -1154,21 +1154,21 @@
         "status": "active_unverified"
       },
       "snapshot": {
-        "asOfDate": "2026-08-24",
-        "navPerShare": 144.48,
+        "asOfDate": "2026-09-03",
+        "navPerShare": 144.64,
         "navCurrency": "USD",
-        "totalNav": 838990532.55,
+        "totalNav": 1289317884.66,
         "totalNavCurrency": "HKD",
-        "outstandingUnits": 741000,
+        "outstandingUnits": 1137000,
         "managementFeePct": 0.05,
         "ongoingChargesPct": null,
         "sourceUrl": "https://www.globalxetfs.com.hk/funds/usd-money-market-etf/",
-        "collectedAt": "2026-08-25T16:10:25.244Z"
+        "collectedAt": "2026-09-04T14:12:06.160Z"
       },
       "documents": [
         {
           "type": "fact_sheet",
-          "url": "http://investments.miraeasset.com.hk/docs/ETF/3137e.pdf?v=1.3"
+          "url": "http://investments.miraeasset.com.hk/docs/ETF/3137e.pdf?v=1.5"
         }
       ],
       "validation": {
@@ -1189,8 +1189,8 @@
         "baseCurrency": "USD",
         "distributionDescription": "Annually (usually in May of each year) at the Manager’s discretion.",
         "listingDate": "2022-03-21",
-        "asOfDate": "2026-08-24",
-        "collectedAt": "2026-08-25T16:10:25.244Z"
+        "asOfDate": "2026-09-03",
+        "collectedAt": "2026-09-04T14:12:06.160Z"
       },
       "listingCounter": {
         "exchange": "HKEX",
@@ -1201,21 +1201,21 @@
         "status": "active_unverified"
       },
       "snapshot": {
-        "asOfDate": "2026-08-24",
-        "navPerShare": 10.77,
+        "asOfDate": "2026-09-03",
+        "navPerShare": 10.61,
         "navCurrency": "USD",
-        "totalNav": 8440840.89,
+        "totalNav": 8314668.94,
         "totalNavCurrency": "HKD",
         "outstandingUnits": 100000,
         "managementFeePct": null,
         "ongoingChargesPct": 0.75,
         "sourceUrl": "https://www.globalxetfs.com.hk/funds/ev-and-humanoid-robot-active-etf/",
-        "collectedAt": "2026-08-25T16:10:25.244Z"
+        "collectedAt": "2026-09-04T14:12:06.160Z"
       },
       "documents": [
         {
           "type": "fact_sheet",
-          "url": "https://investments.miraeasset.com.hk/docs/ETF/3139e.pdf?v=1.3"
+          "url": "https://investments.miraeasset.com.hk/docs/ETF/3139e.pdf?v=1.5"
         }
       ],
       "validation": {
@@ -1236,8 +1236,8 @@
         "baseCurrency": null,
         "distributionDescription": "Annually (usually in May of each year) at the Manager’s discretion.*",
         "listingDate": "2023-11-24",
-        "asOfDate": "2026-08-24",
-        "collectedAt": "2026-08-25T16:10:25.244Z"
+        "asOfDate": "2026-09-03",
+        "collectedAt": "2026-09-04T14:12:06.160Z"
       },
       "listingCounter": {
         "exchange": "HKEX",
@@ -1248,21 +1248,21 @@
         "status": "active_unverified"
       },
       "snapshot": {
-        "asOfDate": "2026-08-24",
-        "navPerShare": 86.5,
+        "asOfDate": "2026-09-03",
+        "navPerShare": 89.08,
         "navCurrency": "HKD",
-        "totalNav": 24619752.82,
+        "totalNav": 25039510.71,
         "totalNavCurrency": "HKD",
         "outstandingUnits": 275000,
         "managementFeePct": 0.68,
         "ongoingChargesPct": null,
         "sourceUrl": "https://www.globalxetfs.com.hk/funds/japan-global-leaders-etf/",
-        "collectedAt": "2026-08-25T16:10:25.244Z"
+        "collectedAt": "2026-09-04T14:12:06.160Z"
       },
       "documents": [
         {
           "type": "fact_sheet",
-          "url": "https://investments.miraeasset.com.hk/docs/ETF/3150e.pdf?v=1.3"
+          "url": "https://investments.miraeasset.com.hk/docs/ETF/3150e.pdf?v=1.5"
         }
       ],
       "validation": {
@@ -1283,8 +1283,8 @@
         "baseCurrency": null,
         "distributionDescription": "Annually (usually in May of each year) at the Manager’s discretion.*",
         "listingDate": "2024-03-19",
-        "asOfDate": "2026-08-24",
-        "collectedAt": "2026-08-25T16:10:25.244Z"
+        "asOfDate": "2026-09-03",
+        "collectedAt": "2026-09-04T14:12:06.160Z"
       },
       "listingCounter": {
         "exchange": "HKEX",
@@ -1295,21 +1295,21 @@
         "status": "active_unverified"
       },
       "snapshot": {
-        "asOfDate": "2026-08-24",
+        "asOfDate": "2026-09-03",
         "navPerShare": null,
         "navCurrency": null,
-        "totalNav": 7122379.66,
+        "totalNav": 7213975.01,
         "totalNavCurrency": "HKD",
         "outstandingUnits": 125000,
         "managementFeePct": null,
         "ongoingChargesPct": 0.68,
         "sourceUrl": "https://www.globalxetfs.com.hk/funds/kpop-and-culture-etf/",
-        "collectedAt": "2026-08-25T16:10:25.244Z"
+        "collectedAt": "2026-09-04T14:12:06.160Z"
       },
       "documents": [
         {
           "type": "fact_sheet",
-          "url": "https://investments.miraeasset.com.hk/docs/ETF/3158e.pdf?v=1.3"
+          "url": "https://investments.miraeasset.com.hk/docs/ETF/3158e.pdf?v=1.5"
         }
       ],
       "validation": {
@@ -1332,8 +1332,8 @@
         "baseCurrency": "USD",
         "distributionDescription": "Annually (usually in May of each year) at the Manager’s discretion.*",
         "listingDate": "2024-03-19",
-        "asOfDate": "2026-08-24",
-        "collectedAt": "2026-08-25T16:10:25.244Z"
+        "asOfDate": "2026-09-03",
+        "collectedAt": "2026-09-04T14:12:06.160Z"
       },
       "listingCounter": {
         "exchange": "HKEX",
@@ -1344,21 +1344,21 @@
         "status": "active_unverified"
       },
       "snapshot": {
-        "asOfDate": "2026-08-24",
-        "navPerShare": 46.23,
+        "asOfDate": "2026-09-03",
+        "navPerShare": 46.15,
         "navCurrency": "HKD",
-        "totalNav": 8540201.61,
+        "totalNav": 8526699.97,
         "totalNavCurrency": "HKD",
         "outstandingUnits": 184750,
         "managementFeePct": null,
         "ongoingChargesPct": 0.68,
         "sourceUrl": "https://www.globalxetfs.com.hk/funds/india-top-10-etf/",
-        "collectedAt": "2026-08-25T16:10:25.244Z"
+        "collectedAt": "2026-09-04T14:12:06.160Z"
       },
       "documents": [
         {
           "type": "fact_sheet",
-          "url": "https://investments.miraeasset.com.hk/docs/ETF/3184e.pdf?v=1.3"
+          "url": "https://investments.miraeasset.com.hk/docs/ETF/3184e.pdf?v=1.5"
         }
       ],
       "validation": {
@@ -1379,8 +1379,8 @@
         "baseCurrency": "USD",
         "distributionDescription": "Annually at the Manager's discretion (May in each year).",
         "listingDate": "2021-12-10",
-        "asOfDate": "2026-08-24",
-        "collectedAt": "2026-08-25T16:10:25.244Z"
+        "asOfDate": "2026-09-03",
+        "collectedAt": "2026-09-04T14:12:06.160Z"
       },
       "listingCounter": {
         "exchange": "HKEX",
@@ -1391,21 +1391,21 @@
         "status": "active_unverified"
       },
       "snapshot": {
-        "asOfDate": "2026-08-24",
-        "navPerShare": 5.1,
+        "asOfDate": "2026-09-03",
+        "navPerShare": 5.45,
         "navCurrency": "USD",
-        "totalNav": 11991091.05,
+        "totalNav": 12826609.79,
         "totalNavCurrency": "HKD",
         "outstandingUnits": 300000,
         "managementFeePct": null,
         "ongoingChargesPct": 0.68,
         "sourceUrl": "https://www.globalxetfs.com.hk/funds/innovative-finance-etf/",
-        "collectedAt": "2026-08-25T16:10:25.244Z"
+        "collectedAt": "2026-09-04T14:12:06.160Z"
       },
       "documents": [
         {
           "type": "fact_sheet",
-          "url": "https://investments.miraeasset.com.hk/docs/ETF/3185e.pdf?v=1.3"
+          "url": "https://investments.miraeasset.com.hk/docs/ETF/3185e.pdf?v=1.5"
         }
       ],
       "validation": {
@@ -1426,8 +1426,8 @@
         "baseCurrency": "RMB",
         "distributionDescription": "Annually at the Manager's discretion (May in each year).",
         "listingDate": "2020-08-07",
-        "asOfDate": "2026-08-24",
-        "collectedAt": "2026-08-25T16:10:25.244Z"
+        "asOfDate": "2026-09-03",
+        "collectedAt": "2026-09-04T14:12:06.160Z"
       },
       "listingCounter": {
         "exchange": "HKEX",
@@ -1438,21 +1438,21 @@
         "status": "active_unverified"
       },
       "snapshot": {
-        "asOfDate": "2026-08-24",
-        "navPerShare": 71.57,
+        "asOfDate": "2026-09-03",
+        "navPerShare": 71.18,
         "navCurrency": "RMB",
-        "totalNav": 3528638072.41,
+        "totalNav": 3604856228.3,
         "totalNavCurrency": "HKD",
-        "outstandingUnits": 42300000,
+        "outstandingUnits": 43400000,
         "managementFeePct": null,
         "ongoingChargesPct": 0.68,
         "sourceUrl": "https://www.globalxetfs.com.hk/funds/global-x-china-semiconductor-etf/",
-        "collectedAt": "2026-08-25T16:10:25.244Z"
+        "collectedAt": "2026-09-04T14:12:06.160Z"
       },
       "documents": [
         {
           "type": "fact_sheet",
-          "url": "https://investments.miraeasset.com.hk/docs/ETF/3191e.pdf?v=1.3"
+          "url": "https://investments.miraeasset.com.hk/docs/ETF/3191e.pdf?v=1.5"
         }
       ],
       "validation": {
@@ -1473,8 +1473,8 @@
         "baseCurrency": "USD",
         "distributionDescription": "prospectus for further details. \"> Annually (usually in May of each year) at the Manager’s discretion. *",
         "listingDate": "2025-02-10",
-        "asOfDate": "2026-08-24",
-        "collectedAt": "2026-08-25T16:10:25.244Z"
+        "asOfDate": "2026-09-03",
+        "collectedAt": "2026-09-04T14:12:06.160Z"
       },
       "listingCounter": {
         "exchange": "HKEX",
@@ -1485,21 +1485,21 @@
         "status": "active_unverified"
       },
       "snapshot": {
-        "asOfDate": "2026-08-24",
-        "navPerShare": 13.21,
+        "asOfDate": "2026-09-03",
+        "navPerShare": 13.03,
         "navCurrency": "USD",
-        "totalNav": 17751460.99,
+        "totalNav": 17511248.3,
         "totalNavCurrency": "HKD",
         "outstandingUnits": 171429,
         "managementFeePct": 0.68,
         "ongoingChargesPct": null,
         "sourceUrl": "https://www.globalxetfs.com.hk/funds/global-x-ai-infrastructure-etf/",
-        "collectedAt": "2026-08-25T16:10:25.244Z"
+        "collectedAt": "2026-09-04T14:12:06.160Z"
       },
       "documents": [
         {
           "type": "fact_sheet",
-          "url": "https://investments.miraeasset.com.hk/docs/ETF/3401e.pdf?v=1.3"
+          "url": "https://investments.miraeasset.com.hk/docs/ETF/3401e.pdf?v=1.5"
         }
       ],
       "validation": {
@@ -1520,8 +1520,8 @@
         "baseCurrency": "USD",
         "distributionDescription": "prospectus for further details.\"> Annually (usually in May of each year) at the Manager’s discretion. *",
         "listingDate": "2025-01-10",
-        "asOfDate": "2026-08-24",
-        "collectedAt": "2026-08-25T16:10:25.244Z"
+        "asOfDate": "2026-09-03",
+        "collectedAt": "2026-09-04T14:12:06.160Z"
       },
       "listingCounter": {
         "exchange": "HKEX",
@@ -1532,21 +1532,21 @@
         "status": "active_unverified"
       },
       "snapshot": {
-        "asOfDate": "2026-08-24",
-        "navPerShare": 9.18,
+        "asOfDate": "2026-09-03",
+        "navPerShare": 9.32,
         "navCurrency": "USD",
-        "totalNav": 17994157.05,
+        "totalNav": 18265688.34,
         "totalNavCurrency": "HKD",
         "outstandingUnits": 250000,
         "managementFeePct": 0.68,
         "ongoingChargesPct": null,
         "sourceUrl": "https://www.globalxetfs.com.hk/funds/g2-tech-etf/",
-        "collectedAt": "2026-08-25T16:10:25.244Z"
+        "collectedAt": "2026-09-04T14:12:06.160Z"
       },
       "documents": [
         {
           "type": "fact_sheet",
-          "url": "https://investments.miraeasset.com.hk/docs/ETF/3402e.pdf?v=1.3"
+          "url": "https://investments.miraeasset.com.hk/docs/ETF/3402e.pdf?v=1.5"
         }
       ],
       "validation": {
@@ -1567,8 +1567,8 @@
         "baseCurrency": "USD",
         "distributionDescription": null,
         "listingDate": "2025-08-29",
-        "asOfDate": "2026-08-24",
-        "collectedAt": "2026-08-25T16:10:25.244Z"
+        "asOfDate": "2026-09-03",
+        "collectedAt": "2026-09-04T14:12:06.160Z"
       },
       "listingCounter": {
         "exchange": "HKEX",
@@ -1579,16 +1579,16 @@
         "status": "active_unverified"
       },
       "snapshot": {
-        "asOfDate": "2026-08-24",
-        "navPerShare": 10.11,
+        "asOfDate": "2026-09-03",
+        "navPerShare": 10.22,
         "navCurrency": "USD",
-        "totalNav": 237610096.89,
+        "totalNav": 268321266.3,
         "totalNavCurrency": "HKD",
-        "outstandingUnits": 3000000,
+        "outstandingUnits": 3350000,
         "managementFeePct": null,
         "ongoingChargesPct": 0.75,
         "sourceUrl": "https://www.globalxetfs.com.hk/funds/sp-500-covered-call-active-etf/",
-        "collectedAt": "2026-08-25T16:10:25.244Z"
+        "collectedAt": "2026-09-04T14:12:06.160Z"
       },
       "documents": [],
       "validation": {
@@ -1609,8 +1609,8 @@
         "baseCurrency": "HKD",
         "distributionDescription": null,
         "listingDate": "2024-02-29",
-        "asOfDate": "2026-08-24",
-        "collectedAt": "2026-08-25T16:10:25.244Z"
+        "asOfDate": "2026-09-03",
+        "collectedAt": "2026-09-04T14:12:06.160Z"
       },
       "listingCounter": {
         "exchange": "HKEX",
@@ -1621,21 +1621,21 @@
         "status": "active_unverified"
       },
       "snapshot": {
-        "asOfDate": "2026-08-24",
-        "navPerShare": 8.48,
+        "asOfDate": "2026-09-03",
+        "navPerShare": 8.32,
         "navCurrency": "HKD",
-        "totalNav": 22272655702.25,
+        "totalNav": 21990888110.06,
         "totalNavCurrency": "HKD",
-        "outstandingUnits": 2627600000,
+        "outstandingUnits": 2644400000,
         "managementFeePct": 0.75,
         "ongoingChargesPct": null,
         "sourceUrl": "https://www.globalxetfs.com.hk/funds/hscei-covered-call-etf/",
-        "collectedAt": "2026-08-25T16:10:25.244Z"
+        "collectedAt": "2026-09-04T14:12:06.160Z"
       },
       "documents": [
         {
           "type": "fact_sheet",
-          "url": "https://investments.miraeasset.com.hk/docs/ETF/3416e.pdf?v=1.3"
+          "url": "https://investments.miraeasset.com.hk/docs/ETF/3416e.pdf?v=1.5"
         }
       ],
       "validation": {
@@ -1656,8 +1656,8 @@
         "baseCurrency": "HKD",
         "distributionDescription": null,
         "listingDate": "2025-03-13",
-        "asOfDate": "2026-08-24",
-        "collectedAt": "2026-08-25T16:10:25.244Z"
+        "asOfDate": "2026-09-03",
+        "collectedAt": "2026-09-04T14:12:06.160Z"
       },
       "listingCounter": {
         "exchange": "HKEX",
@@ -1668,21 +1668,21 @@
         "status": "active_unverified"
       },
       "snapshot": {
-        "asOfDate": "2026-08-24",
-        "navPerShare": 7.46,
+        "asOfDate": "2026-09-03",
+        "navPerShare": 7.15,
         "navCurrency": "HKD",
-        "totalNav": 2959801616.91,
+        "totalNav": 3048944325.14,
         "totalNavCurrency": "HKD",
-        "outstandingUnits": 396800000,
+        "outstandingUnits": 426400000,
         "managementFeePct": 0.75,
         "ongoingChargesPct": null,
         "sourceUrl": "https://www.globalxetfs.com.hk/funds/hang-seng-tech-covered-call-active-etf/",
-        "collectedAt": "2026-08-25T16:10:25.244Z"
+        "collectedAt": "2026-09-04T14:12:06.160Z"
       },
       "documents": [
         {
           "type": "fact_sheet",
-          "url": "https://investments.miraeasset.com.hk/docs/ETF/3417e.pdf?v=1.3"
+          "url": "https://investments.miraeasset.com.hk/docs/ETF/3417e.pdf?v=1.5"
         }
       ],
       "validation": {
@@ -1703,8 +1703,8 @@
         "baseCurrency": "HKD",
         "distributionDescription": null,
         "listingDate": "2024-02-29",
-        "asOfDate": "2026-08-24",
-        "collectedAt": "2026-08-25T16:10:25.244Z"
+        "asOfDate": "2026-09-03",
+        "collectedAt": "2026-09-04T14:12:06.160Z"
       },
       "listingCounter": {
         "exchange": "HKEX",
@@ -1715,21 +1715,21 @@
         "status": "active_unverified"
       },
       "snapshot": {
-        "asOfDate": "2026-08-24",
-        "navPerShare": 9.59,
+        "asOfDate": "2026-09-03",
+        "navPerShare": 9.37,
         "navCurrency": "HKD",
-        "totalNav": 2516639790.45,
+        "totalNav": 2735673119.95,
         "totalNavCurrency": "HKD",
-        "outstandingUnits": 262400000,
+        "outstandingUnits": 292000000,
         "managementFeePct": 0.75,
         "ongoingChargesPct": null,
         "sourceUrl": "https://www.globalxetfs.com.hk/funds/covered-call-etf/",
-        "collectedAt": "2026-08-25T16:10:25.244Z"
+        "collectedAt": "2026-09-04T14:12:06.160Z"
       },
       "documents": [
         {
           "type": "fact_sheet",
-          "url": "https://investments.miraeasset.com.hk/docs/ETF/3419e.pdf?v=1.3"
+          "url": "https://investments.miraeasset.com.hk/docs/ETF/3419e.pdf?v=1.5"
         }
       ],
       "validation": {
@@ -1750,8 +1750,8 @@
         "baseCurrency": "USD",
         "distributionDescription": "Annually (usually in May of each year) at the Manager’s discretion.*",
         "listingDate": "2023-11-24",
-        "asOfDate": "2026-08-24",
-        "collectedAt": "2026-08-25T16:10:25.244Z"
+        "asOfDate": "2026-09-03",
+        "collectedAt": "2026-09-04T14:12:06.160Z"
       },
       "listingCounter": {
         "exchange": "HKEX",
@@ -1762,21 +1762,21 @@
         "status": "active_unverified"
       },
       "snapshot": {
-        "asOfDate": "2026-08-24",
+        "asOfDate": "2026-09-03",
         "navPerShare": 13.67,
         "navCurrency": "USD",
-        "totalNav": 17695001.97,
+        "totalNav": 17709157.82,
         "totalNavCurrency": "HKD",
         "outstandingUnits": 165200,
         "managementFeePct": 0.68,
         "ongoingChargesPct": null,
         "sourceUrl": "https://www.globalxetfs.com.hk/funds/innovative-bluechip-top-10-etf/",
-        "collectedAt": "2026-08-25T16:10:25.244Z"
+        "collectedAt": "2026-09-04T14:12:06.160Z"
       },
       "documents": [
         {
           "type": "fact_sheet",
-          "url": "http://investments.miraeasset.com.hk/docs/ETF/3422e.pdf?v=1.3"
+          "url": "http://investments.miraeasset.com.hk/docs/ETF/3422e.pdf?v=1.5"
         }
       ],
       "validation": {
@@ -1797,8 +1797,8 @@
         "baseCurrency": "HKD",
         "distributionDescription": "Annually at the Manager’s discretion",
         "listingDate": "2026-03-30",
-        "asOfDate": "2026-08-24",
-        "collectedAt": "2026-08-25T16:10:25.244Z"
+        "asOfDate": "2026-09-03",
+        "collectedAt": "2026-09-04T14:12:06.160Z"
       },
       "listingCounter": {
         "exchange": "HKEX",
@@ -1809,16 +1809,16 @@
         "status": "active_unverified"
       },
       "snapshot": {
-        "asOfDate": "2026-08-24",
-        "navPerShare": 11.32,
+        "asOfDate": "2026-09-03",
+        "navPerShare": 11.55,
         "navCurrency": "HKD",
-        "totalNav": 924957168.11,
+        "totalNav": 943766147.59,
         "totalNavCurrency": "HKD",
         "outstandingUnits": 81700000,
         "managementFeePct": null,
         "ongoingChargesPct": 0.75,
         "sourceUrl": "https://www.globalxetfs.com.hk/funds/china-life-franklin-hk-us-equity-select-etf/",
-        "collectedAt": "2026-08-25T16:10:25.244Z"
+        "collectedAt": "2026-09-04T14:12:06.160Z"
       },
       "documents": [],
       "validation": {
@@ -1839,8 +1839,8 @@
         "baseCurrency": "USD",
         "distributionDescription": null,
         "listingDate": "2024-12-13",
-        "asOfDate": "2026-08-24",
-        "collectedAt": "2026-08-25T16:10:25.244Z"
+        "asOfDate": "2026-09-03",
+        "collectedAt": "2026-09-04T14:12:06.160Z"
       },
       "listingCounter": {
         "exchange": "HKEX",
@@ -1851,21 +1851,21 @@
         "status": "active_unverified"
       },
       "snapshot": {
-        "asOfDate": "2026-08-24",
-        "navPerShare": 7.04,
+        "asOfDate": "2026-09-03",
+        "navPerShare": 6.99,
         "navCurrency": "USD",
-        "totalNav": 287266978.45,
+        "totalNav": 319581569.78,
         "totalNavCurrency": "HKD",
-        "outstandingUnits": 5205000,
+        "outstandingUnits": 5835000,
         "managementFeePct": 0.06,
         "ongoingChargesPct": null,
         "sourceUrl": "https://www.globalxetfs.com.hk/funds/global-x-us-treasury-0-3-month-etf/",
-        "collectedAt": "2026-08-25T16:10:25.244Z"
+        "collectedAt": "2026-09-04T14:12:06.160Z"
       },
       "documents": [
         {
           "type": "fact_sheet",
-          "url": "https://investments.miraeasset.com.hk/docs/ETF/3440e.pdf?v=1.3"
+          "url": "https://investments.miraeasset.com.hk/docs/ETF/3440e.pdf?v=1.5"
         }
       ],
       "validation": {
@@ -1886,8 +1886,8 @@
         "baseCurrency": "HKD",
         "distributionDescription": "prospectus for further details.\"> Annually (usually in May of each year) at the Manager’s discretion.",
         "listingDate": "2025-07-09",
-        "asOfDate": "2026-08-24",
-        "collectedAt": "2026-08-25T16:10:25.244Z"
+        "asOfDate": "2026-09-03",
+        "collectedAt": "2026-09-04T14:12:06.160Z"
       },
       "listingCounter": {
         "exchange": "HKEX",
@@ -1898,21 +1898,21 @@
         "status": "active_unverified"
       },
       "snapshot": {
-        "asOfDate": "2026-08-24",
-        "navPerShare": 115.67,
+        "asOfDate": "2026-09-03",
+        "navPerShare": 114.23,
         "navCurrency": "HKD",
-        "totalNav": 347016406.56,
+        "totalNav": 342703436.52,
         "totalNavCurrency": "HKD",
         "outstandingUnits": 3000000,
         "managementFeePct": null,
         "ongoingChargesPct": 0.68,
         "sourceUrl": "https://www.globalxetfs.com.hk/funds/china-core-tech-etf/",
-        "collectedAt": "2026-08-25T16:10:25.244Z"
+        "collectedAt": "2026-09-04T14:12:06.160Z"
       },
       "documents": [
         {
           "type": "fact_sheet",
-          "url": "https://investments.miraeasset.com.hk/docs/ETF/3448e.pdf?v=1.3"
+          "url": "https://investments.miraeasset.com.hk/docs/ETF/3448e.pdf?v=1.5"
         }
       ],
       "validation": {
@@ -1933,8 +1933,8 @@
         "baseCurrency": "USD",
         "distributionDescription": null,
         "listingDate": "2024-07-11",
-        "asOfDate": "2026-08-24",
-        "collectedAt": "2026-08-25T16:10:25.244Z"
+        "asOfDate": "2026-09-03",
+        "collectedAt": "2026-09-04T14:12:06.160Z"
       },
       "listingCounter": {
         "exchange": "HKEX",
@@ -1945,21 +1945,21 @@
         "status": "active_unverified"
       },
       "snapshot": {
-        "asOfDate": "2026-08-24",
-        "navPerShare": 7.03,
+        "asOfDate": "2026-09-03",
+        "navPerShare": 6.94,
         "navCurrency": "USD",
-        "totalNav": 376634165.39,
+        "totalNav": 372124578.38,
         "totalNavCurrency": "HKD",
         "outstandingUnits": 6840000,
         "managementFeePct": 0.3,
         "ongoingChargesPct": null,
         "sourceUrl": "https://www.globalxetfs.com.hk/funds/global-x-us-treasury-3-5-year-etf/",
-        "collectedAt": "2026-08-25T16:10:25.244Z"
+        "collectedAt": "2026-09-04T14:12:06.160Z"
       },
       "documents": [
         {
           "type": "fact_sheet",
-          "url": "https://investments.miraeasset.com.hk/docs/ETF/3450e.pdf?v=1.3"
+          "url": "https://investments.miraeasset.com.hk/docs/ETF/3450e.pdf?v=1.5"
         }
       ],
       "validation": {
@@ -1980,8 +1980,8 @@
         "baseCurrency": "USD",
         "distributionDescription": null,
         "listingDate": "2025-09-30",
-        "asOfDate": "2026-08-24",
-        "collectedAt": "2026-08-25T16:10:25.244Z"
+        "asOfDate": "2026-09-03",
+        "collectedAt": "2026-09-04T14:12:06.160Z"
       },
       "listingCounter": {
         "exchange": "HKEX",
@@ -1992,16 +1992,16 @@
         "status": "active_unverified"
       },
       "snapshot": {
-        "asOfDate": "2026-08-24",
-        "navPerShare": 9.94,
+        "asOfDate": "2026-09-03",
+        "navPerShare": 10.13,
         "navCurrency": "USD",
-        "totalNav": 346587929.51,
+        "totalNav": 365455555.77,
         "totalNavCurrency": "HKD",
-        "outstandingUnits": 4450000,
+        "outstandingUnits": 4600000,
         "managementFeePct": null,
         "ongoingChargesPct": 0.75,
         "sourceUrl": "https://www.globalxetfs.com.hk/funds/nasdaq-100-covered-call-active-etf/",
-        "collectedAt": "2026-08-25T16:10:25.244Z"
+        "collectedAt": "2026-09-04T14:12:06.160Z"
       },
       "documents": [],
       "validation": {
@@ -2022,8 +2022,8 @@
         "baseCurrency": "HKD",
         "distributionDescription": "prospectus for further details. \"> Annually (usually in May of each year) at the Manager’s discretion.",
         "listingDate": "2025-03-28",
-        "asOfDate": "2026-08-24",
-        "collectedAt": "2026-08-25T16:10:25.244Z"
+        "asOfDate": "2026-09-03",
+        "collectedAt": "2026-09-04T14:12:06.160Z"
       },
       "listingCounter": {
         "exchange": "HKEX",
@@ -2034,21 +2034,21 @@
         "status": "active_unverified"
       },
       "snapshot": {
-        "asOfDate": "2026-08-24",
-        "navPerShare": 84.89,
+        "asOfDate": "2026-09-03",
+        "navPerShare": 85.83,
         "navCurrency": "HKD",
-        "totalNav": 2865977715.52,
+        "totalNav": 2698569371.86,
         "totalNavCurrency": "HKD",
-        "outstandingUnits": 33760000,
+        "outstandingUnits": 31440000,
         "managementFeePct": 0.15,
         "ongoingChargesPct": 0.15,
         "sourceUrl": "https://www.globalxetfs.com.hk/funds/ftse-greater-china-etf/",
-        "collectedAt": "2026-08-25T16:10:25.244Z"
+        "collectedAt": "2026-09-04T14:12:06.160Z"
       },
       "documents": [
         {
           "type": "fact_sheet",
-          "url": "https://investments.miraeasset.com.hk/docs/ETF/3470e.pdf?v=1.3"
+          "url": "https://investments.miraeasset.com.hk/docs/ETF/3470e.pdf?v=1.5"
         }
       ],
       "validation": {
@@ -2069,8 +2069,8 @@
         "baseCurrency": "USD",
         "distributionDescription": null,
         "listingDate": "2026-05-15",
-        "asOfDate": "2026-08-24",
-        "collectedAt": "2026-08-25T16:10:25.244Z"
+        "asOfDate": "2026-09-03",
+        "collectedAt": "2026-09-04T14:12:06.160Z"
       },
       "listingCounter": {
         "exchange": "HKEX",
@@ -2081,16 +2081,16 @@
         "status": "active_unverified"
       },
       "snapshot": {
-        "asOfDate": "2026-08-24",
-        "navPerShare": 9.18,
+        "asOfDate": "2026-09-03",
+        "navPerShare": 8.94,
         "navCurrency": "USD",
-        "totalNav": 71942407.86,
+        "totalNav": 70114726.89,
         "totalNavCurrency": "HKD",
         "outstandingUnits": 1000000,
         "managementFeePct": 0.75,
         "ongoingChargesPct": 0.75,
         "sourceUrl": "https://www.globalxetfs.com.hk/funds/gold-covered-call-active-etf/",
-        "collectedAt": "2026-08-25T16:10:25.244Z"
+        "collectedAt": "2026-09-04T14:12:06.160Z"
       },
       "documents": [],
       "validation": {
@@ -2111,8 +2111,8 @@
         "baseCurrency": "HKD",
         "distributionDescription": "Monthly at the Manager’s discretion (Dividend rate is not guaranteed, distributions may be made out of capital#)",
         "listingDate": "2026-08-20",
-        "asOfDate": "2026-08-24",
-        "collectedAt": "2026-08-25T16:10:25.244Z"
+        "asOfDate": "2026-09-03",
+        "collectedAt": "2026-09-04T14:12:06.160Z"
       },
       "listingCounter": {
         "exchange": "HKEX",
@@ -2123,16 +2123,16 @@
         "status": "active_unverified"
       },
       "snapshot": {
-        "asOfDate": "2026-08-24",
-        "navPerShare": 8.18,
+        "asOfDate": "2026-09-03",
+        "navPerShare": 8.03,
         "navCurrency": "HKD",
-        "totalNav": 90004990.94,
+        "totalNav": 144617833.48,
         "totalNavCurrency": "HKD",
-        "outstandingUnits": 11000000,
+        "outstandingUnits": 18000000,
         "managementFeePct": null,
         "ongoingChargesPct": 0.75,
         "sourceUrl": "https://www.globalxetfs.com.hk/funds/hang-seng-high-dividend-yield-enhanced-income-etf/",
-        "collectedAt": "2026-08-25T16:10:25.244Z"
+        "collectedAt": "2026-09-04T14:12:06.160Z"
       },
       "documents": [],
       "validation": {
