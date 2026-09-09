@@ -1,7 +1,7 @@
 {
   "schemaVersion": "market-yfinance-v2",
   "provider": "Yahoo Finance via yfinance",
-  "fetchedAt": "2026-09-08T14:15:41.821963+00:00",
+  "fetchedAt": "2026-09-09T01:42:31.662063+00:00",
   "quoteType": "delayed_or_end_of_bar",
   "recordsRequested": 11,
   "recordsAvailable": 11,
@@ -656,14 +656,14 @@
           "ma20": 16.0504
         },
         {
-          "date": "2026-09-08",
-          "open": 16.01,
-          "high": 16.02,
-          "low": 16.01,
-          "close": 16.12,
-          "volume": 1100,
-          "ma5": 16.168,
-          "ma20": 16.0654
+          "date": "2026-09-07",
+          "open": 16.24,
+          "high": 16.24,
+          "low": 16.1,
+          "close": 16.13,
+          "volume": 7700,
+          "ma5": 16.17,
+          "ma20": 16.0659
         }
       ],
       "flowProxy": {
@@ -1344,14 +1344,14 @@
           "ma20": 39.905
         },
         {
-          "date": "2026-09-08",
-          "open": 38.72,
-          "high": 38.72,
-          "low": 38.72,
-          "close": 38.72,
-          "volume": 202,
-          "ma5": 39.044,
-          "ma20": 39.796
+          "date": "2026-09-07",
+          "open": 39.26,
+          "high": 39.26,
+          "low": 38.86,
+          "close": 38.86,
+          "volume": 1900,
+          "ma5": 39.072,
+          "ma20": 39.803
         }
       ],
       "flowProxy": {
@@ -2032,14 +2032,14 @@
           "ma20": 102.387
         },
         {
-          "date": "2026-09-08",
-          "open": 97.9,
-          "high": 97.9,
-          "low": 96.92,
-          "close": 96.92,
-          "volume": 2975,
-          "ma5": 97.788,
-          "ma20": 102.0105
+          "date": "2026-09-07",
+          "open": 97.92,
+          "high": 97.92,
+          "low": 97.92,
+          "close": 97.92,
+          "volume": 0,
+          "ma5": 97.988,
+          "ma20": 102.0605
         }
       ],
       "flowProxy": {
@@ -2058,15 +2058,15 @@
       "status": "ok",
       "currency": "HKD",
       "exchangeTimezone": "Asia/Hong_Kong",
-      "lastPrice": 74.06,
+      "lastPrice": 74.14,
       "previousClose": 74.36,
-      "change": -0.3,
-      "changePct": -0.4034,
+      "change": -0.22,
+      "changePct": -0.2959,
       "open": 73.32,
       "high": 74.3,
       "low": 72.76,
       "volume": 12500,
-      "turnoverEstimate": 922064.98,
+      "turnoverEstimate": 922664.99,
       "asOf": "2026-09-08T15:55:00+08:00",
       "candles": [
         {
@@ -2720,22 +2720,22 @@
           "ma20": 75.065
         },
         {
-          "date": "2026-09-08",
-          "open": 73.32,
-          "high": 74.18,
-          "low": 72.76,
-          "close": 74.06,
-          "volume": 13000,
-          "ma5": 73.94,
-          "ma20": 74.996
+          "date": "2026-09-07",
+          "open": 74.58,
+          "high": 74.58,
+          "low": 73.3,
+          "close": 73.3,
+          "volume": 5500,
+          "ma5": 73.788,
+          "ma20": 74.958
         }
       ],
       "flowProxy": {
-        "buyTurnover": 128415,
-        "sellTurnover": 712580.98,
+        "buyTurnover": 684464.99,
+        "sellTurnover": 157131,
         "neutralTurnover": 81069,
-        "netTurnover": -584165.99,
-        "buyRatio": 15.27,
+        "netTurnover": 527333.99,
+        "buyRatio": 81.33,
         "method": "5 分钟 K 线按收盘价相对开盘价方向归类的成交额估算；并非 ETF 申购赎回数据。"
       }
     },
@@ -2746,15 +2746,15 @@
       "status": "ok",
       "currency": "HKD",
       "exchangeTimezone": "Asia/Hong_Kong",
-      "lastPrice": 53.64,
+      "lastPrice": 53.8,
       "previousClose": 54.86,
-      "change": -1.22,
-      "changePct": -2.2238,
+      "change": -1.06,
+      "changePct": -1.9322,
       "open": 53.9,
       "high": 54.12,
       "low": 53.64,
       "volume": 1950,
-      "turnoverEstimate": 104861,
+      "turnoverEstimate": 104941,
       "asOf": "2026-09-08T14:10:00+08:00",
       "candles": [
         {
@@ -3408,22 +3408,22 @@
           "ma20": 56.382
         },
         {
-          "date": "2026-09-08",
-          "open": 53.9,
-          "high": 53.9,
-          "low": 53.8,
-          "close": 53.64,
-          "volume": 2450,
-          "ma5": 54.36,
-          "ma20": 56.07
+          "date": "2026-09-07",
+          "open": 54.34,
+          "high": 54.34,
+          "low": 54.34,
+          "close": 54.34,
+          "volume": 0,
+          "ma5": 54.5,
+          "ma20": 56.105
         }
       ],
       "flowProxy": {
         "buyTurnover": 18837,
-        "sellTurnover": 69860,
-        "neutralTurnover": 16164,
-        "netTurnover": -51023,
-        "buyRatio": 21.24,
+        "sellTurnover": 43040,
+        "neutralTurnover": 43064,
+        "netTurnover": -24203,
+        "buyRatio": 30.44,
         "method": "5 分钟 K 线按收盘价相对开盘价方向归类的成交额估算；并非 ETF 申购赎回数据。"
       }
     },
@@ -4096,12 +4096,12 @@
           "ma20": 133.14
         },
         {
-          "date": "2026-09-08",
-          "open": 135.9,
-          "high": 135.9,
-          "low": 135.3,
+          "date": "2026-09-07",
+          "open": 134.85,
+          "high": 135.3,
+          "low": 134.85,
           "close": 135.3,
-          "volume": 2050,
+          "volume": 10000,
           "ma5": 133.53,
           "ma20": 133.2125
         }
@@ -4131,18 +4131,8 @@
       "low": 57.13,
       "volume": 0,
       "turnoverEstimate": 0,
-      "asOf": "2026-09-04T16:00:00+08:00",
+      "asOf": "2026-09-07T16:00:00+08:00",
       "candles": [
-        {
-          "date": "2026-06-03",
-          "open": 57.5,
-          "high": 57.5,
-          "low": 57.5,
-          "close": 57.5,
-          "volume": 0,
-          "ma5": null,
-          "ma20": null
-        },
         {
           "date": "2026-06-04",
           "open": 57.5,
@@ -4180,7 +4170,7 @@
           "low": 57.5,
           "close": 57.5,
           "volume": 0,
-          "ma5": 57.5,
+          "ma5": null,
           "ma20": null
         },
         {
@@ -4331,7 +4321,7 @@
           "close": 58.04,
           "volume": 0,
           "ma5": 58.04,
-          "ma20": 57.749
+          "ma20": null
         },
         {
           "date": "2026-07-03",
@@ -4792,6 +4782,16 @@
           "volume": 0,
           "ma5": 57.24,
           "ma20": 57.562
+        },
+        {
+          "date": "2026-09-07",
+          "open": 57.13,
+          "high": 57.13,
+          "low": 57.13,
+          "close": 57.13,
+          "volume": 0,
+          "ma5": 57.13,
+          "ma20": 57.5365
         }
       ],
       "flowProxy": {
@@ -5472,14 +5472,14 @@
           "ma20": 57.992
         },
         {
-          "date": "2026-09-08",
+          "date": "2026-09-07",
           "open": 57.74,
           "high": 57.74,
-          "low": 57.7,
-          "close": 57.7,
-          "volume": 1250,
-          "ma5": 57.644,
-          "ma20": 57.956
+          "low": 57.74,
+          "close": 57.74,
+          "volume": 1850,
+          "ma5": 57.652,
+          "ma20": 57.958
         }
       ],
       "flowProxy": {
@@ -6160,14 +6160,14 @@
           "ma20": 105.7625
         },
         {
-          "date": "2026-09-08",
-          "open": 105.85,
-          "high": 105.95,
-          "low": 105.4,
-          "close": 105.6,
-          "volume": 8000,
-          "ma5": 105.56,
-          "ma20": 105.79
+          "date": "2026-09-07",
+          "open": 105.3,
+          "high": 106.15,
+          "low": 105,
+          "close": 106.15,
+          "volume": 2850,
+          "ma5": 105.67,
+          "ma20": 105.8175
         }
       ],
       "flowProxy": {
@@ -6848,14 +6848,14 @@
           "ma20": 174.705
         },
         {
-          "date": "2026-09-08",
-          "open": 183,
-          "high": 186,
-          "low": 179.8,
-          "close": 179.85,
-          "volume": 175050,
-          "ma5": 174.78,
-          "ma20": 175.3125
+          "date": "2026-09-07",
+          "open": 178,
+          "high": 183.35,
+          "low": 178,
+          "close": 183,
+          "volume": 93875,
+          "ma5": 175.41,
+          "ma20": 175.47
         }
       ],
       "flowProxy": {
@@ -7536,14 +7536,14 @@
           "ma20": 118.9175
         },
         {
-          "date": "2026-09-08",
-          "open": 113.85,
-          "high": 114.75,
-          "low": 113.15,
-          "close": 113.15,
-          "volume": 5130,
-          "ma5": 114.31,
-          "ma20": 118.5
+          "date": "2026-09-07",
+          "open": 111,
+          "high": 115.6,
+          "low": 111,
+          "close": 115.55,
+          "volume": 5867,
+          "ma5": 114.79,
+          "ma20": 118.62
         }
       ],
       "flowProxy": {
@@ -7564,10 +7564,6 @@
       "baseCurrency": "USD",
       "quoteCurrency": "HKD",
       "rates": [
-        {
-          "date": "2026-05-06",
-          "close": 7.83565
-        },
         {
           "date": "2026-05-07",
           "close": 7.83408
@@ -7922,7 +7918,11 @@
         },
         {
           "date": "2026-09-08",
-          "close": 7.84115
+          "close": 7.8399
+        },
+        {
+          "date": "2026-09-09",
+          "close": 7.8416
         }
       ]
     },
@@ -7932,10 +7932,6 @@
       "baseCurrency": "RMB",
       "quoteCurrency": "HKD",
       "rates": [
-        {
-          "date": "2026-05-06",
-          "close": 1.147084
-        },
         {
           "date": "2026-05-07",
           "close": 1.150125
@@ -8290,7 +8286,11 @@
         },
         {
           "date": "2026-09-08",
-          "close": 1.1677
+          "close": 1.168115
+        },
+        {
+          "date": "2026-09-09",
+          "close": 1.1684
         }
       ]
     }
