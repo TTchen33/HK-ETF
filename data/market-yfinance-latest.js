@@ -1,7 +1,7 @@
 window.HK_ETF_MARKET = {
   "schemaVersion": "market-yfinance-v2",
   "provider": "Yahoo Finance via yfinance",
-  "fetchedAt": "2026-09-11T02:36:41.495788+00:00",
+  "fetchedAt": "2026-09-11T03:03:12.959423+00:00",
   "quoteType": "delayed_or_end_of_bar",
   "recordsRequested": 11,
   "recordsAvailable": 11,
@@ -14,13 +14,13 @@ window.HK_ETF_MARKET = {
       "status": "ok",
       "currency": "HKD",
       "exchangeTimezone": "Asia/Hong_Kong",
-      "lastPrice": 15.99,
+      "lastPrice": 15.97,
       "previousClose": 16.15,
-      "change": -0.16,
-      "changePct": -0.9907,
-      "open": 15.99,
-      "high": 15.99,
-      "low": 15.99,
+      "change": -0.18,
+      "changePct": -1.1146,
+      "open": 15.97,
+      "high": 15.97,
+      "low": 15.97,
       "volume": 0,
       "turnoverEstimate": 0,
       "asOf": "2026-09-11T09:30:00+08:00",
@@ -680,10 +680,10 @@ window.HK_ETF_MARKET = {
           "open": 16,
           "high": 16,
           "low": 16,
-          "close": 15.99,
+          "close": 15.97,
           "volume": 10100,
-          "ma5": 16.126,
-          "ma20": 16.1159
+          "ma5": 16.122,
+          "ma20": 16.1149
         }
       ],
       "flowProxy": {
@@ -702,27 +702,17 @@ window.HK_ETF_MARKET = {
       "status": "ok",
       "currency": "HKD",
       "exchangeTimezone": "Asia/Hong_Kong",
-      "lastPrice": 37.06,
-      "previousClose": 38.72,
-      "change": -1.66,
-      "changePct": -4.2872,
-      "open": 37.58,
-      "high": 37.58,
-      "low": 37.06,
+      "lastPrice": 37.04,
+      "previousClose": 38.06,
+      "change": -1.02,
+      "changePct": -2.68,
+      "open": 37.04,
+      "high": 37.04,
+      "low": 37.04,
       "volume": 0,
       "turnoverEstimate": 0,
-      "asOf": "2026-09-10T09:40:00+08:00",
+      "asOf": "2026-09-11T10:40:00+08:00",
       "candles": [
-        {
-          "date": "2026-06-08",
-          "open": 39.8,
-          "high": 39.8,
-          "low": 39.38,
-          "close": 39.42,
-          "volume": 3350,
-          "ma5": null,
-          "ma20": null
-        },
         {
           "date": "2026-06-09",
           "open": 39.02,
@@ -760,7 +750,7 @@ window.HK_ETF_MARKET = {
           "low": 39.4,
           "close": 39.68,
           "volume": 2700,
-          "ma5": 39.332,
+          "ma5": null,
           "ma20": null
         },
         {
@@ -911,7 +901,7 @@ window.HK_ETF_MARKET = {
           "close": 37.08,
           "volume": 6500,
           "ma5": 36.9,
-          "ma20": 37.77
+          "ma20": null
         },
         {
           "date": "2026-07-08",
@@ -1372,6 +1362,16 @@ window.HK_ETF_MARKET = {
           "volume": 6856,
           "ma5": 38.732,
           "ma20": 39.628
+        },
+        {
+          "date": "2026-09-11",
+          "open": 37.04,
+          "high": 37.04,
+          "low": 37.04,
+          "close": 37.04,
+          "volume": 125,
+          "ma5": 38.388,
+          "ma20": 39.488
         }
       ],
       "flowProxy": {
@@ -1396,10 +1396,10 @@ window.HK_ETF_MARKET = {
       "changePct": -2.1895,
       "open": 96.1,
       "high": 96.1,
-      "low": 95.6,
-      "volume": 0,
-      "turnoverEstimate": 0,
-      "asOf": "2026-09-11T10:00:00+08:00",
+      "low": 95.56,
+      "volume": 50,
+      "turnoverEstimate": 4781,
+      "asOf": "2026-09-11T10:45:00+08:00",
       "candles": [
         {
           "date": "2026-06-09",
@@ -2055,19 +2055,19 @@ window.HK_ETF_MARKET = {
           "date": "2026-09-11",
           "open": 96.1,
           "high": 96.1,
-          "low": 96.06,
+          "low": 95.6,
           "close": 95.6,
-          "volume": 150,
+          "volume": 200,
           "ma5": 97.192,
           "ma20": 100.7135
         }
       ],
       "flowProxy": {
         "buyTurnover": 0,
-        "sellTurnover": 0,
+        "sellTurnover": 4781,
         "neutralTurnover": 0,
-        "netTurnover": 0,
-        "buyRatio": null,
+        "netTurnover": -4781,
+        "buyRatio": 0,
         "method": "5 分钟 K 线按收盘价相对开盘价方向归类的成交额估算；并非 ETF 申购赎回数据。"
       }
     },
@@ -2078,16 +2078,16 @@ window.HK_ETF_MARKET = {
       "status": "ok",
       "currency": "HKD",
       "exchangeTimezone": "Asia/Hong_Kong",
-      "lastPrice": 69.82,
+      "lastPrice": 69.5,
       "previousClose": 73.02,
-      "change": -3.2,
-      "changePct": -4.3824,
+      "change": -3.52,
+      "changePct": -4.8206,
       "open": 71.3,
       "high": 71.3,
-      "low": 69.68,
-      "volume": 12750,
-      "turnoverEstimate": 892181,
-      "asOf": "2026-09-11T10:10:00+08:00",
+      "low": 69.5,
+      "volume": 21763,
+      "turnoverEstimate": 1522028.08,
+      "asOf": "2026-09-11T10:45:00+08:00",
       "candles": [
         {
           "date": "2026-06-09",
@@ -2743,19 +2743,19 @@ window.HK_ETF_MARKET = {
           "date": "2026-09-11",
           "open": 71.3,
           "high": 71.3,
-          "low": 69.68,
-          "close": 69.82,
-          "volume": 17350,
-          "ma5": 72.912,
-          "ma20": 74.492
+          "low": 69.5,
+          "close": 69.5,
+          "volume": 23163,
+          "ma5": 72.848,
+          "ma20": 74.476
         }
       ],
       "flowProxy": {
-        "buyTurnover": 556758.01,
-        "sellTurnover": 321473.99,
-        "neutralTurnover": 13949,
-        "netTurnover": 235284.02,
-        "buyRatio": 63.4,
+        "buyTurnover": 567255.01,
+        "sellTurnover": 909519.08,
+        "neutralTurnover": 45254,
+        "netTurnover": -342264.07,
+        "buyRatio": 38.41,
         "method": "5 分钟 K 线按收盘价相对开盘价方向归类的成交额估算；并非 ETF 申购赎回数据。"
       }
     },
@@ -2766,16 +2766,16 @@ window.HK_ETF_MARKET = {
       "status": "ok",
       "currency": "HKD",
       "exchangeTimezone": "Asia/Hong_Kong",
-      "lastPrice": 51.18,
+      "lastPrice": 51.02,
       "previousClose": 53.06,
-      "change": -1.88,
-      "changePct": -3.5432,
-      "open": 51.18,
-      "high": 51.18,
-      "low": 51.18,
-      "volume": 0,
-      "turnoverEstimate": 0,
-      "asOf": "2026-09-11T09:30:00+08:00",
+      "change": -2.04,
+      "changePct": -3.8447,
+      "open": 51.6,
+      "high": 51.6,
+      "low": 51.02,
+      "volume": 650,
+      "turnoverEstimate": 33247,
+      "asOf": "2026-09-11T10:40:00+08:00",
       "candles": [
         {
           "date": "2026-06-09",
@@ -3431,19 +3431,19 @@ window.HK_ETF_MARKET = {
           "date": "2026-09-11",
           "open": 52.2,
           "high": 52.2,
-          "low": 51.52,
-          "close": 51.18,
-          "volume": 1150,
-          "ma5": 53.416,
-          "ma20": 55.15
+          "low": 51.06,
+          "close": 51.02,
+          "volume": 1268,
+          "ma5": 53.384,
+          "ma20": 55.142
         }
       ],
       "flowProxy": {
         "buyTurnover": 0,
-        "sellTurnover": 0,
+        "sellTurnover": 33247,
         "neutralTurnover": 0,
-        "netTurnover": 0,
-        "buyRatio": null,
+        "netTurnover": -33247,
+        "buyRatio": 0,
         "method": "5 分钟 K 线按收盘价相对开盘价方向归类的成交额估算；并非 ETF 申购赎回数据。"
       }
     },
@@ -3454,15 +3454,15 @@ window.HK_ETF_MARKET = {
       "status": "ok",
       "currency": "HKD",
       "exchangeTimezone": "Asia/Hong_Kong",
-      "lastPrice": 133.75,
+      "lastPrice": 133.55,
       "previousClose": 135.3,
-      "change": -1.55,
-      "changePct": -1.1456,
+      "change": -1.75,
+      "changePct": -1.2934,
       "open": 134.55,
       "high": 135.2,
-      "low": 133.75,
+      "low": 133.55,
       "volume": 250,
-      "turnoverEstimate": 33437.5,
+      "turnoverEstimate": 33387.5,
       "asOf": "2026-09-10T14:55:00+08:00",
       "candles": [
         {
@@ -4128,9 +4128,9 @@ window.HK_ETF_MARKET = {
       ],
       "flowProxy": {
         "buyTurnover": 0,
-        "sellTurnover": 33437.5,
+        "sellTurnover": 33387.5,
         "neutralTurnover": 0,
-        "netTurnover": -33437.5,
+        "netTurnover": -33387.5,
         "buyRatio": 0,
         "method": "5 分钟 K 线按收盘价相对开盘价方向归类的成交额估算；并非 ETF 申购赎回数据。"
       }
@@ -4831,26 +4831,16 @@ window.HK_ETF_MARKET = {
       "currency": "HKD",
       "exchangeTimezone": "Asia/Hong_Kong",
       "lastPrice": 57.28,
-      "previousClose": 57.7,
-      "change": -0.42,
-      "changePct": -0.7279,
-      "open": 57.5,
-      "high": 57.5,
-      "low": 57.24,
-      "volume": 3300,
-      "turnoverEstimate": 189520,
-      "asOf": "2026-09-10T15:10:00+08:00",
+      "previousClose": 57.64,
+      "change": -0.36,
+      "changePct": -0.6246,
+      "open": 57.28,
+      "high": 57.28,
+      "low": 57.28,
+      "volume": 0,
+      "turnoverEstimate": 0,
+      "asOf": "2026-09-11T10:20:00+08:00",
       "candles": [
-        {
-          "date": "2026-06-08",
-          "open": 58.36,
-          "high": 58.36,
-          "low": 57.92,
-          "close": 58.2,
-          "volume": 3650,
-          "ma5": null,
-          "ma20": null
-        },
         {
           "date": "2026-06-09",
           "open": 57.98,
@@ -4888,7 +4878,7 @@ window.HK_ETF_MARKET = {
           "low": 58.3,
           "close": 58.36,
           "volume": 50,
-          "ma5": 58.224,
+          "ma5": null,
           "ma20": null
         },
         {
@@ -5039,7 +5029,7 @@ window.HK_ETF_MARKET = {
           "close": 58.38,
           "volume": 7800,
           "ma5": 58.42,
-          "ma20": 58.403
+          "ma20": null
         },
         {
           "date": "2026-07-08",
@@ -5500,14 +5490,24 @@ window.HK_ETF_MARKET = {
           "volume": 900,
           "ma5": 57.72,
           "ma20": 57.895
+        },
+        {
+          "date": "2026-09-11",
+          "open": 57.28,
+          "high": 57.28,
+          "low": 57.28,
+          "close": 57.28,
+          "volume": 400,
+          "ma5": 57.624,
+          "ma20": 57.85
         }
       ],
       "flowProxy": {
-        "buyTurnover": 22944,
-        "sellTurnover": 20040,
-        "neutralTurnover": 146536,
-        "netTurnover": 2904,
-        "buyRatio": 53.38,
+        "buyTurnover": 0,
+        "sellTurnover": 0,
+        "neutralTurnover": 0,
+        "netTurnover": 0,
+        "buyRatio": null,
         "method": "5 分钟 K 线按收盘价相对开盘价方向归类的成交额估算；并非 ETF 申购赎回数据。"
       }
     },
@@ -5518,15 +5518,15 @@ window.HK_ETF_MARKET = {
       "status": "ok",
       "currency": "HKD",
       "exchangeTimezone": "Asia/Hong_Kong",
-      "lastPrice": 104.9,
+      "lastPrice": 104.55,
       "previousClose": 105.6,
-      "change": -0.7,
-      "changePct": -0.6629,
+      "change": -1.05,
+      "changePct": -0.9943,
       "open": 104.8,
       "high": 105.1,
-      "low": 104.8,
+      "low": 104.55,
       "volume": 1450,
-      "turnoverEstimate": 152385,
+      "turnoverEstimate": 152367.5,
       "asOf": "2026-09-11T09:50:00+08:00",
       "candles": [
         {
@@ -6184,17 +6184,17 @@ window.HK_ETF_MARKET = {
           "open": 104.8,
           "high": 105.1,
           "low": 104.8,
-          "close": 104.9,
+          "close": 104.55,
           "volume": 2925,
-          "ma5": 105.49,
-          "ma20": 105.9
+          "ma5": 105.42,
+          "ma20": 105.8825
         }
       ],
       "flowProxy": {
         "buyTurnover": 0,
-        "sellTurnover": 5245,
+        "sellTurnover": 5227.5,
         "neutralTurnover": 147140,
-        "netTurnover": -5245,
+        "netTurnover": -5227.5,
         "buyRatio": 0,
         "method": "5 分钟 K 线按收盘价相对开盘价方向归类的成交额估算；并非 ETF 申购赎回数据。"
       }
@@ -6206,16 +6206,16 @@ window.HK_ETF_MARKET = {
       "status": "ok",
       "currency": "HKD",
       "exchangeTimezone": "Asia/Hong_Kong",
-      "lastPrice": 175.6,
+      "lastPrice": 175,
       "previousClose": 183.5,
-      "change": -7.9,
-      "changePct": -4.3052,
+      "change": -8.5,
+      "changePct": -4.6322,
       "open": 176.95,
       "high": 176.95,
-      "low": 175.05,
-      "volume": 11600,
-      "turnoverEstimate": 2037876.25,
-      "asOf": "2026-09-11T10:20:00+08:00",
+      "low": 175,
+      "volume": 15800,
+      "turnoverEstimate": 2773986.25,
+      "asOf": "2026-09-11T10:45:00+08:00",
       "candles": [
         {
           "date": "2026-06-09",
@@ -6871,19 +6871,19 @@ window.HK_ETF_MARKET = {
           "date": "2026-09-11",
           "open": 177.75,
           "high": 177.75,
-          "low": 175.05,
-          "close": 175.6,
-          "volume": 11650,
-          "ma5": 179.35,
-          "ma20": 176.7475
+          "low": 175,
+          "close": 175,
+          "volume": 15900,
+          "ma5": 179.23,
+          "ma20": 176.7175
         }
       ],
       "flowProxy": {
-        "buyTurnover": 338268.75,
-        "sellTurnover": 1673252.49,
+        "buyTurnover": 430336.25,
+        "sellTurnover": 2317295,
         "neutralTurnover": 26355,
-        "netTurnover": -1334983.74,
-        "buyRatio": 16.82,
+        "netTurnover": -1886958.75,
+        "buyRatio": 15.66,
         "method": "5 分钟 K 线按收盘价相对开盘价方向归类的成交额估算；并非 ETF 申购赎回数据。"
       }
     },
@@ -6894,16 +6894,16 @@ window.HK_ETF_MARKET = {
       "status": "ok",
       "currency": "HKD",
       "exchangeTimezone": "Asia/Hong_Kong",
-      "lastPrice": 109.6,
+      "lastPrice": 108.65,
       "previousClose": 112.8,
-      "change": -3.2,
-      "changePct": -2.8369,
+      "change": -4.15,
+      "changePct": -3.6791,
       "open": 111,
       "high": 111,
-      "low": 109.4,
-      "volume": 1810,
-      "turnoverEstimate": 198976.64,
-      "asOf": "2026-09-11T10:10:00+08:00",
+      "low": 108.55,
+      "volume": 3878,
+      "turnoverEstimate": 423482.55,
+      "asOf": "2026-09-11T10:45:00+08:00",
       "candles": [
         {
           "date": "2026-06-09",
@@ -7559,19 +7559,19 @@ window.HK_ETF_MARKET = {
           "date": "2026-09-11",
           "open": 111,
           "high": 111,
-          "low": 109.4,
-          "close": 109.6,
-          "volume": 3805,
-          "ma5": 112.87,
-          "ma20": 117.2025
+          "low": 108.55,
+          "close": 108.65,
+          "volume": 6092,
+          "ma5": 112.68,
+          "ma20": 117.155
         }
       ],
       "flowProxy": {
         "buyTurnover": 165034.95,
-        "sellTurnover": 33941.7,
-        "neutralTurnover": 0,
-        "netTurnover": 131093.25,
-        "buyRatio": 82.94,
+        "sellTurnover": 50248.7,
+        "neutralTurnover": 208198.91,
+        "netTurnover": 114786.25,
+        "buyRatio": 76.66,
         "method": "5 分钟 K 线按收盘价相对开盘价方向归类的成交额估算；并非 ETF 申购赎回数据。"
       }
     }
@@ -7942,7 +7942,7 @@ window.HK_ETF_MARKET = {
         },
         {
           "date": "2026-09-11",
-          "close": 7.8408
+          "close": 7.84136
         }
       ]
     },
