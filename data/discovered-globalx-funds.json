@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-09-08T14:13:54.605Z",
+  "collectedAt": "2026-09-15T14:12:51.553Z",
   "issuer": "Global X Hong Kong",
   "discoveryMethod": "public robots.txt and sitemap files",
   "source": "https://www.globalxetfs.com.hk/robots.txt",
@@ -7,7 +7,7 @@
     "https://www.globalxetfs.com.hk/sitemap.xml",
     "https://www.globalxetfs.com.hk/sitemap_index.xml"
   ],
-  "candidateCount": 45,
+  "candidateCount": 47,
   "candidates": [
     {
       "issuerProductUrl": "https://www.globalxetfs.com.hk/funds/ai-and-innovative-technology-active-etf/",
@@ -82,6 +82,11 @@
     {
       "issuerProductUrl": "https://www.globalxetfs.com.hk/funds/china-medtech-etf/",
       "slug": "china-medtech-etf",
+      "status": "discovered_unverified"
+    },
+    {
+      "issuerProductUrl": "https://www.globalxetfs.com.hk/funds/copper-miners-etf/",
+      "slug": "copper-miners-etf",
       "status": "discovered_unverified"
     },
     {
@@ -197,6 +202,11 @@
     {
       "issuerProductUrl": "https://www.globalxetfs.com.hk/funds/japan-global-leaders-etf/",
       "slug": "japan-global-leaders-etf",
+      "status": "discovered_unverified"
+    },
+    {
+      "issuerProductUrl": "https://www.globalxetfs.com.hk/funds/kospi-200-etf/",
+      "slug": "kospi-200-etf",
       "status": "discovered_unverified"
     },
     {

@@ -1,31 +1,86 @@
 window.HK_ETF_CHANGES = {
   "schemaVersion": "catalog-change-radar-v1",
-  "generatedAt": "2026-09-08T14:15:40.174Z",
-  "previousCollectedAt": "2026-09-07T14:17:19.291Z",
-  "currentCollectedAt": "2026-09-08T14:15:38.714Z",
+  "generatedAt": "2026-09-15T14:15:10.306Z",
+  "previousCollectedAt": "2026-09-08T14:15:38.714Z",
+  "currentCollectedAt": "2026-09-15T14:15:08.721Z",
   "previousRecordCount": 46,
-  "currentRecordCount": 46,
+  "currentRecordCount": 48,
   "latestSummary": {
-    "total": 0,
-    "new": 0,
+    "total": 3,
+    "new": 2,
     "removed": 0,
     "fee": 0,
     "benchmark": 0,
     "status": 0,
-    "scale": 0,
+    "scale": 1,
     "metadata": 0
   },
   "historySummary": {
-    "total": 39,
-    "new": 35,
+    "total": 42,
+    "new": 37,
     "removed": 0,
     "fee": 0,
     "benchmark": 0,
     "status": 0,
-    "scale": 4,
+    "scale": 5,
     "metadata": 0
   },
   "events": [
+    {
+      "id": "8ed8f9fb2d1218f7",
+      "type": "aum_jump",
+      "category": "scale",
+      "severity": "watch",
+      "detectedAt": "2026-09-15T14:15:08.721Z",
+      "stockCode": "03488",
+      "name": "Value Partners HK-US Dividend Low Volatility ETF",
+      "issuer": "Value Partners Hong Kong Limited",
+      "summary": "基金规模较上一版本增加 41.3%",
+      "before": {
+        "value": 1379242296.27,
+        "currency": "HKD"
+      },
+      "after": {
+        "value": 1949132043.56,
+        "currency": "HKD",
+        "changePct": 41.32
+      },
+      "sourceUrl": "https://www.valueetf.com.hk/eng/value-partners-hk-us-dividend-low-volatility-etf-3488.html"
+    },
+    {
+      "id": "40ac1eff87c9c76a",
+      "type": "product_added",
+      "category": "new",
+      "severity": "info",
+      "detectedAt": "2026-09-15T14:15:08.721Z",
+      "stockCode": "3014",
+      "name": "Global X Copper Miners ETF",
+      "issuer": "Global X Hong Kong",
+      "summary": "发现新 ETF：Global X Copper Miners ETF",
+      "before": null,
+      "after": {
+        "stockCode": "3014",
+        "listingDate": "2026-09-15"
+      },
+      "sourceUrl": "https://www.globalxetfs.com.hk/funds/copper-miners-etf/"
+    },
+    {
+      "id": "376262621794e8cd",
+      "type": "product_added",
+      "category": "new",
+      "severity": "info",
+      "detectedAt": "2026-09-15T14:15:08.721Z",
+      "stockCode": "3408",
+      "name": "Global X KOSPI 200 ETF",
+      "issuer": "Global X Hong Kong",
+      "summary": "发现新 ETF：Global X KOSPI 200 ETF",
+      "before": null,
+      "after": {
+        "stockCode": "3408",
+        "listingDate": "2026-09-15"
+      },
+      "sourceUrl": "https://www.globalxetfs.com.hk/funds/kospi-200-etf/"
+    },
     {
       "id": "3c892768601db2f1",
       "type": "aum_jump",
