@@ -1,18 +1,18 @@
 window.HK_ETF_CHANGES = {
   "schemaVersion": "catalog-change-radar-v1",
-  "generatedAt": "2026-09-15T14:15:10.306Z",
-  "previousCollectedAt": "2026-09-08T14:15:38.714Z",
-  "currentCollectedAt": "2026-09-15T14:15:08.721Z",
-  "previousRecordCount": 46,
+  "generatedAt": "2026-09-16T14:15:36.000Z",
+  "previousCollectedAt": "2026-09-15T14:15:08.721Z",
+  "currentCollectedAt": "2026-09-16T14:15:34.653Z",
+  "previousRecordCount": 48,
   "currentRecordCount": 48,
   "latestSummary": {
-    "total": 3,
-    "new": 2,
+    "total": 0,
+    "new": 0,
     "removed": 0,
     "fee": 0,
     "benchmark": 0,
     "status": 0,
-    "scale": 1,
+    "scale": 0,
     "metadata": 0
   },
   "historySummary": {
