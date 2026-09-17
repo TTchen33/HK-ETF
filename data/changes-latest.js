@@ -1,8 +1,8 @@
 window.HK_ETF_CHANGES = {
   "schemaVersion": "catalog-change-radar-v1",
-  "generatedAt": "2026-09-16T14:15:36.000Z",
-  "previousCollectedAt": "2026-09-15T14:15:08.721Z",
-  "currentCollectedAt": "2026-09-16T14:15:34.653Z",
+  "generatedAt": "2026-09-17T14:16:47.936Z",
+  "previousCollectedAt": "2026-09-16T14:15:34.653Z",
+  "currentCollectedAt": "2026-09-17T14:16:46.469Z",
   "previousRecordCount": 48,
   "currentRecordCount": 48,
   "latestSummary": {
