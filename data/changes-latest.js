@@ -1,31 +1,52 @@
 window.HK_ETF_CHANGES = {
   "schemaVersion": "catalog-change-radar-v1",
-  "generatedAt": "2026-09-17T14:16:47.936Z",
-  "previousCollectedAt": "2026-09-16T14:15:34.653Z",
-  "currentCollectedAt": "2026-09-17T14:16:46.469Z",
+  "generatedAt": "2026-09-23T14:14:27.780Z",
+  "previousCollectedAt": "2026-09-17T14:16:46.469Z",
+  "currentCollectedAt": "2026-09-23T14:14:26.572Z",
   "previousRecordCount": 48,
   "currentRecordCount": 48,
   "latestSummary": {
-    "total": 0,
+    "total": 1,
     "new": 0,
     "removed": 0,
     "fee": 0,
     "benchmark": 0,
     "status": 0,
-    "scale": 0,
+    "scale": 1,
     "metadata": 0
   },
   "historySummary": {
-    "total": 42,
+    "total": 43,
     "new": 37,
     "removed": 0,
     "fee": 0,
     "benchmark": 0,
     "status": 0,
-    "scale": 5,
+    "scale": 6,
     "metadata": 0
   },
   "events": [
+    {
+      "id": "3bb9ad2fb970e70a",
+      "type": "aum_jump",
+      "category": "scale",
+      "severity": "watch",
+      "detectedAt": "2026-09-23T14:14:26.572Z",
+      "stockCode": "03488",
+      "name": "Value Partners HK-US Dividend Low Volatility ETF",
+      "issuer": "Value Partners Hong Kong Limited",
+      "summary": "基金规模较上一版本增加 20.2%",
+      "before": {
+        "value": 2488048244.29,
+        "currency": "HKD"
+      },
+      "after": {
+        "value": 2990274406.16,
+        "currency": "HKD",
+        "changePct": 20.19
+      },
+      "sourceUrl": "https://www.valueetf.com.hk/eng/value-partners-hk-us-dividend-low-volatility-etf-3488.html"
+    },
     {
       "id": "8ed8f9fb2d1218f7",
       "type": "aum_jump",
