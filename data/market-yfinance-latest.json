@@ -1,11 +1,11 @@
 {
   "schemaVersion": "market-yfinance-v2",
   "provider": "Yahoo Finance via yfinance",
-  "fetchedAt": "2026-09-25T13:20:39.416195+00:00",
+  "fetchedAt": "2026-09-25T18:17:58.755361+00:00",
   "quoteType": "delayed_or_end_of_bar",
   "recordsRequested": 11,
   "recordsAvailable": 11,
-  "recordsFresh": 10,
+  "recordsFresh": 11,
   "records": [
     {
       "stockCode": "03488",
@@ -15,9 +15,9 @@
       "currency": "HKD",
       "exchangeTimezone": "Asia/Hong_Kong",
       "lastPrice": 15.78,
-      "previousClose": 15.9,
-      "change": -0.12,
-      "changePct": -0.7547,
+      "previousClose": 15.94,
+      "change": -0.16,
+      "changePct": -1.0038,
       "open": 15.8,
       "high": 15.8,
       "low": 15.7,
@@ -25,6 +25,16 @@
       "turnoverEstimate": 122704,
       "asOf": "2026-09-25T15:50:00+08:00",
       "candles": [
+        {
+          "date": "2026-06-23",
+          "open": 15.43,
+          "high": 15.43,
+          "low": 15.2,
+          "close": 15.2,
+          "volume": 11700,
+          "ma5": null,
+          "ma20": null
+        },
         {
           "date": "2026-06-24",
           "open": 15.23,
@@ -62,7 +72,7 @@
           "low": 15.05,
           "close": 15.07,
           "volume": 12100,
-          "ma5": null,
+          "ma5": 15.076,
           "ma20": null
         },
         {
@@ -213,7 +223,7 @@
           "close": 15.48,
           "volume": 0,
           "ma5": 15.354,
-          "ma20": null
+          "ma20": 15.1405
         },
         {
           "date": "2026-07-22",
@@ -523,7 +533,7 @@
           "close": 16.08,
           "volume": 300,
           "ma5": 16.2305,
-          "ma20": 16.0059
+          "ma20": 16.0058
         },
         {
           "date": "2026-09-03",
@@ -533,7 +543,7 @@
           "close": 16.15,
           "volume": 600,
           "ma5": 16.2124,
-          "ma20": 16.0268
+          "ma20": 16.0269
         },
         {
           "date": "2026-09-04",
@@ -543,7 +553,7 @@
           "close": 16.24,
           "volume": 5300,
           "ma5": 16.206,
-          "ma20": 16.0504
+          "ma20": 16.0503
         },
         {
           "date": "2026-09-07",
@@ -553,7 +563,7 @@
           "close": 16.13,
           "volume": 7700,
           "ma5": 16.17,
-          "ma20": 16.0659
+          "ma20": 16.0658
         },
         {
           "date": "2026-09-08",
@@ -623,7 +633,7 @@
           "close": 15.94,
           "volume": 10489800,
           "ma5": 15.956,
-          "ma20": 16.1404
+          "ma20": 16.1403
         },
         {
           "date": "2026-09-17",
@@ -643,7 +653,7 @@
           "close": 15.93,
           "volume": 770000,
           "ma5": 15.928,
-          "ma20": 16.1148
+          "ma20": 16.1149
         },
         {
           "date": "2026-09-21",
@@ -674,16 +684,6 @@
           "volume": 2000,
           "ma5": 15.952,
           "ma20": 16.0741
-        },
-        {
-          "date": "2026-09-25",
-          "open": 15.8,
-          "high": 15.8,
-          "low": 15.7,
-          "close": 15.78,
-          "volume": 7900,
-          "ma5": 15.928,
-          "ma20": 16.0511
         }
       ],
       "flowProxy": {
@@ -693,9 +693,7 @@
         "netTurnover": 0,
         "buyRatio": null,
         "method": "5 分钟 K 线按收盘价相对开盘价方向归类的成交额估算；并非 ETF 申购赎回数据。"
-      },
-      "stale": true,
-      "refreshError": "No daily price history returned"
+      }
     },
     {
       "stockCode": "2806",
@@ -705,9 +703,9 @@
       "currency": "HKD",
       "exchangeTimezone": "Asia/Hong_Kong",
       "lastPrice": 36.6,
-      "previousClose": 37.28,
-      "change": -0.68,
-      "changePct": -1.824,
+      "previousClose": 37.44,
+      "change": -0.84,
+      "changePct": -2.2436,
       "open": 36.88,
       "high": 36.88,
       "low": 36.3,
@@ -715,6 +713,16 @@
       "turnoverEstimate": 134791,
       "asOf": "2026-09-25T13:10:00+08:00",
       "candles": [
+        {
+          "date": "2026-06-23",
+          "open": 37.3,
+          "high": 37.34,
+          "low": 36.6,
+          "close": 36.6,
+          "volume": 6550,
+          "ma5": null,
+          "ma20": null
+        },
         {
           "date": "2026-06-24",
           "open": 36.6,
@@ -752,7 +760,7 @@
           "low": 35.62,
           "close": 36.46,
           "volume": 2645,
-          "ma5": null,
+          "ma5": 36.312,
           "ma20": null
         },
         {
@@ -903,7 +911,7 @@
           "close": 39.4,
           "volume": 4650,
           "ma5": 39.056,
-          "ma20": null
+          "ma20": 37.442
         },
         {
           "date": "2026-07-22",
@@ -1364,16 +1372,6 @@
           "volume": 0,
           "ma5": 37.364,
           "ma20": 38.26
-        },
-        {
-          "date": "2026-09-25",
-          "open": 36.88,
-          "high": 36.88,
-          "low": 36.3,
-          "close": 36.6,
-          "volume": 3850,
-          "ma5": 37.248,
-          "ma20": 38.087
         }
       ],
       "flowProxy": {
@@ -1393,9 +1391,9 @@
       "currency": "HKD",
       "exchangeTimezone": "Asia/Hong_Kong",
       "lastPrice": 95.58,
-      "previousClose": 97.6,
-      "change": -2.02,
-      "changePct": -2.0697,
+      "previousClose": 98.32,
+      "change": -2.74,
+      "changePct": -2.7868,
       "open": 95.74,
       "high": 95.78,
       "low": 95.54,
@@ -1403,6 +1401,16 @@
       "turnoverEstimate": 71743,
       "asOf": "2026-09-25T11:25:00+08:00",
       "candles": [
+        {
+          "date": "2026-06-23",
+          "open": 115.65,
+          "high": 115.85,
+          "low": 111.75,
+          "close": 112.25,
+          "volume": 13915,
+          "ma5": null,
+          "ma20": null
+        },
         {
           "date": "2026-06-24",
           "open": 111.2,
@@ -1440,7 +1448,7 @@
           "low": 112,
           "close": 114.7,
           "volume": 16921,
-          "ma5": null,
+          "ma5": 112.84,
           "ma20": null
         },
         {
@@ -1591,7 +1599,7 @@
           "close": 98.74,
           "volume": 1700,
           "ma5": 98.056,
-          "ma20": null
+          "ma20": 106.249
         },
         {
           "date": "2026-07-22",
@@ -2052,16 +2060,6 @@
           "volume": 600,
           "ma5": 97.768,
           "ma20": 97.9255
-        },
-        {
-          "date": "2026-09-25",
-          "open": 95.74,
-          "high": 95.78,
-          "low": 95.54,
-          "close": 95.58,
-          "volume": 800,
-          "ma5": 97.62,
-          "ma20": 97.642
         }
       ],
       "flowProxy": {
@@ -2081,9 +2079,9 @@
       "currency": "HKD",
       "exchangeTimezone": "Asia/Hong_Kong",
       "lastPrice": 74.72,
-      "previousClose": 76.88,
-      "change": -2.16,
-      "changePct": -2.8096,
+      "previousClose": 76.84,
+      "change": -2.12,
+      "changePct": -2.759,
       "open": 74.46,
       "high": 74.72,
       "low": 74.4,
@@ -2091,6 +2089,16 @@
       "turnoverEstimate": 526485,
       "asOf": "2026-09-25T14:10:00+08:00",
       "candles": [
+        {
+          "date": "2026-06-23",
+          "open": 58.42,
+          "high": 60.5,
+          "low": 58.24,
+          "close": 58.74,
+          "volume": 21350,
+          "ma5": null,
+          "ma20": null
+        },
         {
           "date": "2026-06-24",
           "open": 59.58,
@@ -2128,7 +2136,7 @@
           "low": 59.8,
           "close": 63.96,
           "volume": 62150,
-          "ma5": null,
+          "ma5": 60.628,
           "ma20": null
         },
         {
@@ -2279,7 +2287,7 @@
           "close": 69.74,
           "volume": 26800,
           "ma5": 69.628,
-          "ma20": null
+          "ma20": 66.03
         },
         {
           "date": "2026-07-22",
@@ -2740,16 +2748,6 @@
           "volume": 10600,
           "ma5": 75.44,
           "ma20": 73.891
-        },
-        {
-          "date": "2026-09-25",
-          "open": 74.46,
-          "high": 74.72,
-          "low": 74.44,
-          "close": 74.72,
-          "volume": 7100,
-          "ma5": 75.792,
-          "ma20": 73.797
         }
       ],
       "flowProxy": {
@@ -2769,9 +2767,9 @@
       "currency": "HKD",
       "exchangeTimezone": "Asia/Hong_Kong",
       "lastPrice": 51.38,
-      "previousClose": 52.28,
-      "change": -0.9,
-      "changePct": -1.7215,
+      "previousClose": 53.54,
+      "change": -2.16,
+      "changePct": -4.0344,
       "open": 51.38,
       "high": 51.38,
       "low": 51,
@@ -2779,6 +2777,16 @@
       "turnoverEstimate": 189413,
       "asOf": "2026-09-25T13:10:00+08:00",
       "candles": [
+        {
+          "date": "2026-06-23",
+          "open": 56.64,
+          "high": 56.64,
+          "low": 55.2,
+          "close": 55.16,
+          "volume": 1350,
+          "ma5": null,
+          "ma20": null
+        },
         {
           "date": "2026-06-24",
           "open": 55.24,
@@ -2816,7 +2824,7 @@
           "low": 54.9,
           "close": 55.16,
           "volume": 2600,
-          "ma5": null,
+          "ma5": 54.992,
           "ma20": null
         },
         {
@@ -2967,7 +2975,7 @@
           "close": 57.54,
           "volume": 1350,
           "ma5": 57.22,
-          "ma20": null
+          "ma20": 56.548
         },
         {
           "date": "2026-07-22",
@@ -3428,16 +3436,6 @@
           "volume": 2300,
           "ma5": 52.324,
           "ma20": 53.197
-        },
-        {
-          "date": "2026-09-25",
-          "open": 51.38,
-          "high": 51.38,
-          "low": 51,
-          "close": 51.38,
-          "volume": 4550,
-          "ma5": 52.4,
-          "ma20": 53.016
         }
       ],
       "flowProxy": {
@@ -3457,9 +3455,9 @@
       "currency": "HKD",
       "exchangeTimezone": "Asia/Hong_Kong",
       "lastPrice": 139.85,
-      "previousClose": 141,
-      "change": -1.15,
-      "changePct": -0.8156,
+      "previousClose": 140.1,
+      "change": -0.25,
+      "changePct": -0.1784,
       "open": 139.6,
       "high": 139.9,
       "low": 139.6,
@@ -3467,6 +3465,16 @@
       "turnoverEstimate": 0,
       "asOf": "2026-09-25T13:50:00+08:00",
       "candles": [
+        {
+          "date": "2026-06-23",
+          "open": 135.9,
+          "high": 135.9,
+          "low": 131.3,
+          "close": 131.3,
+          "volume": 700,
+          "ma5": null,
+          "ma20": null
+        },
         {
           "date": "2026-06-24",
           "open": 131.65,
@@ -3504,7 +3512,7 @@
           "low": 129.75,
           "close": 129.75,
           "volume": 1100,
-          "ma5": null,
+          "ma5": 130.77,
           "ma20": null
         },
         {
@@ -3655,7 +3663,7 @@
           "close": 131.85,
           "volume": 0,
           "ma5": 132.31,
-          "ma20": null
+          "ma20": 131.9325
         },
         {
           "date": "2026-07-22",
@@ -4116,16 +4124,6 @@
           "volume": 200,
           "ma5": 137.75,
           "ma20": 134.8925
-        },
-        {
-          "date": "2026-09-25",
-          "open": 139.6,
-          "high": 139.6,
-          "low": 139.6,
-          "close": 139.85,
-          "volume": 100,
-          "ma5": 138.96,
-          "ma20": 135.22
         }
       ],
       "flowProxy": {
@@ -4833,9 +4831,9 @@
       "currency": "HKD",
       "exchangeTimezone": "Asia/Hong_Kong",
       "lastPrice": 56.62,
-      "previousClose": 57.36,
-      "change": -0.74,
-      "changePct": -1.2901,
+      "previousClose": 56.98,
+      "change": -0.36,
+      "changePct": -0.6318,
       "open": 56.94,
       "high": 56.94,
       "low": 56.6,
@@ -4843,6 +4841,16 @@
       "turnoverEstimate": 130226,
       "asOf": "2026-09-25T10:40:00+08:00",
       "candles": [
+        {
+          "date": "2026-06-23",
+          "open": 58.42,
+          "high": 58.42,
+          "low": 58.32,
+          "close": 58.32,
+          "volume": 1050,
+          "ma5": null,
+          "ma20": null
+        },
         {
           "date": "2026-06-24",
           "open": 58.44,
@@ -4880,7 +4888,7 @@
           "low": 58.7,
           "close": 58.7,
           "volume": 750,
-          "ma5": null,
+          "ma5": 58.556,
           "ma20": null
         },
         {
@@ -5031,7 +5039,7 @@
           "close": 58.26,
           "volume": 10900,
           "ma5": 58.336,
-          "ma20": null
+          "ma20": 58.363
         },
         {
           "date": "2026-07-22",
@@ -5492,16 +5500,6 @@
           "volume": 150,
           "ma5": 57.092,
           "ma20": 57.459
-        },
-        {
-          "date": "2026-09-25",
-          "open": 56.94,
-          "high": 56.94,
-          "low": 56.62,
-          "close": 56.62,
-          "volume": 2350,
-          "ma5": 57.012,
-          "ma20": 57.378
         }
       ],
       "flowProxy": {
@@ -5521,9 +5519,9 @@
       "currency": "HKD",
       "exchangeTimezone": "Asia/Hong_Kong",
       "lastPrice": 103.9,
-      "previousClose": 104.5,
-      "change": -0.6,
-      "changePct": -0.5742,
+      "previousClose": 104.65,
+      "change": -0.75,
+      "changePct": -0.7167,
       "open": 103.4,
       "high": 103.95,
       "low": 103.1,
@@ -5531,6 +5529,16 @@
       "turnoverEstimate": 119362.5,
       "asOf": "2026-09-25T14:35:00+08:00",
       "candles": [
+        {
+          "date": "2026-06-23",
+          "open": 102.75,
+          "high": 102.75,
+          "low": 98.96,
+          "close": 99.98,
+          "volume": 5550,
+          "ma5": null,
+          "ma20": null
+        },
         {
           "date": "2026-06-24",
           "open": 99.1,
@@ -5568,7 +5576,7 @@
           "low": 99.2,
           "close": 99.22,
           "volume": 650,
-          "ma5": null,
+          "ma5": 99.524,
           "ma20": null
         },
         {
@@ -5719,7 +5727,7 @@
           "close": 103.6,
           "volume": 2850,
           "ma5": 103.15,
-          "ma20": null
+          "ma20": 101.154
         },
         {
           "date": "2026-07-22",
@@ -6180,16 +6188,6 @@
           "volume": 3475,
           "ma5": 104.36,
           "ma20": 105.1375
-        },
-        {
-          "date": "2026-09-25",
-          "open": 103.4,
-          "high": 103.95,
-          "low": 103.1,
-          "close": 103.9,
-          "volume": 1250,
-          "ma5": 104.42,
-          "ma20": 104.995
         }
       ],
       "flowProxy": {
@@ -6209,9 +6207,9 @@
       "currency": "HKD",
       "exchangeTimezone": "Asia/Hong_Kong",
       "lastPrice": 184.9,
-      "previousClose": 185.3,
-      "change": -0.4,
-      "changePct": -0.2159,
+      "previousClose": 183.9,
+      "change": 1,
+      "changePct": 0.5438,
       "open": 183,
       "high": 184.9,
       "low": 182.95,
@@ -6219,6 +6217,16 @@
       "turnoverEstimate": 16551302.52,
       "asOf": "2026-09-25T15:55:00+08:00",
       "candles": [
+        {
+          "date": "2026-06-23",
+          "open": 212.6,
+          "high": 212.6,
+          "low": 198.4,
+          "close": 199.6,
+          "volume": 268300,
+          "ma5": null,
+          "ma20": null
+        },
         {
           "date": "2026-06-24",
           "open": 199.7,
@@ -6256,7 +6264,7 @@
           "low": 197,
           "close": 202.4,
           "volume": 73906,
-          "ma5": null,
+          "ma5": 204.62,
           "ma20": null
         },
         {
@@ -6407,7 +6415,7 @@
           "close": 175.75,
           "volume": 170539,
           "ma5": 173.65,
-          "ma20": null
+          "ma20": 190.07
         },
         {
           "date": "2026-07-22",
@@ -6868,16 +6876,6 @@
           "volume": 63650,
           "ma5": 181.35,
           "ma20": 177.7375
-        },
-        {
-          "date": "2026-09-25",
-          "open": 182,
-          "high": 184.9,
-          "low": 182,
-          "close": 184.9,
-          "volume": 91400,
-          "ma5": 183.47,
-          "ma20": 178.0925
         }
       ],
       "flowProxy": {
@@ -6897,9 +6895,9 @@
       "currency": "HKD",
       "exchangeTimezone": "Asia/Hong_Kong",
       "lastPrice": 110,
-      "previousClose": 113.45,
-      "change": -3.45,
-      "changePct": -3.041,
+      "previousClose": 114.65,
+      "change": -4.65,
+      "changePct": -4.0558,
       "open": 109.65,
       "high": 110,
       "low": 109.15,
@@ -6907,6 +6905,16 @@
       "turnoverEstimate": 1000635.8,
       "asOf": "2026-09-25T15:35:00+08:00",
       "candles": [
+        {
+          "date": "2026-06-23",
+          "open": 147.95,
+          "high": 147.95,
+          "low": 138,
+          "close": 139.95,
+          "volume": 4611,
+          "ma5": null,
+          "ma20": null
+        },
         {
           "date": "2026-06-24",
           "open": 139.9,
@@ -6944,7 +6952,7 @@
           "low": 140,
           "close": 145,
           "volume": 9382,
-          "ma5": null,
+          "ma5": 143.72,
           "ma20": null
         },
         {
@@ -7095,7 +7103,7 @@
           "close": 127.1,
           "volume": 15803,
           "ma5": 124.25,
-          "ma20": null
+          "ma20": 134.3275
         },
         {
           "date": "2026-07-22",
@@ -7556,16 +7564,6 @@
           "volume": 10238,
           "ma5": 113.23,
           "ma20": 113.605
-        },
-        {
-          "date": "2026-09-25",
-          "open": 109.65,
-          "high": 110,
-          "low": 109.15,
-          "close": 110,
-          "volume": 11966,
-          "ma5": 113.14,
-          "ma20": 113.095
         }
       ],
       "flowProxy": {
@@ -7944,7 +7942,7 @@
         },
         {
           "date": "2026-09-25",
-          "close": 7.8438
+          "close": 7.8435
         }
       ]
     },
@@ -8312,7 +8310,7 @@
         },
         {
           "date": "2026-09-25",
-          "close": 1.1672
+          "close": 1.168
         }
       ]
     }
