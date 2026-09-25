@@ -1,11 +1,11 @@
 {
   "schemaVersion": "market-yfinance-v2",
   "provider": "Yahoo Finance via yfinance",
-  "fetchedAt": "2026-09-25T09:55:43.376701+00:00",
+  "fetchedAt": "2026-09-25T13:20:39.416195+00:00",
   "quoteType": "delayed_or_end_of_bar",
   "recordsRequested": 11,
   "recordsAvailable": 11,
-  "recordsFresh": 11,
+  "recordsFresh": 10,
   "records": [
     {
       "stockCode": "03488",
@@ -693,7 +693,9 @@
         "netTurnover": 0,
         "buyRatio": null,
         "method": "5 分钟 K 线按收盘价相对开盘价方向归类的成交额估算；并非 ETF 申购赎回数据。"
-      }
+      },
+      "stale": true,
+      "refreshError": "No daily price history returned"
     },
     {
       "stockCode": "2806",
@@ -702,15 +704,15 @@
       "status": "ok",
       "currency": "HKD",
       "exchangeTimezone": "Asia/Hong_Kong",
-      "lastPrice": 36.46,
+      "lastPrice": 36.6,
       "previousClose": 37.28,
-      "change": -0.82,
-      "changePct": -2.1996,
+      "change": -0.68,
+      "changePct": -1.824,
       "open": 36.88,
       "high": 36.88,
       "low": 36.3,
       "volume": 3700,
-      "turnoverEstimate": 134742,
+      "turnoverEstimate": 134791,
       "asOf": "2026-09-25T13:10:00+08:00",
       "candles": [
         {
@@ -1375,11 +1377,11 @@
         }
       ],
       "flowProxy": {
-        "buyTurnover": 9098,
+        "buyTurnover": 21908,
         "sellTurnover": 103785,
-        "neutralTurnover": 21859,
-        "netTurnover": -94687,
-        "buyRatio": 8.06,
+        "neutralTurnover": 9098,
+        "netTurnover": -81877,
+        "buyRatio": 17.43,
         "method": "5 分钟 K 线按收盘价相对开盘价方向归类的成交额估算；并非 ETF 申购赎回数据。"
       }
     },
@@ -3454,10 +3456,10 @@
       "status": "ok",
       "currency": "HKD",
       "exchangeTimezone": "Asia/Hong_Kong",
-      "lastPrice": 139.9,
+      "lastPrice": 139.85,
       "previousClose": 141,
-      "change": -1.1,
-      "changePct": -0.7801,
+      "change": -1.15,
+      "changePct": -0.8156,
       "open": 139.6,
       "high": 139.9,
       "low": 139.6,
@@ -7942,7 +7944,7 @@
         },
         {
           "date": "2026-09-25",
-          "close": 7.84349
+          "close": 7.8438
         }
       ]
     },
@@ -8310,7 +8312,7 @@
         },
         {
           "date": "2026-09-25",
-          "close": 1.1671
+          "close": 1.1672
         }
       ]
     }
