@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-09-29T19:10:14.771Z",
+  "collectedAt": "2026-09-30T18:51:43.888Z",
   "source": "Global X Hong Kong public product pages",
   "collectionMode": "public sitemap discovery",
   "records": [
@@ -16,8 +16,8 @@
         "baseCurrency": "USD",
         "distributionDescription": "Annually (usually in May of each year) at the Manager’s discretion.",
         "listingDate": "2022-03-21",
-        "asOfDate": "2026-09-28",
-        "collectedAt": "2026-09-29T19:10:14.771Z"
+        "asOfDate": "2026-09-29",
+        "collectedAt": "2026-09-30T18:51:43.888Z"
       },
       "listingCounter": {
         "exchange": "HKEX",
@@ -28,16 +28,16 @@
         "status": "active_unverified"
       },
       "snapshot": {
-        "asOfDate": "2026-09-28",
+        "asOfDate": "2026-09-29",
         "navPerShare": 17.67,
         "navCurrency": "USD",
-        "totalNav": 69299961.94,
+        "totalNav": 69342651.31,
         "totalNavCurrency": "HKD",
         "outstandingUnits": 500000,
         "managementFeePct": null,
         "ongoingChargesPct": 0.75,
         "sourceUrl": "https://www.globalxetfs.com.hk/funds/ai-and-innovative-technology-active-etf/",
-        "collectedAt": "2026-09-29T19:10:14.771Z"
+        "collectedAt": "2026-09-30T18:51:43.888Z"
       },
       "documents": [
         {
@@ -63,8 +63,8 @@
         "baseCurrency": "USD",
         "distributionDescription": "Monthly at the Manager’s discretion (Dividend rate is not guaranteed, distributions may be made out of capital #) *",
         "listingDate": "2022-07-27",
-        "asOfDate": "2026-09-28",
-        "collectedAt": "2026-09-29T19:10:14.771Z"
+        "asOfDate": "2026-09-29",
+        "collectedAt": "2026-09-30T18:51:43.888Z"
       },
       "listingCounter": {
         "exchange": "HKEX",
@@ -75,16 +75,16 @@
         "status": "active_unverified"
       },
       "snapshot": {
-        "asOfDate": "2026-09-28",
-        "navPerShare": 13.18,
+        "asOfDate": "2026-09-29",
+        "navPerShare": 13.03,
         "navCurrency": "USD",
-        "totalNav": 56879873.04,
+        "totalNav": 56222262.55,
         "totalNavCurrency": "HKD",
         "outstandingUnits": 550000,
         "managementFeePct": null,
         "ongoingChargesPct": 0.68,
         "sourceUrl": "https://www.globalxetfs.com.hk/funds/asia-pacific-high-dividend-yield-etf/",
-        "collectedAt": "2026-09-29T19:10:14.771Z"
+        "collectedAt": "2026-09-30T18:51:43.888Z"
       },
       "documents": [
         {
@@ -110,8 +110,8 @@
         "baseCurrency": "RMB",
         "distributionDescription": "Annually at the Manager's discretion (May in each year).",
         "listingDate": "2021-07-23",
-        "asOfDate": "2026-09-28",
-        "collectedAt": "2026-09-29T19:10:14.771Z"
+        "asOfDate": "2026-09-29",
+        "collectedAt": "2026-09-30T18:51:43.888Z"
       },
       "listingCounter": {
         "exchange": "HKEX",
@@ -122,16 +122,16 @@
         "status": "active_unverified"
       },
       "snapshot": {
-        "asOfDate": "2026-09-28",
-        "navPerShare": 154.57,
+        "asOfDate": "2026-09-29",
+        "navPerShare": 154.76,
         "navCurrency": "RMB",
-        "totalNav": 1580414606.96,
+        "totalNav": 1583905705.2,
         "totalNavCurrency": "HKD",
         "outstandingUnits": 8750000,
         "managementFeePct": null,
         "ongoingChargesPct": 0.68,
         "sourceUrl": "https://www.globalxetfs.com.hk/funds/asia-semiconductor-etf/",
-        "collectedAt": "2026-09-29T19:10:14.771Z"
+        "collectedAt": "2026-09-30T18:51:43.888Z"
       },
       "documents": [
         {
@@ -157,8 +157,8 @@
         "baseCurrency": "USD",
         "distributionDescription": "Monthly at the Manager’s discretion.*",
         "listingDate": "2023-10-12",
-        "asOfDate": "2026-09-28",
-        "collectedAt": "2026-09-29T19:10:14.771Z"
+        "asOfDate": "2026-09-29",
+        "collectedAt": "2026-09-30T18:51:43.888Z"
       },
       "listingCounter": {
         "exchange": "HKEX",
@@ -169,16 +169,16 @@
         "status": "active_unverified"
       },
       "snapshot": {
-        "asOfDate": "2026-09-28",
-        "navPerShare": 7.09,
+        "asOfDate": "2026-09-29",
+        "navPerShare": 7.08,
         "navCurrency": "USD",
-        "totalNav": 70923944.97,
+        "totalNav": 70879684.67,
         "totalNavCurrency": "HKD",
         "outstandingUnits": 1275000,
         "managementFeePct": 0.35,
         "ongoingChargesPct": null,
         "sourceUrl": "https://www.globalxetfs.com.hk/funds/asia-usd-investment-grade-bond-etf/",
-        "collectedAt": "2026-09-29T19:10:14.771Z"
+        "collectedAt": "2026-09-30T18:51:43.888Z"
       },
       "documents": [
         {
@@ -204,8 +204,8 @@
         "baseCurrency": "USD",
         "distributionDescription": "Semi-annually at the Manager’s discretion (March and September) *",
         "listingDate": "2022-08-19",
-        "asOfDate": "2026-09-28",
-        "collectedAt": "2026-09-29T19:10:14.771Z"
+        "asOfDate": "2026-09-29",
+        "collectedAt": "2026-09-30T18:51:43.888Z"
       },
       "listingCounter": {
         "exchange": "HKEX",
@@ -216,16 +216,16 @@
         "status": "active_unverified"
       },
       "snapshot": {
-        "asOfDate": "2026-09-28",
+        "asOfDate": "2026-09-29",
         "navPerShare": 7.2,
         "navCurrency": "USD",
-        "totalNav": 38954001.73,
+        "totalNav": 38957604.43,
         "totalNavCurrency": "HKD",
         "outstandingUnits": 690000,
         "managementFeePct": null,
         "ongoingChargesPct": 0.4,
         "sourceUrl": "https://www.globalxetfs.com.hk/funds/bloomberg-msci-asia-ex-japan-green-bond-etf/",
-        "collectedAt": "2026-09-29T19:10:14.771Z"
+        "collectedAt": "2026-09-30T18:51:43.888Z"
       },
       "documents": [
         {
@@ -251,8 +251,8 @@
         "baseCurrency": "RMB",
         "distributionDescription": "Annually at the Manager's discretion (May in each year).",
         "listingDate": "2019-07-25",
-        "asOfDate": "2026-09-28",
-        "collectedAt": "2026-09-29T19:10:14.771Z"
+        "asOfDate": "2026-09-29",
+        "collectedAt": "2026-09-30T18:51:43.888Z"
       },
       "listingCounter": {
         "exchange": "HKEX",
@@ -263,16 +263,16 @@
         "status": "active_unverified"
       },
       "snapshot": {
-        "asOfDate": "2026-09-28",
-        "navPerShare": 63.8,
+        "asOfDate": "2026-09-29",
+        "navPerShare": 64.51,
         "navCurrency": "RMB",
-        "totalNav": 700724216.45,
+        "totalNav": 709278782.15,
         "totalNavCurrency": "HKD",
         "outstandingUnits": 9400000,
         "managementFeePct": null,
         "ongoingChargesPct": 0.68,
         "sourceUrl": "https://www.globalxetfs.com.hk/funds/china-biotech-etf/",
-        "collectedAt": "2026-09-29T19:10:14.771Z"
+        "collectedAt": "2026-09-30T18:51:43.888Z"
       },
       "documents": [
         {
@@ -298,8 +298,8 @@
         "baseCurrency": "RMB",
         "distributionDescription": "Annually at the Manager's discretion (May in each year).",
         "listingDate": "2020-01-17",
-        "asOfDate": "2026-09-28",
-        "collectedAt": "2026-09-29T19:10:14.771Z"
+        "asOfDate": "2026-09-29",
+        "collectedAt": "2026-09-30T18:51:43.888Z"
       },
       "listingCounter": {
         "exchange": "HKEX",
@@ -310,16 +310,16 @@
         "status": "active_unverified"
       },
       "snapshot": {
-        "asOfDate": "2026-09-28",
-        "navPerShare": 80.4,
+        "asOfDate": "2026-09-29",
+        "navPerShare": 80.66,
         "navCurrency": "RMB",
-        "totalNav": 399291525.41,
+        "totalNav": 400978384.91,
         "totalNavCurrency": "HKD",
         "outstandingUnits": 4250000,
         "managementFeePct": null,
         "ongoingChargesPct": 0.68,
         "sourceUrl": "https://www.globalxetfs.com.hk/funds/china-clean-energy-etf/",
-        "collectedAt": "2026-09-29T19:10:14.771Z"
+        "collectedAt": "2026-09-30T18:51:43.888Z"
       },
       "documents": [
         {
@@ -345,8 +345,8 @@
         "baseCurrency": "RMB",
         "distributionDescription": "Annually at the Manager's discretion (May in each year).",
         "listingDate": "2019-07-25",
-        "asOfDate": "2026-09-28",
-        "collectedAt": "2026-09-29T19:10:14.771Z"
+        "asOfDate": "2026-09-29",
+        "collectedAt": "2026-09-30T18:51:43.888Z"
       },
       "listingCounter": {
         "exchange": "HKEX",
@@ -357,16 +357,16 @@
         "status": "active_unverified"
       },
       "snapshot": {
-        "asOfDate": "2026-09-28",
-        "navPerShare": 43.61,
+        "asOfDate": "2026-09-29",
+        "navPerShare": 43.27,
         "navCurrency": "RMB",
-        "totalNav": 152891342.03,
+        "totalNav": 151835224.01,
         "totalNavCurrency": "HKD",
         "outstandingUnits": 3000000,
         "managementFeePct": null,
         "ongoingChargesPct": 0.68,
         "sourceUrl": "https://www.globalxetfs.com.hk/funds/china-cloud-computing-etf/",
-        "collectedAt": "2026-09-29T19:10:14.771Z"
+        "collectedAt": "2026-09-30T18:51:43.888Z"
       },
       "documents": [
         {
@@ -392,8 +392,8 @@
         "baseCurrency": "RMB",
         "distributionDescription": "Annually at the Manager's discretion (May in each year).",
         "listingDate": "2020-01-17",
-        "asOfDate": "2026-09-28",
-        "collectedAt": "2026-09-29T19:10:14.771Z"
+        "asOfDate": "2026-09-29",
+        "collectedAt": "2026-09-30T18:51:43.888Z"
       },
       "listingCounter": {
         "exchange": "HKEX",
@@ -404,16 +404,16 @@
         "status": "active_unverified"
       },
       "snapshot": {
-        "asOfDate": "2026-09-28",
-        "navPerShare": 31.65,
+        "asOfDate": "2026-09-29",
+        "navPerShare": 31.29,
         "navCurrency": "RMB",
-        "totalNav": 159018466.82,
+        "totalNav": 157373940.08,
         "totalNavCurrency": "HKD",
         "outstandingUnits": 4300000,
         "managementFeePct": null,
         "ongoingChargesPct": 0.68,
         "sourceUrl": "https://www.globalxetfs.com.hk/funds/china-consumer-brand-etf/",
-        "collectedAt": "2026-09-29T19:10:14.771Z"
+        "collectedAt": "2026-09-30T18:51:43.888Z"
       },
       "documents": [
         {
@@ -439,8 +439,8 @@
         "baseCurrency": "HKD",
         "distributionDescription": "prospectus for further details.\"> Annually (usually in May of each year) at the Manager’s discretion.",
         "listingDate": "2025-07-09",
-        "asOfDate": "2026-09-28",
-        "collectedAt": "2026-09-29T19:10:14.771Z"
+        "asOfDate": "2026-09-29",
+        "collectedAt": "2026-09-30T18:51:43.888Z"
       },
       "listingCounter": {
         "exchange": "HKEX",
@@ -451,16 +451,16 @@
         "status": "active_unverified"
       },
       "snapshot": {
-        "asOfDate": "2026-09-28",
-        "navPerShare": 106.08,
+        "asOfDate": "2026-09-29",
+        "navPerShare": 106.42,
         "navCurrency": "HKD",
-        "totalNav": 318229240.83,
+        "totalNav": 319256321.94,
         "totalNavCurrency": "HKD",
         "outstandingUnits": 3000000,
         "managementFeePct": null,
         "ongoingChargesPct": 0.68,
         "sourceUrl": "https://www.globalxetfs.com.hk/funds/china-core-tech-etf/",
-        "collectedAt": "2026-09-29T19:10:14.771Z"
+        "collectedAt": "2026-09-30T18:51:43.888Z"
       },
       "documents": [
         {
@@ -486,8 +486,8 @@
         "baseCurrency": "RMB",
         "distributionDescription": "Annually at the Manager's discretion (May in each year).",
         "listingDate": "2020-01-17",
-        "asOfDate": "2026-09-28",
-        "collectedAt": "2026-09-29T19:10:14.771Z"
+        "asOfDate": "2026-09-29",
+        "collectedAt": "2026-09-30T18:51:43.888Z"
       },
       "listingCounter": {
         "exchange": "HKEX",
@@ -498,16 +498,16 @@
         "status": "active_unverified"
       },
       "snapshot": {
-        "asOfDate": "2026-09-28",
-        "navPerShare": 73.12,
+        "asOfDate": "2026-09-29",
+        "navPerShare": 73.25,
         "navCurrency": "RMB",
-        "totalNav": 777555848.19,
+        "totalNav": 783975233.57,
         "totalNavCurrency": "HKD",
-        "outstandingUnits": 9100000,
+        "outstandingUnits": 9150000,
         "managementFeePct": null,
         "ongoingChargesPct": 0.68,
         "sourceUrl": "https://www.globalxetfs.com.hk/funds/china-electric-vehicle-etf/",
-        "collectedAt": "2026-09-29T19:10:14.771Z"
+        "collectedAt": "2026-09-30T18:51:43.888Z"
       },
       "documents": [
         {
@@ -533,8 +533,8 @@
         "baseCurrency": "RMB",
         "distributionDescription": "Annually at the Manager's discretion (May in each year).",
         "listingDate": "2021-03-11",
-        "asOfDate": "2026-09-28",
-        "collectedAt": "2026-09-29T19:10:14.771Z"
+        "asOfDate": "2026-09-29",
+        "collectedAt": "2026-09-30T18:51:43.888Z"
       },
       "listingCounter": {
         "exchange": "HKEX",
@@ -545,16 +545,16 @@
         "status": "active_unverified"
       },
       "snapshot": {
-        "asOfDate": "2026-09-28",
-        "navPerShare": 46.77,
+        "asOfDate": "2026-09-29",
+        "navPerShare": 46.48,
         "navCurrency": "RMB",
-        "totalNav": 35520840.16,
+        "totalNav": 35340549.14,
         "totalNavCurrency": "HKD",
         "outstandingUnits": 650000,
         "managementFeePct": 0.68,
         "ongoingChargesPct": null,
         "sourceUrl": "https://www.globalxetfs.com.hk/funds/china-global-leaders-etf/",
-        "collectedAt": "2026-09-29T19:10:14.771Z"
+        "collectedAt": "2026-09-30T18:51:43.888Z"
       },
       "documents": [
         {
@@ -580,8 +580,8 @@
         "baseCurrency": "HKD",
         "distributionDescription": "Annually at the Manager’s discretion",
         "listingDate": "2026-03-30",
-        "asOfDate": "2026-09-28",
-        "collectedAt": "2026-09-29T19:10:14.771Z"
+        "asOfDate": "2026-09-29",
+        "collectedAt": "2026-09-30T18:51:43.888Z"
       },
       "listingCounter": {
         "exchange": "HKEX",
@@ -592,16 +592,16 @@
         "status": "active_unverified"
       },
       "snapshot": {
-        "asOfDate": "2026-09-28",
-        "navPerShare": 11.55,
+        "asOfDate": "2026-09-29",
+        "navPerShare": 11.51,
         "navCurrency": "HKD",
-        "totalNav": 943652463.31,
+        "totalNav": 940368303.37,
         "totalNavCurrency": "HKD",
         "outstandingUnits": 81700000,
         "managementFeePct": null,
         "ongoingChargesPct": 0.75,
         "sourceUrl": "https://www.globalxetfs.com.hk/funds/china-life-franklin-hk-us-equity-select-etf/",
-        "collectedAt": "2026-09-29T19:10:14.771Z"
+        "collectedAt": "2026-09-30T18:51:43.888Z"
       },
       "documents": [],
       "validation": {
@@ -622,8 +622,8 @@
         "baseCurrency": "RMB",
         "distributionDescription": "Annually (usually in May of each year) at the Manager’s discretion.*",
         "listingDate": "2023-11-20",
-        "asOfDate": "2026-09-28",
-        "collectedAt": "2026-09-29T19:10:14.771Z"
+        "asOfDate": "2026-09-29",
+        "collectedAt": "2026-09-30T18:51:43.888Z"
       },
       "listingCounter": {
         "exchange": "HKEX",
@@ -634,16 +634,16 @@
         "status": "active_unverified"
       },
       "snapshot": {
-        "asOfDate": "2026-09-28",
-        "navPerShare": 71.61,
+        "asOfDate": "2026-09-29",
+        "navPerShare": 72.02,
         "navCurrency": "RMB",
-        "totalNav": 32612871.06,
+        "totalNav": 32832685.67,
         "totalNavCurrency": "HKD",
         "outstandingUnits": 389750,
         "managementFeePct": null,
         "ongoingChargesPct": 0.68,
         "sourceUrl": "https://www.globalxetfs.com.hk/funds/china-little-giant-etf/",
-        "collectedAt": "2026-09-29T19:10:14.771Z"
+        "collectedAt": "2026-09-30T18:51:43.888Z"
       },
       "documents": [
         {
@@ -669,8 +669,8 @@
         "baseCurrency": "RMB",
         "distributionDescription": "Annually (usually in May of each year) at the Manager’s discretion. *",
         "listingDate": "2023-08-04",
-        "asOfDate": "2026-09-28",
-        "collectedAt": "2026-09-29T19:10:14.771Z"
+        "asOfDate": "2026-09-29",
+        "collectedAt": "2026-09-30T18:51:43.888Z"
       },
       "listingCounter": {
         "exchange": "HKEX",
@@ -681,16 +681,16 @@
         "status": "active_unverified"
       },
       "snapshot": {
-        "asOfDate": "2026-09-28",
-        "navPerShare": 34.14,
+        "asOfDate": "2026-09-29",
+        "navPerShare": 34.09,
         "navCurrency": "RMB",
-        "totalNav": 11967597.97,
+        "totalNav": 11963743.08,
         "totalNavCurrency": "HKD",
         "outstandingUnits": 300000,
         "managementFeePct": null,
         "ongoingChargesPct": 0.68,
         "sourceUrl": "https://www.globalxetfs.com.hk/funds/china-medtech-etf/",
-        "collectedAt": "2026-09-29T19:10:14.771Z"
+        "collectedAt": "2026-09-30T18:51:43.888Z"
       },
       "documents": [
         {
@@ -716,8 +716,8 @@
         "baseCurrency": "USD",
         "distributionDescription": null,
         "listingDate": "2026-09-15",
-        "asOfDate": "2026-09-28",
-        "collectedAt": "2026-09-29T19:10:14.771Z"
+        "asOfDate": "2026-09-29",
+        "collectedAt": "2026-09-30T18:51:43.888Z"
       },
       "listingCounter": {
         "exchange": "HKEX",
@@ -728,16 +728,16 @@
         "status": "active_unverified"
       },
       "snapshot": {
-        "asOfDate": "2026-09-28",
-        "navPerShare": 0.96,
+        "asOfDate": "2026-09-29",
+        "navPerShare": 0.97,
         "navCurrency": "USD",
-        "totalNav": 34035415.98,
+        "totalNav": 34106657.09,
         "totalNavCurrency": "HKD",
         "outstandingUnits": 4500000,
         "managementFeePct": null,
         "ongoingChargesPct": 0.68,
         "sourceUrl": "https://www.globalxetfs.com.hk/funds/copper-miners-etf/",
-        "collectedAt": "2026-09-29T19:10:14.771Z"
+        "collectedAt": "2026-09-30T18:51:43.888Z"
       },
       "documents": [],
       "validation": {
@@ -758,8 +758,8 @@
         "baseCurrency": "HKD",
         "distributionDescription": null,
         "listingDate": "2024-02-29",
-        "asOfDate": "2026-09-28",
-        "collectedAt": "2026-09-29T19:10:14.771Z"
+        "asOfDate": "2026-09-29",
+        "collectedAt": "2026-09-30T18:51:43.888Z"
       },
       "listingCounter": {
         "exchange": "HKEX",
@@ -770,16 +770,16 @@
         "status": "active_unverified"
       },
       "snapshot": {
-        "asOfDate": "2026-09-28",
-        "navPerShare": 9.28,
+        "asOfDate": "2026-09-29",
+        "navPerShare": 9.27,
         "navCurrency": "HKD",
-        "totalNav": 3002387202.39,
+        "totalNav": 3076951558.68,
         "totalNavCurrency": "HKD",
-        "outstandingUnits": 323600000,
+        "outstandingUnits": 332000000,
         "managementFeePct": 0.75,
         "ongoingChargesPct": null,
         "sourceUrl": "https://www.globalxetfs.com.hk/funds/covered-call-etf/",
-        "collectedAt": "2026-09-29T19:10:14.771Z"
+        "collectedAt": "2026-09-30T18:51:43.888Z"
       },
       "documents": [
         {
@@ -805,8 +805,8 @@
         "baseCurrency": "USD",
         "distributionDescription": "Annually (usually in May of each year) at the Manager’s discretion. *",
         "listingDate": "2024-11-26",
-        "asOfDate": "2026-09-28",
-        "collectedAt": "2026-09-29T19:10:14.771Z"
+        "asOfDate": "2026-09-29",
+        "collectedAt": "2026-09-30T18:51:43.888Z"
       },
       "listingCounter": {
         "exchange": "HKEX",
@@ -817,16 +817,16 @@
         "status": "active_unverified"
       },
       "snapshot": {
-        "asOfDate": "2026-09-28",
-        "navPerShare": 13,
+        "asOfDate": "2026-09-29",
+        "navPerShare": 12.83,
         "navCurrency": "USD",
-        "totalNav": 4224064.83,
+        "totalNav": 4170591.95,
         "totalNavCurrency": "HKD",
         "outstandingUnits": 41428,
         "managementFeePct": null,
         "ongoingChargesPct": 0.9,
         "sourceUrl": "https://www.globalxetfs.com.hk/funds/emerging-markets-asia-active-etf/",
-        "collectedAt": "2026-09-29T19:10:14.771Z"
+        "collectedAt": "2026-09-30T18:51:43.888Z"
       },
       "documents": [
         {
@@ -852,8 +852,8 @@
         "baseCurrency": "USD",
         "distributionDescription": "Annually (usually in May of each year) at the Manager’s discretion.",
         "listingDate": "2022-03-21",
-        "asOfDate": "2026-09-28",
-        "collectedAt": "2026-09-29T19:10:14.771Z"
+        "asOfDate": "2026-09-29",
+        "collectedAt": "2026-09-30T18:51:43.888Z"
       },
       "listingCounter": {
         "exchange": "HKEX",
@@ -864,16 +864,16 @@
         "status": "active_unverified"
       },
       "snapshot": {
-        "asOfDate": "2026-09-28",
-        "navPerShare": 10.22,
+        "asOfDate": "2026-09-29",
+        "navPerShare": 10.19,
         "navCurrency": "USD",
-        "totalNav": 8016694.45,
+        "totalNav": 7996100.01,
         "totalNavCurrency": "HKD",
         "outstandingUnits": 100000,
         "managementFeePct": null,
         "ongoingChargesPct": 0.75,
         "sourceUrl": "https://www.globalxetfs.com.hk/funds/ev-and-humanoid-robot-active-etf/",
-        "collectedAt": "2026-09-29T19:10:14.771Z"
+        "collectedAt": "2026-09-30T18:51:43.888Z"
       },
       "documents": [
         {
@@ -899,8 +899,8 @@
         "baseCurrency": "RMB",
         "distributionDescription": "Semi-annually at the Manager’s discretion (March and September) *",
         "listingDate": "2022-10-19",
-        "asOfDate": "2026-09-28",
-        "collectedAt": "2026-09-29T19:10:14.771Z"
+        "asOfDate": "2026-09-29",
+        "collectedAt": "2026-09-30T18:51:43.888Z"
       },
       "listingCounter": {
         "exchange": "HKEX",
@@ -911,16 +911,16 @@
         "status": "active_unverified"
       },
       "snapshot": {
-        "asOfDate": "2026-09-28",
-        "navPerShare": 52.39,
+        "asOfDate": "2026-09-29",
+        "navPerShare": 52.41,
         "navCurrency": "RMB",
-        "totalNav": 17446782.78,
+        "totalNav": 17472571.46,
         "totalNavCurrency": "HKD",
         "outstandingUnits": 285000,
         "managementFeePct": null,
         "ongoingChargesPct": 0.3,
         "sourceUrl": "https://www.globalxetfs.com.hk/funds/ftse-china-policy-bank-bond-etf/",
-        "collectedAt": "2026-09-29T19:10:14.771Z"
+        "collectedAt": "2026-09-30T18:51:43.888Z"
       },
       "documents": [
         {
@@ -946,8 +946,8 @@
         "baseCurrency": "HKD",
         "distributionDescription": "prospectus for further details. \"> Annually (usually in May of each year) at the Manager’s discretion.",
         "listingDate": "2025-03-28",
-        "asOfDate": "2026-09-28",
-        "collectedAt": "2026-09-29T19:10:14.771Z"
+        "asOfDate": "2026-09-29",
+        "collectedAt": "2026-09-30T18:51:43.888Z"
       },
       "listingCounter": {
         "exchange": "HKEX",
@@ -958,16 +958,16 @@
         "status": "active_unverified"
       },
       "snapshot": {
-        "asOfDate": "2026-09-28",
-        "navPerShare": 86.32,
+        "asOfDate": "2026-09-29",
+        "navPerShare": 85.56,
         "navCurrency": "HKD",
-        "totalNav": 2741440391.1,
+        "totalNav": 2717530849.2,
         "totalNavCurrency": "HKD",
         "outstandingUnits": 31760000,
         "managementFeePct": 0.15,
         "ongoingChargesPct": 0.15,
         "sourceUrl": "https://www.globalxetfs.com.hk/funds/ftse-greater-china-etf/",
-        "collectedAt": "2026-09-29T19:10:14.771Z"
+        "collectedAt": "2026-09-30T18:51:43.888Z"
       },
       "documents": [
         {
@@ -993,8 +993,8 @@
         "baseCurrency": "USD",
         "distributionDescription": "prospectus for further details.\"> Annually (usually in May of each year) at the Manager’s discretion. *",
         "listingDate": "2025-01-10",
-        "asOfDate": "2026-09-28",
-        "collectedAt": "2026-09-29T19:10:14.771Z"
+        "asOfDate": "2026-09-29",
+        "collectedAt": "2026-09-30T18:51:43.888Z"
       },
       "listingCounter": {
         "exchange": "HKEX",
@@ -1005,16 +1005,16 @@
         "status": "active_unverified"
       },
       "snapshot": {
-        "asOfDate": "2026-09-28",
-        "navPerShare": 9.18,
+        "asOfDate": "2026-09-29",
+        "navPerShare": 9.14,
         "navCurrency": "USD",
-        "totalNav": 18007758.02,
+        "totalNav": 17937028.1,
         "totalNavCurrency": "HKD",
         "outstandingUnits": 250000,
         "managementFeePct": 0.68,
         "ongoingChargesPct": null,
         "sourceUrl": "https://www.globalxetfs.com.hk/funds/g2-tech-etf/",
-        "collectedAt": "2026-09-29T19:10:14.771Z"
+        "collectedAt": "2026-09-30T18:51:43.888Z"
       },
       "documents": [
         {
@@ -1040,8 +1040,8 @@
         "baseCurrency": "USD",
         "distributionDescription": "prospectus for further details. \"> Annually (usually in May of each year) at the Manager’s discretion. *",
         "listingDate": "2025-02-10",
-        "asOfDate": "2026-09-28",
-        "collectedAt": "2026-09-29T19:10:14.771Z"
+        "asOfDate": "2026-09-29",
+        "collectedAt": "2026-09-30T18:51:43.888Z"
       },
       "listingCounter": {
         "exchange": "HKEX",
@@ -1052,16 +1052,16 @@
         "status": "active_unverified"
       },
       "snapshot": {
-        "asOfDate": "2026-09-28",
-        "navPerShare": 12.79,
+        "asOfDate": "2026-09-29",
+        "navPerShare": 12.83,
         "navCurrency": "USD",
-        "totalNav": 17206298.01,
+        "totalNav": 17262172.94,
         "totalNavCurrency": "HKD",
         "outstandingUnits": 171429,
         "managementFeePct": 0.68,
         "ongoingChargesPct": null,
         "sourceUrl": "https://www.globalxetfs.com.hk/funds/global-x-ai-infrastructure-etf/",
-        "collectedAt": "2026-09-29T19:10:14.771Z"
+        "collectedAt": "2026-09-30T18:51:43.888Z"
       },
       "documents": [
         {
@@ -1087,8 +1087,8 @@
         "baseCurrency": "RMB",
         "distributionDescription": "Annually at the Manager's discretion (May in each year).",
         "listingDate": "2020-08-07",
-        "asOfDate": "2026-09-28",
-        "collectedAt": "2026-09-29T19:10:14.771Z"
+        "asOfDate": "2026-09-29",
+        "collectedAt": "2026-09-30T18:51:43.888Z"
       },
       "listingCounter": {
         "exchange": "HKEX",
@@ -1099,16 +1099,16 @@
         "status": "active_unverified"
       },
       "snapshot": {
-        "asOfDate": "2026-09-28",
-        "navPerShare": 43.09,
+        "asOfDate": "2026-09-29",
+        "navPerShare": 42.88,
         "navCurrency": "RMB",
-        "totalNav": 715038556.87,
+        "totalNav": 712237591.84,
         "totalNavCurrency": "HKD",
         "outstandingUnits": 14200000,
         "managementFeePct": null,
         "ongoingChargesPct": 0.68,
         "sourceUrl": "https://www.globalxetfs.com.hk/funds/global-x-china-robotics-ai-etf/",
-        "collectedAt": "2026-09-29T19:10:14.771Z"
+        "collectedAt": "2026-09-30T18:51:43.888Z"
       },
       "documents": [
         {
@@ -1134,8 +1134,8 @@
         "baseCurrency": "RMB",
         "distributionDescription": "Annually at the Manager's discretion (May in each year).",
         "listingDate": "2020-08-07",
-        "asOfDate": "2026-09-28",
-        "collectedAt": "2026-09-29T19:10:14.771Z"
+        "asOfDate": "2026-09-29",
+        "collectedAt": "2026-09-30T18:51:43.888Z"
       },
       "listingCounter": {
         "exchange": "HKEX",
@@ -1146,16 +1146,16 @@
         "status": "active_unverified"
       },
       "snapshot": {
-        "asOfDate": "2026-09-28",
-        "navPerShare": 68.31,
+        "asOfDate": "2026-09-29",
+        "navPerShare": 68.89,
         "navCurrency": "RMB",
-        "totalNav": 3356344827.35,
+        "totalNav": 3388230093.86,
         "totalNavCurrency": "HKD",
         "outstandingUnits": 42050000,
         "managementFeePct": null,
         "ongoingChargesPct": 0.68,
         "sourceUrl": "https://www.globalxetfs.com.hk/funds/global-x-china-semiconductor-etf/",
-        "collectedAt": "2026-09-29T19:10:14.771Z"
+        "collectedAt": "2026-09-30T18:51:43.888Z"
       },
       "documents": [
         {
@@ -1181,8 +1181,8 @@
         "baseCurrency": "USD",
         "distributionDescription": null,
         "listingDate": "2024-12-13",
-        "asOfDate": "2026-09-28",
-        "collectedAt": "2026-09-29T19:10:14.771Z"
+        "asOfDate": "2026-09-29",
+        "collectedAt": "2026-09-30T18:51:43.888Z"
       },
       "listingCounter": {
         "exchange": "HKEX",
@@ -1193,16 +1193,16 @@
         "status": "active_unverified"
       },
       "snapshot": {
-        "asOfDate": "2026-09-28",
+        "asOfDate": "2026-09-29",
         "navPerShare": 7,
         "navCurrency": "USD",
-        "totalNav": 355151476.55,
+        "totalNav": 355272053.27,
         "totalNavCurrency": "HKD",
         "outstandingUnits": 6465000,
         "managementFeePct": 0.06,
         "ongoingChargesPct": null,
         "sourceUrl": "https://www.globalxetfs.com.hk/funds/global-x-us-treasury-0-3-month-etf/",
-        "collectedAt": "2026-09-29T19:10:14.771Z"
+        "collectedAt": "2026-09-30T18:51:43.888Z"
       },
       "documents": [
         {
@@ -1228,8 +1228,8 @@
         "baseCurrency": "USD",
         "distributionDescription": null,
         "listingDate": "2024-07-11",
-        "asOfDate": "2026-09-28",
-        "collectedAt": "2026-09-29T19:10:14.771Z"
+        "asOfDate": "2026-09-29",
+        "collectedAt": "2026-09-30T18:51:43.888Z"
       },
       "listingCounter": {
         "exchange": "HKEX",
@@ -1240,16 +1240,16 @@
         "status": "active_unverified"
       },
       "snapshot": {
-        "asOfDate": "2026-09-28",
+        "asOfDate": "2026-09-29",
         "navPerShare": 6.82,
         "navCurrency": "USD",
-        "totalNav": 370695839.95,
+        "totalNav": 454490256.03,
         "totalNavCurrency": "HKD",
-        "outstandingUnits": 6930000,
+        "outstandingUnits": 8490000,
         "managementFeePct": 0.3,
         "ongoingChargesPct": null,
         "sourceUrl": "https://www.globalxetfs.com.hk/funds/global-x-us-treasury-3-5-year-etf/",
-        "collectedAt": "2026-09-29T19:10:14.771Z"
+        "collectedAt": "2026-09-30T18:51:43.888Z"
       },
       "documents": [
         {
@@ -1275,8 +1275,8 @@
         "baseCurrency": "USD",
         "distributionDescription": null,
         "listingDate": "2026-05-15",
-        "asOfDate": "2026-09-28",
-        "collectedAt": "2026-09-29T19:10:14.771Z"
+        "asOfDate": "2026-09-29",
+        "collectedAt": "2026-09-30T18:51:43.888Z"
       },
       "listingCounter": {
         "exchange": "HKEX",
@@ -1287,16 +1287,16 @@
         "status": "active_unverified"
       },
       "snapshot": {
-        "asOfDate": "2026-09-28",
-        "navPerShare": 8.29,
+        "asOfDate": "2026-09-29",
+        "navPerShare": 8.31,
         "navCurrency": "USD",
-        "totalNav": 78027143.95,
+        "totalNav": 78258028.38,
         "totalNavCurrency": "HKD",
         "outstandingUnits": 1200000,
         "managementFeePct": 0.75,
         "ongoingChargesPct": 0.75,
         "sourceUrl": "https://www.globalxetfs.com.hk/funds/gold-covered-call-active-etf/",
-        "collectedAt": "2026-09-29T19:10:14.771Z"
+        "collectedAt": "2026-09-30T18:51:43.888Z"
       },
       "documents": [],
       "validation": {
@@ -1317,8 +1317,8 @@
         "baseCurrency": "HKD",
         "distributionDescription": "Annually at the Manager's discretion (May in each year).",
         "listingDate": "2022-03-21",
-        "asOfDate": "2026-09-28",
-        "collectedAt": "2026-09-29T19:10:14.771Z"
+        "asOfDate": "2026-09-29",
+        "collectedAt": "2026-09-30T18:51:43.888Z"
       },
       "listingCounter": {
         "exchange": "HKEX",
@@ -1329,16 +1329,16 @@
         "status": "active_unverified"
       },
       "snapshot": {
-        "asOfDate": "2026-09-28",
-        "navPerShare": 4.91,
+        "asOfDate": "2026-09-29",
+        "navPerShare": 4.89,
         "navCurrency": "HKD",
-        "totalNav": 17218730.01,
+        "totalNav": 17174688.69,
         "totalNavCurrency": "HKD",
         "outstandingUnits": 3000000,
         "managementFeePct": 0.29,
         "ongoingChargesPct": 0.29,
         "sourceUrl": "https://www.globalxetfs.com.hk/funds/hang-seng-esg-etf/",
-        "collectedAt": "2026-09-29T19:10:14.771Z"
+        "collectedAt": "2026-09-30T18:51:43.888Z"
       },
       "documents": [
         {
@@ -1364,8 +1364,8 @@
         "baseCurrency": "HKD",
         "distributionDescription": "Monthly at the Manager’s discretion (Dividend rate is not guaranteed, distributions may be made out of capital#)",
         "listingDate": "2026-08-20",
-        "asOfDate": "2026-09-28",
-        "collectedAt": "2026-09-29T19:10:14.771Z"
+        "asOfDate": "2026-09-29",
+        "collectedAt": "2026-09-30T18:51:43.888Z"
       },
       "listingCounter": {
         "exchange": "HKEX",
@@ -1376,16 +1376,16 @@
         "status": "active_unverified"
       },
       "snapshot": {
-        "asOfDate": "2026-09-28",
+        "asOfDate": "2026-09-29",
         "navPerShare": 7.97,
         "navCurrency": "HKD",
-        "totalNav": 193320762.02,
+        "totalNav": 193209583.01,
         "totalNavCurrency": "HKD",
         "outstandingUnits": 24250000,
         "managementFeePct": null,
         "ongoingChargesPct": 0.75,
         "sourceUrl": "https://www.globalxetfs.com.hk/funds/hang-seng-high-dividend-yield-enhanced-income-etf/",
-        "collectedAt": "2026-09-29T19:10:14.771Z"
+        "collectedAt": "2026-09-30T18:51:43.888Z"
       },
       "documents": [],
       "validation": {
@@ -1406,8 +1406,8 @@
         "baseCurrency": "HKD",
         "distributionDescription": "Semi-annually at the Manager’s discretion (Mar and Sep)",
         "listingDate": "2013-06-17",
-        "asOfDate": "2026-09-28",
-        "collectedAt": "2026-09-29T19:10:14.771Z"
+        "asOfDate": "2026-09-29",
+        "collectedAt": "2026-09-30T18:51:43.888Z"
       },
       "listingCounter": {
         "exchange": "HKEX",
@@ -1418,16 +1418,16 @@
         "status": "active_unverified"
       },
       "snapshot": {
-        "asOfDate": "2026-09-28",
-        "navPerShare": 29.14,
+        "asOfDate": "2026-09-29",
+        "navPerShare": 29.1,
         "navCurrency": "HKD",
-        "totalNav": 5641941979.68,
+        "totalNav": 5790201399.75,
         "totalNavCurrency": "HKD",
-        "outstandingUnits": 193600000,
+        "outstandingUnits": 199000000,
         "managementFeePct": 0.68,
         "ongoingChargesPct": null,
         "sourceUrl": "https://www.globalxetfs.com.hk/funds/hang-seng-high-dividend-yield-etf/",
-        "collectedAt": "2026-09-29T19:10:14.771Z"
+        "collectedAt": "2026-09-30T18:51:43.888Z"
       },
       "documents": [
         {
@@ -1453,8 +1453,8 @@
         "baseCurrency": "HKD",
         "distributionDescription": null,
         "listingDate": "2025-03-13",
-        "asOfDate": "2026-09-28",
-        "collectedAt": "2026-09-29T19:10:14.771Z"
+        "asOfDate": "2026-09-29",
+        "collectedAt": "2026-09-30T18:51:43.888Z"
       },
       "listingCounter": {
         "exchange": "HKEX",
@@ -1465,16 +1465,16 @@
         "status": "active_unverified"
       },
       "snapshot": {
-        "asOfDate": "2026-09-28",
-        "navPerShare": 7.03,
+        "asOfDate": "2026-09-29",
+        "navPerShare": 6.97,
         "navCurrency": "HKD",
-        "totalNav": 3160756399.2,
+        "totalNav": 3149584116,
         "totalNavCurrency": "HKD",
-        "outstandingUnits": 449600000,
+        "outstandingUnits": 451600000,
         "managementFeePct": 0.75,
         "ongoingChargesPct": null,
         "sourceUrl": "https://www.globalxetfs.com.hk/funds/hang-seng-tech-covered-call-active-etf/",
-        "collectedAt": "2026-09-29T19:10:14.771Z"
+        "collectedAt": "2026-09-30T18:51:43.888Z"
       },
       "documents": [
         {
@@ -1500,8 +1500,8 @@
         "baseCurrency": "HKD",
         "distributionDescription": "Semi-annually (usually in March and Septemeber of each year) at the Manager’s discretion.*",
         "listingDate": "2023-03-30",
-        "asOfDate": "2026-09-28",
-        "collectedAt": "2026-09-29T19:10:14.771Z"
+        "asOfDate": "2026-09-29",
+        "collectedAt": "2026-09-30T18:51:43.888Z"
       },
       "listingCounter": {
         "exchange": "HKEX",
@@ -1512,16 +1512,16 @@
         "status": "active_unverified"
       },
       "snapshot": {
-        "asOfDate": "2026-09-28",
-        "navPerShare": 5.32,
+        "asOfDate": "2026-09-29",
+        "navPerShare": 5.26,
         "navCurrency": "HKD",
-        "totalNav": 2162855404.15,
+        "totalNav": 2139528161.4,
         "totalNavCurrency": "HKD",
         "outstandingUnits": 406800000,
         "managementFeePct": 0.45,
         "ongoingChargesPct": null,
         "sourceUrl": "https://www.globalxetfs.com.hk/funds/hang-seng-tech-etf/",
-        "collectedAt": "2026-09-29T19:10:14.771Z"
+        "collectedAt": "2026-09-30T18:51:43.888Z"
       },
       "documents": [
         {
@@ -1547,8 +1547,8 @@
         "baseCurrency": "HKD",
         "distributionDescription": null,
         "listingDate": "2024-02-29",
-        "asOfDate": "2026-09-28",
-        "collectedAt": "2026-09-29T19:10:14.771Z"
+        "asOfDate": "2026-09-29",
+        "collectedAt": "2026-09-30T18:51:43.888Z"
       },
       "listingCounter": {
         "exchange": "HKEX",
@@ -1559,16 +1559,16 @@
         "status": "active_unverified"
       },
       "snapshot": {
-        "asOfDate": "2026-09-28",
-        "navPerShare": 8.23,
+        "asOfDate": "2026-09-29",
+        "navPerShare": 8.2,
         "navCurrency": "HKD",
-        "totalNav": 21798218241.53,
+        "totalNav": 21753393455.37,
         "totalNavCurrency": "HKD",
-        "outstandingUnits": 2647200000,
+        "outstandingUnits": 2652000000,
         "managementFeePct": 0.75,
         "ongoingChargesPct": null,
         "sourceUrl": "https://www.globalxetfs.com.hk/funds/hscei-covered-call-etf/",
-        "collectedAt": "2026-09-29T19:10:14.771Z"
+        "collectedAt": "2026-09-30T18:51:43.888Z"
       },
       "documents": [
         {
@@ -1594,8 +1594,8 @@
         "baseCurrency": "USD",
         "distributionDescription": "Annually (usually in May of each year) at the Manager’s discretion. *",
         "listingDate": "2024-11-26",
-        "asOfDate": "2026-09-28",
-        "collectedAt": "2026-09-29T19:10:14.771Z"
+        "asOfDate": "2026-09-29",
+        "collectedAt": "2026-09-30T18:51:43.888Z"
       },
       "listingCounter": {
         "exchange": "HKEX",
@@ -1606,16 +1606,16 @@
         "status": "active_unverified"
       },
       "snapshot": {
-        "asOfDate": "2026-09-28",
+        "asOfDate": "2026-09-29",
         "navPerShare": 5.99,
         "navCurrency": "USD",
-        "totalNav": 67744438.61,
+        "totalNav": 67694115.1,
         "totalNavCurrency": "HKD",
         "outstandingUnits": 1441428,
         "managementFeePct": null,
         "ongoingChargesPct": 0.9,
         "sourceUrl": "https://www.globalxetfs.com.hk/funds/india-sector-leader-active-etf/",
-        "collectedAt": "2026-09-29T19:10:14.771Z"
+        "collectedAt": "2026-09-30T18:51:43.888Z"
       },
       "documents": [
         {
@@ -1641,8 +1641,8 @@
         "baseCurrency": "USD",
         "distributionDescription": "Annually (usually in May of each year) at the Manager’s discretion.*",
         "listingDate": "2024-03-19",
-        "asOfDate": "2026-09-28",
-        "collectedAt": "2026-09-29T19:10:14.771Z"
+        "asOfDate": "2026-09-29",
+        "collectedAt": "2026-09-30T18:51:43.888Z"
       },
       "listingCounter": {
         "exchange": "HKEX",
@@ -1653,16 +1653,16 @@
         "status": "active_unverified"
       },
       "snapshot": {
-        "asOfDate": "2026-09-28",
-        "navPerShare": 43.05,
+        "asOfDate": "2026-09-29",
+        "navPerShare": 42.93,
         "navCurrency": "HKD",
-        "totalNav": 7954039.27,
+        "totalNav": 7931990.39,
         "totalNavCurrency": "HKD",
         "outstandingUnits": 184750,
         "managementFeePct": null,
         "ongoingChargesPct": 0.68,
         "sourceUrl": "https://www.globalxetfs.com.hk/funds/india-top-10-etf/",
-        "collectedAt": "2026-09-29T19:10:14.771Z"
+        "collectedAt": "2026-09-30T18:51:43.888Z"
       },
       "documents": [
         {
@@ -1688,8 +1688,8 @@
         "baseCurrency": "USD",
         "distributionDescription": "Annually (usually in May of each year) at the Manager’s discretion.*",
         "listingDate": "2023-11-24",
-        "asOfDate": "2026-09-28",
-        "collectedAt": "2026-09-29T19:10:14.771Z"
+        "asOfDate": "2026-09-29",
+        "collectedAt": "2026-09-30T18:51:43.888Z"
       },
       "listingCounter": {
         "exchange": "HKEX",
@@ -1700,16 +1700,16 @@
         "status": "active_unverified"
       },
       "snapshot": {
-        "asOfDate": "2026-09-28",
-        "navPerShare": 13.5,
+        "asOfDate": "2026-09-29",
+        "navPerShare": 13.44,
         "navCurrency": "USD",
-        "totalNav": 17495516.57,
+        "totalNav": 17427697.44,
         "totalNavCurrency": "HKD",
         "outstandingUnits": 165200,
         "managementFeePct": 0.68,
         "ongoingChargesPct": null,
         "sourceUrl": "https://www.globalxetfs.com.hk/funds/innovative-bluechip-top-10-etf/",
-        "collectedAt": "2026-09-29T19:10:14.771Z"
+        "collectedAt": "2026-09-30T18:51:43.888Z"
       },
       "documents": [
         {
@@ -1735,8 +1735,8 @@
         "baseCurrency": "USD",
         "distributionDescription": "Annually at the Manager's discretion (May in each year).",
         "listingDate": "2021-12-10",
-        "asOfDate": "2026-09-28",
-        "collectedAt": "2026-09-29T19:10:14.771Z"
+        "asOfDate": "2026-09-29",
+        "collectedAt": "2026-09-30T18:51:43.888Z"
       },
       "listingCounter": {
         "exchange": "HKEX",
@@ -1747,16 +1747,16 @@
         "status": "active_unverified"
       },
       "snapshot": {
-        "asOfDate": "2026-09-28",
-        "navPerShare": 5.14,
+        "asOfDate": "2026-09-29",
+        "navPerShare": 5.11,
         "navCurrency": "USD",
-        "totalNav": 12090677.48,
+        "totalNav": 12026154.73,
         "totalNavCurrency": "HKD",
         "outstandingUnits": 300000,
         "managementFeePct": null,
         "ongoingChargesPct": 0.68,
         "sourceUrl": "https://www.globalxetfs.com.hk/funds/innovative-finance-etf/",
-        "collectedAt": "2026-09-29T19:10:14.771Z"
+        "collectedAt": "2026-09-30T18:51:43.888Z"
       },
       "documents": [
         {
@@ -1782,8 +1782,8 @@
         "baseCurrency": null,
         "distributionDescription": "Annually (usually in May of each year) at the Manager’s discretion.*",
         "listingDate": "2023-11-24",
-        "asOfDate": "2026-09-28",
-        "collectedAt": "2026-09-29T19:10:14.771Z"
+        "asOfDate": "2026-09-29",
+        "collectedAt": "2026-09-30T18:51:43.888Z"
       },
       "listingCounter": {
         "exchange": "HKEX",
@@ -1794,16 +1794,16 @@
         "status": "active_unverified"
       },
       "snapshot": {
-        "asOfDate": "2026-09-28",
-        "navPerShare": 86.72,
+        "asOfDate": "2026-09-29",
+        "navPerShare": 86.08,
         "navCurrency": "HKD",
-        "totalNav": 24678465.39,
+        "totalNav": 24509941.5,
         "totalNavCurrency": "HKD",
         "outstandingUnits": 275000,
         "managementFeePct": 0.68,
         "ongoingChargesPct": null,
         "sourceUrl": "https://www.globalxetfs.com.hk/funds/japan-global-leaders-etf/",
-        "collectedAt": "2026-09-29T19:10:14.771Z"
+        "collectedAt": "2026-09-30T18:51:43.888Z"
       },
       "documents": [
         {
@@ -1829,8 +1829,8 @@
         "baseCurrency": null,
         "distributionDescription": null,
         "listingDate": "2026-09-15",
-        "asOfDate": "2026-09-28",
-        "collectedAt": "2026-09-29T19:10:14.771Z"
+        "asOfDate": "2026-09-29",
+        "collectedAt": "2026-09-30T18:51:43.888Z"
       },
       "listingCounter": {
         "exchange": "HKEX",
@@ -1841,16 +1841,16 @@
         "status": "active_unverified"
       },
       "snapshot": {
-        "asOfDate": "2026-09-28",
+        "asOfDate": "2026-09-29",
         "navPerShare": null,
         "navCurrency": null,
-        "totalNav": 88951587.7,
+        "totalNav": 89422760.37,
         "totalNavCurrency": "HKD",
         "outstandingUnits": 10500000,
         "managementFeePct": null,
         "ongoingChargesPct": 0.49,
         "sourceUrl": "https://www.globalxetfs.com.hk/funds/kospi-200-etf/",
-        "collectedAt": "2026-09-29T19:10:14.771Z"
+        "collectedAt": "2026-09-30T18:51:43.888Z"
       },
       "documents": [],
       "validation": {
@@ -1873,8 +1873,8 @@
         "baseCurrency": null,
         "distributionDescription": "Annually (usually in May of each year) at the Manager’s discretion.*",
         "listingDate": "2024-03-19",
-        "asOfDate": "2026-09-28",
-        "collectedAt": "2026-09-29T19:10:14.771Z"
+        "asOfDate": "2026-09-29",
+        "collectedAt": "2026-09-30T18:51:43.888Z"
       },
       "listingCounter": {
         "exchange": "HKEX",
@@ -1885,16 +1885,16 @@
         "status": "active_unverified"
       },
       "snapshot": {
-        "asOfDate": "2026-09-28",
+        "asOfDate": "2026-09-29",
         "navPerShare": null,
         "navCurrency": null,
-        "totalNav": 7148444.54,
+        "totalNav": 7166521.7,
         "totalNavCurrency": "HKD",
         "outstandingUnits": 125000,
         "managementFeePct": null,
         "ongoingChargesPct": 0.68,
         "sourceUrl": "https://www.globalxetfs.com.hk/funds/kpop-and-culture-etf/",
-        "collectedAt": "2026-09-29T19:10:14.771Z"
+        "collectedAt": "2026-09-30T18:51:43.888Z"
       },
       "documents": [
         {
@@ -1922,8 +1922,8 @@
         "baseCurrency": "USD",
         "distributionDescription": "prospectus for further details.\"> Annually (usually in May of each year) at the Manager’s discretion. *",
         "listingDate": "2025-06-09",
-        "asOfDate": "2026-09-28",
-        "collectedAt": "2026-09-29T19:10:14.771Z"
+        "asOfDate": "2026-09-29",
+        "collectedAt": "2026-09-30T18:51:43.888Z"
       },
       "listingCounter": {
         "exchange": "HKEX",
@@ -1934,16 +1934,16 @@
         "status": "active_unverified"
       },
       "snapshot": {
-        "asOfDate": "2026-09-28",
-        "navPerShare": 10.31,
+        "asOfDate": "2026-09-29",
+        "navPerShare": 10.26,
         "navCurrency": "USD",
-        "totalNav": 472396769.28,
+        "totalNav": 470306383.54,
         "totalNavCurrency": "HKD",
         "outstandingUnits": 5840000,
         "managementFeePct": null,
         "ongoingChargesPct": 0.18,
         "sourceUrl": "https://www.globalxetfs.com.hk/funds/msci-asia-pacific-ex-japan-etf/",
-        "collectedAt": "2026-09-29T19:10:14.771Z"
+        "collectedAt": "2026-09-30T18:51:43.888Z"
       },
       "documents": [
         {
@@ -1969,8 +1969,8 @@
         "baseCurrency": "HKD",
         "distributionDescription": "Annually at the Manager’s discretion (May in each year)",
         "listingDate": "2013-06-17",
-        "asOfDate": "2026-09-28",
-        "collectedAt": "2026-09-29T19:10:14.771Z"
+        "asOfDate": "2026-09-29",
+        "collectedAt": "2026-09-30T18:51:43.888Z"
       },
       "listingCounter": {
         "exchange": "HKEX",
@@ -1981,16 +1981,16 @@
         "status": "active_unverified"
       },
       "snapshot": {
-        "asOfDate": "2026-09-28",
-        "navPerShare": 32.99,
+        "asOfDate": "2026-09-29",
+        "navPerShare": 32.84,
         "navCurrency": "HKD",
-        "totalNav": 435420918.92,
+        "totalNav": 433509796.31,
         "totalNavCurrency": "HKD",
         "outstandingUnits": 13200000,
         "managementFeePct": 0.18,
         "ongoingChargesPct": null,
         "sourceUrl": "https://www.globalxetfs.com.hk/funds/msci-china-etf/",
-        "collectedAt": "2026-09-29T19:10:14.771Z"
+        "collectedAt": "2026-09-30T18:51:43.888Z"
       },
       "documents": [
         {
@@ -2016,8 +2016,8 @@
         "baseCurrency": "USD",
         "distributionDescription": null,
         "listingDate": "2025-09-30",
-        "asOfDate": "2026-09-28",
-        "collectedAt": "2026-09-29T19:10:14.771Z"
+        "asOfDate": "2026-09-29",
+        "collectedAt": "2026-09-30T18:51:43.888Z"
       },
       "listingCounter": {
         "exchange": "HKEX",
@@ -2028,16 +2028,16 @@
         "status": "active_unverified"
       },
       "snapshot": {
-        "asOfDate": "2026-09-28",
-        "navPerShare": 10.32,
+        "asOfDate": "2026-09-29",
+        "navPerShare": 10.34,
         "navCurrency": "USD",
-        "totalNav": 412770840.77,
+        "totalNav": 417709718.24,
         "totalNavCurrency": "HKD",
-        "outstandingUnits": 5100000,
+        "outstandingUnits": 5150000,
         "managementFeePct": null,
         "ongoingChargesPct": 0.75,
         "sourceUrl": "https://www.globalxetfs.com.hk/funds/nasdaq-100-covered-call-active-etf/",
-        "collectedAt": "2026-09-29T19:10:14.771Z"
+        "collectedAt": "2026-09-30T18:51:43.888Z"
       },
       "documents": [],
       "validation": {
@@ -2058,8 +2058,8 @@
         "baseCurrency": "USD",
         "distributionDescription": null,
         "listingDate": "2025-08-29",
-        "asOfDate": "2026-09-28",
-        "collectedAt": "2026-09-29T19:10:14.771Z"
+        "asOfDate": "2026-09-29",
+        "collectedAt": "2026-09-30T18:51:43.888Z"
       },
       "listingCounter": {
         "exchange": "HKEX",
@@ -2070,16 +2070,16 @@
         "status": "active_unverified"
       },
       "snapshot": {
-        "asOfDate": "2026-09-28",
-        "navPerShare": 10.04,
+        "asOfDate": "2026-09-29",
+        "navPerShare": 10.05,
         "navCurrency": "USD",
-        "totalNav": 311062101.46,
+        "totalNav": 315522971.33,
         "totalNavCurrency": "HKD",
-        "outstandingUnits": 3950000,
+        "outstandingUnits": 4000000,
         "managementFeePct": null,
         "ongoingChargesPct": 0.75,
         "sourceUrl": "https://www.globalxetfs.com.hk/funds/sp-500-covered-call-active-etf/",
-        "collectedAt": "2026-09-29T19:10:14.771Z"
+        "collectedAt": "2026-09-30T18:51:43.888Z"
       },
       "documents": [],
       "validation": {
@@ -2100,8 +2100,8 @@
         "baseCurrency": "HKD",
         "distributionDescription": "Annually at Manager's discretion (March)",
         "listingDate": "2016-06-16",
-        "asOfDate": "2026-09-28",
-        "collectedAt": "2026-09-29T19:10:14.771Z"
+        "asOfDate": "2026-09-29",
+        "collectedAt": "2026-09-30T18:51:43.888Z"
       },
       "listingCounter": {
         "exchange": "HKEX",
@@ -2112,16 +2112,16 @@
         "status": "active_unverified"
       },
       "snapshot": {
-        "asOfDate": "2026-09-28",
-        "navPerShare": 9.62,
+        "asOfDate": "2026-09-29",
+        "navPerShare": 9.29,
         "navCurrency": "HKD",
-        "totalNav": 101030431.64,
+        "totalNav": 97510397.84,
         "totalNavCurrency": "HKD",
         "outstandingUnits": 10500000,
         "managementFeePct": 0.75,
         "ongoingChargesPct": 2.42,
         "sourceUrl": "https://www.globalxetfs.com.hk/funds/sp-crude-oil-futures-etf/",
-        "collectedAt": "2026-09-29T19:10:14.771Z"
+        "collectedAt": "2026-09-30T18:51:43.888Z"
       },
       "documents": [
         {
@@ -2147,8 +2147,8 @@
         "baseCurrency": "USD",
         "distributionDescription": "Annually (usually in Septemeber of each year) at the Manager’s discretion.*",
         "listingDate": "2023-06-29",
-        "asOfDate": "2026-09-28",
-        "collectedAt": "2026-09-29T19:10:14.771Z"
+        "asOfDate": "2026-09-29",
+        "collectedAt": "2026-09-30T18:51:43.888Z"
       },
       "listingCounter": {
         "exchange": "HKEX",
@@ -2159,16 +2159,16 @@
         "status": "active_unverified"
       },
       "snapshot": {
-        "asOfDate": "2026-09-28",
-        "navPerShare": 145.02,
+        "asOfDate": "2026-09-29",
+        "navPerShare": 145.03,
         "navCurrency": "USD",
-        "totalNav": 1308295588.03,
+        "totalNav": 1308718928.34,
         "totalNavCurrency": "HKD",
         "outstandingUnits": 1150000,
         "managementFeePct": 0.05,
         "ongoingChargesPct": null,
         "sourceUrl": "https://www.globalxetfs.com.hk/funds/usd-money-market-etf/",
-        "collectedAt": "2026-09-29T19:10:14.771Z"
+        "collectedAt": "2026-09-30T18:51:43.888Z"
       },
       "documents": [
         {

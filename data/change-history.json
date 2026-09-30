@@ -2,6 +2,27 @@
   "schemaVersion": "catalog-change-radar-v1",
   "events": [
     {
+      "id": "6f574c731ca23e28",
+      "type": "aum_jump",
+      "category": "scale",
+      "severity": "watch",
+      "detectedAt": "2026-09-30T18:53:33.592Z",
+      "stockCode": "3450",
+      "name": "Global X US Treasury 3-5 Year ETF",
+      "issuer": "Global X Hong Kong",
+      "summary": "基金规模较上一版本增加 22.6%",
+      "before": {
+        "value": 370695839.95,
+        "currency": "HKD"
+      },
+      "after": {
+        "value": 454490256.03,
+        "currency": "HKD",
+        "changePct": 22.6
+      },
+      "sourceUrl": "https://www.globalxetfs.com.hk/funds/global-x-us-treasury-3-5-year-etf/"
+    },
+    {
       "id": "3bb9ad2fb970e70a",
       "type": "aum_jump",
       "category": "scale",
