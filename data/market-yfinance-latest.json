@@ -1,11 +1,11 @@
 {
   "schemaVersion": "market-yfinance-v2",
   "provider": "Yahoo Finance via yfinance",
-  "fetchedAt": "2026-10-01T07:36:23.100398+00:00",
+  "fetchedAt": "2026-10-01T07:58:30.518442+00:00",
   "quoteType": "delayed_or_end_of_bar",
   "recordsRequested": 11,
   "recordsAvailable": 11,
-  "recordsFresh": 11,
+  "recordsFresh": 10,
   "records": [
     {
       "stockCode": "03488",
@@ -3445,7 +3445,9 @@
         "netTurnover": 0,
         "buyRatio": null,
         "method": "5 分钟 K 线按收盘价相对开盘价方向归类的成交额估算；并非 ETF 申购赎回数据。"
-      }
+      },
+      "stale": true,
+      "refreshError": "No daily price history returned"
     },
     {
       "stockCode": "3006",
@@ -7942,7 +7944,7 @@
         },
         {
           "date": "2026-10-01",
-          "close": 7.84655
+          "close": 7.8468
         }
       ]
     },
@@ -8310,7 +8312,7 @@
         },
         {
           "date": "2026-10-01",
-          "close": 1.1696
+          "close": 1.1684
         }
       ]
     }
