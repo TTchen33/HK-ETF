@@ -1,7 +1,7 @@
 {
   "schemaVersion": "market-yfinance-v2",
   "provider": "Yahoo Finance via yfinance",
-  "fetchedAt": "2026-10-02T10:48:31.552185+00:00",
+  "fetchedAt": "2026-10-02T14:31:36.913422+00:00",
   "quoteType": "delayed_or_end_of_bar",
   "recordsRequested": 11,
   "recordsAvailable": 11,
@@ -702,15 +702,15 @@
       "status": "ok",
       "currency": "HKD",
       "exchangeTimezone": "Asia/Hong_Kong",
-      "lastPrice": 35.88,
+      "lastPrice": 35.92,
       "previousClose": 36.5,
-      "change": -0.62,
-      "changePct": -1.6986,
+      "change": -0.58,
+      "changePct": -1.589,
       "open": 36.18,
       "high": 36.18,
       "low": 35.8,
       "volume": 1850,
-      "turnoverEstimate": 66367,
+      "turnoverEstimate": 66411,
       "asOf": "2026-10-02T13:00:00+08:00",
       "candles": [
         {
@@ -1375,11 +1375,11 @@
         }
       ],
       "flowProxy": {
-        "buyTurnover": 39468,
+        "buyTurnover": 39512,
         "sellTurnover": 16135,
         "neutralTurnover": 10764,
-        "netTurnover": 23333,
-        "buyRatio": 70.98,
+        "netTurnover": 23377,
+        "buyRatio": 71,
         "method": "5 分钟 K 线按收盘价相对开盘价方向归类的成交额估算；并非 ETF 申购赎回数据。"
       }
     },
@@ -7942,7 +7942,7 @@
         },
         {
           "date": "2026-10-02",
-          "close": 7.84688
+          "close": 7.84658
         }
       ]
     },
@@ -8310,7 +8310,7 @@
         },
         {
           "date": "2026-10-02",
-          "close": 1.1685
+          "close": 1.1699
         }
       ]
     }
