@@ -1,7 +1,7 @@
 {
   "schemaVersion": "market-yfinance-v2",
   "provider": "Yahoo Finance via yfinance",
-  "fetchedAt": "2026-10-13T08:41:01.414536+00:00",
+  "fetchedAt": "2026-10-13T12:21:39.672681+00:00",
   "quoteType": "delayed_or_end_of_bar",
   "recordsRequested": 11,
   "recordsAvailable": 11,
@@ -2078,16 +2078,16 @@
       "status": "ok",
       "currency": "HKD",
       "exchangeTimezone": "Asia/Hong_Kong",
-      "lastPrice": 71.86,
+      "lastPrice": 71.8,
       "previousClose": 73.9,
-      "change": -2.04,
-      "changePct": -2.7605,
+      "change": -2.1,
+      "changePct": -2.8417,
       "open": 71.94,
       "high": 72.02,
       "low": 70.62,
       "volume": 14125,
       "turnoverEstimate": 1012784.62,
-      "asOf": "2026-10-13T15:55:00+08:00",
+      "asOf": "2026-10-13T16:05:00+08:00",
       "candles": [
         {
           "date": "2026-07-10",
@@ -7942,7 +7942,7 @@
         },
         {
           "date": "2026-10-13",
-          "close": 7.84775
+          "close": 7.8478
         }
       ]
     },
@@ -8310,7 +8310,7 @@
         },
         {
           "date": "2026-10-13",
-          "close": 1.1719
+          "close": 1.1717
         }
       ]
     }
