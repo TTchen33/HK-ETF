@@ -1,31 +1,52 @@
 window.HK_ETF_CHANGES = {
   "schemaVersion": "catalog-change-radar-v1",
-  "generatedAt": "2026-10-15T18:05:38.112Z",
-  "previousCollectedAt": "2026-10-14T18:22:52.869Z",
-  "currentCollectedAt": "2026-10-15T18:05:35.541Z",
+  "generatedAt": "2026-10-16T17:52:08.860Z",
+  "previousCollectedAt": "2026-10-15T18:05:35.541Z",
+  "currentCollectedAt": "2026-10-16T17:52:07.031Z",
   "previousRecordCount": 48,
   "currentRecordCount": 48,
   "latestSummary": {
-    "total": 0,
+    "total": 1,
     "new": 0,
     "removed": 0,
     "fee": 0,
     "benchmark": 0,
     "status": 0,
-    "scale": 0,
+    "scale": 1,
     "metadata": 0
   },
   "historySummary": {
-    "total": 47,
+    "total": 48,
     "new": 38,
     "removed": 1,
     "fee": 0,
     "benchmark": 0,
     "status": 0,
-    "scale": 8,
+    "scale": 9,
     "metadata": 0
   },
   "events": [
+    {
+      "id": "2a6f701357f31fdb",
+      "type": "aum_jump",
+      "category": "scale",
+      "severity": "watch",
+      "detectedAt": "2026-10-16T17:52:07.031Z",
+      "stockCode": "3451",
+      "name": "Global X Nasdaq 100 Covered Call Active ETF",
+      "issuer": "Global X Hong Kong",
+      "summary": "基金规模较上一版本增加 22.1%",
+      "before": {
+        "value": 446430032.59,
+        "currency": "HKD"
+      },
+      "after": {
+        "value": 544999732.55,
+        "currency": "HKD",
+        "changePct": 22.08
+      },
+      "sourceUrl": "https://www.globalxetfs.com.hk/funds/nasdaq-100-covered-call-active-etf/"
+    },
     {
       "id": "1ee6756e023e997d",
       "type": "product_removed",
