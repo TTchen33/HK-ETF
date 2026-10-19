@@ -1,7 +1,7 @@
 {
   "schemaVersion": "market-yfinance-v2",
   "provider": "Yahoo Finance via yfinance",
-  "fetchedAt": "2026-10-19T06:37:57.569843+00:00",
+  "fetchedAt": "2026-10-19T07:05:15.254386+00:00",
   "quoteType": "delayed_or_end_of_bar",
   "recordsRequested": 11,
   "recordsAvailable": 11,
@@ -7942,7 +7942,7 @@
         },
         {
           "date": "2026-10-19",
-          "close": 7.84778
+          "close": 7.8477
         }
       ]
     },
