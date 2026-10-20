@@ -1,31 +1,52 @@
 window.HK_ETF_CHANGES = {
   "schemaVersion": "catalog-change-radar-v1",
-  "generatedAt": "2026-10-19T19:43:10.237Z",
-  "previousCollectedAt": "2026-10-16T17:52:07.031Z",
-  "currentCollectedAt": "2026-10-19T19:43:08.008Z",
+  "generatedAt": "2026-10-20T18:24:39.704Z",
+  "previousCollectedAt": "2026-10-19T19:43:08.008Z",
+  "currentCollectedAt": "2026-10-20T18:24:37.546Z",
   "previousRecordCount": 48,
   "currentRecordCount": 48,
   "latestSummary": {
-    "total": 0,
+    "total": 1,
     "new": 0,
     "removed": 0,
     "fee": 0,
     "benchmark": 0,
     "status": 0,
-    "scale": 0,
+    "scale": 1,
     "metadata": 0
   },
   "historySummary": {
-    "total": 48,
+    "total": 49,
     "new": 38,
     "removed": 1,
     "fee": 0,
     "benchmark": 0,
     "status": 0,
-    "scale": 9,
+    "scale": 10,
     "metadata": 0
   },
   "events": [
+    {
+      "id": "0b686867f96ffdcf",
+      "type": "aum_jump",
+      "category": "scale",
+      "severity": "watch",
+      "detectedAt": "2026-10-20T18:24:37.546Z",
+      "stockCode": "3448",
+      "name": "Global X China Core TECH ETF",
+      "issuer": "Global X Hong Kong",
+      "summary": "基金规模较上一版本减少 22.1%",
+      "before": {
+        "value": 248161449.68,
+        "currency": "HKD"
+      },
+      "after": {
+        "value": 193303709.08,
+        "currency": "HKD",
+        "changePct": -22.11
+      },
+      "sourceUrl": "https://www.globalxetfs.com.hk/funds/china-core-tech-etf/"
+    },
     {
       "id": "2a6f701357f31fdb",
       "type": "aum_jump",
