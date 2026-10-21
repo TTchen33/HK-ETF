@@ -1,11 +1,11 @@
 window.HK_ETF_MARKET = {
   "schemaVersion": "market-yfinance-v2",
   "provider": "Yahoo Finance via yfinance",
-  "fetchedAt": "2026-10-21T09:45:30.000514+00:00",
+  "fetchedAt": "2026-10-21T13:32:28.954231+00:00",
   "quoteType": "delayed_or_end_of_bar",
   "recordsRequested": 11,
   "recordsAvailable": 11,
-  "recordsFresh": 11,
+  "recordsFresh": 10,
   "records": [
     {
       "stockCode": "03488",
@@ -1390,15 +1390,15 @@ window.HK_ETF_MARKET = {
       "status": "ok",
       "currency": "HKD",
       "exchangeTimezone": "Asia/Hong_Kong",
-      "lastPrice": 90,
+      "lastPrice": 89.98,
       "previousClose": 90.7,
-      "change": -0.7,
-      "changePct": -0.7718,
+      "change": -0.72,
+      "changePct": -0.7938,
       "open": 90.5,
       "high": 90.5,
-      "low": 90,
+      "low": 89.98,
       "volume": 300,
-      "turnoverEstimate": 27008,
+      "turnoverEstimate": 27006,
       "asOf": "2026-10-21T14:35:00+08:00",
       "candles": [
         {
@@ -2064,9 +2064,9 @@ window.HK_ETF_MARKET = {
       ],
       "flowProxy": {
         "buyTurnover": 0,
-        "sellTurnover": 9000,
+        "sellTurnover": 8998,
         "neutralTurnover": 18008,
-        "netTurnover": -9000,
+        "netTurnover": -8998,
         "buyRatio": 0,
         "method": "5 分钟 K 线按收盘价相对开盘价方向归类的成交额估算；并非 ETF 申购赎回数据。"
       }
@@ -6885,7 +6885,9 @@ window.HK_ETF_MARKET = {
         "netTurnover": 4450221.27,
         "buyRatio": 69.56,
         "method": "5 分钟 K 线按收盘价相对开盘价方向归类的成交额估算；并非 ETF 申购赎回数据。"
-      }
+      },
+      "stale": true,
+      "refreshError": "No daily price history returned"
     },
     {
       "stockCode": "3448",
@@ -7942,7 +7944,7 @@ window.HK_ETF_MARKET = {
         },
         {
           "date": "2026-10-21",
-          "close": 7.8465
+          "close": 7.84664
         }
       ]
     },
@@ -8310,7 +8312,7 @@ window.HK_ETF_MARKET = {
         },
         {
           "date": "2026-10-21",
-          "close": 1.1744
+          "close": 1.1745
         }
       ]
     }
