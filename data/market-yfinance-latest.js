@@ -1,11 +1,11 @@
 window.HK_ETF_MARKET = {
   "schemaVersion": "market-yfinance-v2",
   "provider": "Yahoo Finance via yfinance",
-  "fetchedAt": "2026-10-28T10:54:31.117756+00:00",
+  "fetchedAt": "2026-10-28T14:55:24.108683+00:00",
   "quoteType": "delayed_or_end_of_bar",
   "recordsRequested": 11,
   "recordsAvailable": 11,
-  "recordsFresh": 10,
+  "recordsFresh": 11,
   "records": [
     {
       "stockCode": "03488",
@@ -4830,27 +4830,17 @@ window.HK_ETF_MARKET = {
       "status": "ok",
       "currency": "HKD",
       "exchangeTimezone": "Asia/Hong_Kong",
-      "lastPrice": 56.82,
+      "lastPrice": 56.86,
       "previousClose": 56.9,
-      "change": -0.08,
-      "changePct": -0.1406,
+      "change": -0.04,
+      "changePct": -0.0703,
       "open": 56.86,
       "high": 56.86,
-      "low": 56.82,
+      "low": 56.84,
       "volume": 0,
       "turnoverEstimate": 0,
       "asOf": "2026-10-26T10:50:00+08:00",
       "candles": [
-        {
-          "date": "2026-07-23",
-          "open": 58.06,
-          "high": 58.1,
-          "low": 58.06,
-          "close": 58.06,
-          "volume": 7200,
-          "ma5": null,
-          "ma20": null
-        },
         {
           "date": "2026-07-24",
           "open": 58,
@@ -4888,7 +4878,7 @@ window.HK_ETF_MARKET = {
           "low": 57.84,
           "close": 57.84,
           "volume": 0,
-          "ma5": 57.908,
+          "ma5": null,
           "ma20": null
         },
         {
@@ -5039,7 +5029,7 @@ window.HK_ETF_MARKET = {
           "close": 57.74,
           "volume": 32500,
           "ma5": 58.12,
-          "ma20": 58.095
+          "ma20": null
         },
         {
           "date": "2026-08-20",
@@ -5500,6 +5490,16 @@ window.HK_ETF_MARKET = {
           "volume": 0,
           "ma5": 56.812,
           "ma20": 56.721
+        },
+        {
+          "date": "2026-10-27",
+          "open": 56.86,
+          "high": 56.86,
+          "low": 56.86,
+          "close": 56.86,
+          "volume": 0,
+          "ma5": 56.8,
+          "ma20": 56.733
         }
       ],
       "flowProxy": {
@@ -5509,9 +5509,7 @@ window.HK_ETF_MARKET = {
         "netTurnover": 0,
         "buyRatio": null,
         "method": "5 分钟 K 线按收盘价相对开盘价方向归类的成交额估算；并非 ETF 申购赎回数据。"
-      },
-      "stale": true,
-      "refreshError": "No daily price history returned"
+      }
     },
     {
       "stockCode": "3116",
@@ -7944,7 +7942,7 @@ window.HK_ETF_MARKET = {
         },
         {
           "date": "2026-10-28",
-          "close": 7.8449
+          "close": 7.84507
         }
       ]
     },
@@ -8312,7 +8310,7 @@ window.HK_ETF_MARKET = {
         },
         {
           "date": "2026-10-28",
-          "close": 1.1758
+          "close": 1.176
         }
       ]
     }
