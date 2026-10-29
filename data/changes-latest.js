@@ -1,31 +1,52 @@
 window.HK_ETF_CHANGES = {
   "schemaVersion": "catalog-change-radar-v1",
-  "generatedAt": "2026-10-28T19:23:11.068Z",
-  "previousCollectedAt": "2026-10-27T19:17:37.131Z",
-  "currentCollectedAt": "2026-10-28T19:23:09.392Z",
+  "generatedAt": "2026-10-29T19:27:44.141Z",
+  "previousCollectedAt": "2026-10-28T19:23:09.392Z",
+  "currentCollectedAt": "2026-10-29T19:27:42.493Z",
   "previousRecordCount": 48,
   "currentRecordCount": 48,
   "latestSummary": {
-    "total": 0,
+    "total": 1,
     "new": 0,
     "removed": 0,
     "fee": 0,
     "benchmark": 0,
     "status": 0,
-    "scale": 0,
+    "scale": 1,
     "metadata": 0
   },
   "historySummary": {
-    "total": 51,
+    "total": 52,
     "new": 38,
     "removed": 1,
     "fee": 0,
     "benchmark": 0,
     "status": 0,
-    "scale": 12,
+    "scale": 13,
     "metadata": 0
   },
   "events": [
+    {
+      "id": "738b6fd5add33486",
+      "type": "aum_jump",
+      "category": "scale",
+      "severity": "watch",
+      "detectedAt": "2026-10-29T19:27:42.493Z",
+      "stockCode": "3014",
+      "name": "Global X Copper Miners ETF",
+      "issuer": "Global X Hong Kong",
+      "summary": "基金规模较上一版本增加 32.1%",
+      "before": {
+        "value": 259315106.88,
+        "currency": "HKD"
+      },
+      "after": {
+        "value": 342660195.93,
+        "currency": "HKD",
+        "changePct": 32.14
+      },
+      "sourceUrl": "https://www.globalxetfs.com.hk/funds/copper-miners-etf/"
+    },
     {
       "id": "f28993b8bcc5f8c8",
       "type": "aum_jump",
