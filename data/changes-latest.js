@@ -1,31 +1,52 @@
 window.HK_ETF_CHANGES = {
   "schemaVersion": "catalog-change-radar-v1",
-  "generatedAt": "2026-11-05T20:58:57.482Z",
-  "previousCollectedAt": "2026-11-04T20:43:08.596Z",
-  "currentCollectedAt": "2026-11-05T20:58:55.744Z",
+  "generatedAt": "2026-11-06T20:18:43.605Z",
+  "previousCollectedAt": "2026-11-05T20:58:55.744Z",
+  "currentCollectedAt": "2026-11-06T20:18:42.033Z",
   "previousRecordCount": 48,
   "currentRecordCount": 48,
   "latestSummary": {
-    "total": 0,
+    "total": 1,
     "new": 0,
     "removed": 0,
     "fee": 0,
     "benchmark": 0,
     "status": 0,
-    "scale": 0,
+    "scale": 1,
     "metadata": 0
   },
   "historySummary": {
-    "total": 52,
+    "total": 53,
     "new": 38,
     "removed": 1,
     "fee": 0,
     "benchmark": 0,
     "status": 0,
-    "scale": 13,
+    "scale": 14,
     "metadata": 0
   },
   "events": [
+    {
+      "id": "4f713c678b231239",
+      "type": "aum_jump",
+      "category": "scale",
+      "severity": "watch",
+      "detectedAt": "2026-11-06T20:18:42.033Z",
+      "stockCode": "3470",
+      "name": "Global X FTSE Greater China ETF",
+      "issuer": "Global X Hong Kong",
+      "summary": "基金规模较上一版本增加 25.0%",
+      "before": {
+        "value": 2504970135.17,
+        "currency": "HKD"
+      },
+      "after": {
+        "value": 3130289723.18,
+        "currency": "HKD",
+        "changePct": 24.96
+      },
+      "sourceUrl": "https://www.globalxetfs.com.hk/funds/ftse-greater-china-etf/"
+    },
     {
       "id": "738b6fd5add33486",
       "type": "aum_jump",
