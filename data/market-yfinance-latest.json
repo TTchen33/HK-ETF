@@ -1,7 +1,7 @@
 {
   "schemaVersion": "market-yfinance-v2",
   "provider": "Yahoo Finance via yfinance",
-  "fetchedAt": "2026-11-09T08:31:33.632665+00:00",
+  "fetchedAt": "2026-11-09T08:50:05.514923+00:00",
   "quoteType": "delayed_or_end_of_bar",
   "recordsRequested": 11,
   "recordsAvailable": 11,
@@ -21,8 +21,8 @@
       "open": 16.47,
       "high": 16.55,
       "low": 16.44,
-      "volume": 261000,
-      "turnoverEstimate": 4308245.09,
+      "volume": 261400,
+      "turnoverEstimate": 4314845.09,
       "asOf": "2026-11-09T15:55:00+08:00",
       "candles": [
         {
@@ -689,7 +689,7 @@
       "flowProxy": {
         "buyTurnover": 1027029.02,
         "sellTurnover": 2003135.05,
-        "neutralTurnover": 1278081.02,
+        "neutralTurnover": 1284681.02,
         "netTurnover": -976106.03,
         "buyRatio": 33.89,
         "method": "5 分钟 K 线按收盘价相对开盘价方向归类的成交额估算；并非 ETF 申购赎回数据。"
@@ -2078,16 +2078,16 @@
       "status": "ok",
       "currency": "HKD",
       "exchangeTimezone": "Asia/Hong_Kong",
-      "lastPrice": 71.78,
+      "lastPrice": 72.02,
       "previousClose": 71.52,
-      "change": 0.26,
-      "changePct": 0.3635,
+      "change": 0.5,
+      "changePct": 0.6991,
       "open": 71.52,
       "high": 73.18,
       "low": 71.52,
-      "volume": 1230,
-      "turnoverEstimate": 88979.6,
-      "asOf": "2026-11-09T15:50:00+08:00",
+      "volume": 2030,
+      "turnoverEstimate": 146595.6,
+      "asOf": "2026-11-09T15:55:00+08:00",
       "candles": [
         {
           "date": "2026-08-06",
@@ -2753,7 +2753,7 @@
       "flowProxy": {
         "buyTurnover": 0,
         "sellTurnover": 5761.6,
-        "neutralTurnover": 83218,
+        "neutralTurnover": 140834,
         "netTurnover": -5761.6,
         "buyRatio": 0,
         "method": "5 分钟 K 线按收盘价相对开盘价方向归类的成交额估算；并非 ETF 申购赎回数据。"
@@ -3454,16 +3454,16 @@
       "status": "ok",
       "currency": "HKD",
       "exchangeTimezone": "Asia/Hong_Kong",
-      "lastPrice": 125,
+      "lastPrice": 124.15,
       "previousClose": 123.8,
-      "change": 1.2,
-      "changePct": 0.9693,
+      "change": 0.35,
+      "changePct": 0.2827,
       "open": 125,
       "high": 125,
-      "low": 125,
+      "low": 124.15,
       "volume": 300,
       "turnoverEstimate": 37500,
-      "asOf": "2026-11-09T13:50:00+08:00",
+      "asOf": "2026-11-09T15:10:00+08:00",
       "candles": [
         {
           "date": "2026-08-06",
@@ -7942,7 +7942,7 @@
         },
         {
           "date": "2026-11-09",
-          "close": 7.84153
+          "close": 7.8415
         }
       ]
     },
@@ -8310,7 +8310,7 @@
         },
         {
           "date": "2026-11-09",
-          "close": 1.1746
+          "close": 1.1747
         }
       ]
     }
