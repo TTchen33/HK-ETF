@@ -1,11 +1,11 @@
 window.HK_ETF_MARKET = {
   "schemaVersion": "market-yfinance-v2",
   "provider": "Yahoo Finance via yfinance",
-  "fetchedAt": "2026-11-10T08:44:15.447414+00:00",
+  "fetchedAt": "2026-11-10T08:56:04.260099+00:00",
   "quoteType": "delayed_or_end_of_bar",
   "recordsRequested": 11,
   "recordsAvailable": 11,
-  "recordsFresh": 11,
+  "recordsFresh": 10,
   "records": [
     {
       "stockCode": "03488",
@@ -2757,7 +2757,9 @@ window.HK_ETF_MARKET = {
         "netTurnover": -53926.86,
         "buyRatio": 39.3,
         "method": "5 分钟 K 线按收盘价相对开盘价方向归类的成交额估算；并非 ETF 申购赎回数据。"
-      }
+      },
+      "stale": true,
+      "refreshError": "No daily price history returned"
     },
     {
       "stockCode": "2826",
@@ -7942,7 +7944,7 @@ window.HK_ETF_MARKET = {
         },
         {
           "date": "2026-11-10",
-          "close": 7.84376
+          "close": 7.84422
         }
       ]
     },
@@ -8310,7 +8312,7 @@ window.HK_ETF_MARKET = {
         },
         {
           "date": "2026-11-10",
-          "close": 1.176
+          "close": 1.1761
         }
       ]
     }
