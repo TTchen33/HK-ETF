@@ -1,11 +1,11 @@
 {
   "schemaVersion": "market-yfinance-v2",
   "provider": "Yahoo Finance via yfinance",
-  "fetchedAt": "2026-11-24T11:46:39.523269+00:00",
+  "fetchedAt": "2026-11-24T15:26:12.507185+00:00",
   "quoteType": "delayed_or_end_of_bar",
   "recordsRequested": 11,
   "recordsAvailable": 11,
-  "recordsFresh": 10,
+  "recordsFresh": 11,
   "records": [
     {
       "stockCode": "03488",
@@ -6213,8 +6213,8 @@
       "open": 138,
       "high": 140.35,
       "low": 136.5,
-      "volume": 113650,
-      "turnoverEstimate": 15658483.64,
+      "volume": 113625,
+      "turnoverEstimate": 15655207.38,
       "asOf": "2026-11-24T16:05:00+08:00",
       "candles": [
         {
@@ -6879,15 +6879,13 @@
         }
       ],
       "flowProxy": {
-        "buyTurnover": 3964724.99,
-        "sellTurnover": 9972244.89,
-        "neutralTurnover": 1721513.76,
-        "netTurnover": -6007519.9,
-        "buyRatio": 28.45,
+        "buyTurnover": 3975417.48,
+        "sellTurnover": 9947952.39,
+        "neutralTurnover": 1731837.51,
+        "netTurnover": -5972534.91,
+        "buyRatio": 28.55,
         "method": "5 分钟 K 线按收盘价相对开盘价方向归类的成交额估算；并非 ETF 申购赎回数据。"
-      },
-      "stale": true,
-      "refreshError": "No daily price history returned"
+      }
     },
     {
       "stockCode": "3448",
@@ -7944,7 +7942,7 @@
         },
         {
           "date": "2026-11-24",
-          "close": 7.8412
+          "close": 7.84151
         }
       ]
     },
@@ -8312,7 +8310,7 @@
         },
         {
           "date": "2026-11-24",
-          "close": 1.1761
+          "close": 1.1758
         }
       ]
     }
